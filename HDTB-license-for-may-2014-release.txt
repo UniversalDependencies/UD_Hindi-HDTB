@@ -1,4 +1,4 @@
-The Hindi dependency treebank (HDTB) and its Universal version is a part of an ongoing effort of creating a multi layered treebank for Hindi.  This data is being distributed for free for non-commercial purpose only. 
+The Hindi Universal Dependency Treebank has been automatically converted from Hindi Dependency Treebank (HDTB) (http://ltrc.iiit.ac.in/treebank_H2014/index.html) which is a part of an ongoing effort of creating a multi layered treebank for Hindi. This data is being distributed for free for non-commercial purpose only.
 
 The user agrees to not distribute the data or part of them either in original or modified form. Any publication reporting the work done using this data should cite the following references: 
 
@@ -6,9 +6,8 @@ Riyaz Ahmad Bhat, Rajesh Bhatt, Annahita Farudi, Prescott Klassen, Bhuvana Naras
 
 Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma, Fei Xia,  Hindi Syntax: Annotating Dependency, Lexical Predicate-Argument Structure, and Phrase Structure, In the Proceedings of the 7th International Conference on Natural Language Processing, ICON-2009, Hyderabad, India, Dec 14-17, 2009.
 
-The developers of this treebank (IIIT-Hyderabad and all the other agencies involved) HDTB do not warrant the accuracy, completeness, currentness or fitness for a particular purpose of the information contained in HDTB.
+The developers of HDTB (IIIT-Hyderabad and all the other agencies involved) do not warrant the accuracy, completeness, currentness or fitness for a particular purpose of the information contained in HDTB or its universal version.
 
 By downloading the data, you agree to abide by the above terms and conditions.
 
-Disclaimer: While every care has been exercised in the development of the treebank data, we do not hold any responsibilty 
-for the errors in the data.
+Disclaimer: While every care has been exercised in the development of the treebank data and its automatic conversion to Universal dependencies, we do not hold any responsibilty for the errors in the data.
