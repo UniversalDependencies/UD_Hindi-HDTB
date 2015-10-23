@@ -4,6 +4,6 @@ Hindi UD treebank
 Documentation status: stub
 Data source: Automatic
 Data available since: UD v1.2
-License: CC BY-NC-SA
+License: CC BY-NC-SA 4.0
 Genre: news
 ===============================================================================
