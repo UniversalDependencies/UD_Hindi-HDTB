@@ -5,18 +5,1186 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>16647</sentences><tokens>351704</tokens><words>351704</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="15586" /><!-- का, ।, है, में, कर, के, को, यह, जा, ने, से, कि, वह, हो, पर -->
+  <forms unique="19232" /><!-- के, ।, में, की, है, को, ने, से, कि, का, पर, और, ,, कहा, हैं -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="26">
+    <tag name="ADJ">20967</tag><!-- पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार, स्थित -->
+    <tag name="ADP">74145</tag><!-- का, में, के, को, ने, से, पर, लिए, वाला, तक -->
+    <tag name="ADV">2885</tag><!-- बाद, पहले, फिर, वहीं, आगे, जल्द, साथ, लगातार, फिलहाल, दौरान -->
+    <tag name="AUX">22519</tag><!-- है, जा, था, रह, दे, हो, सक, ले, चाहिए, चुक -->
+    <tag name="CONJ">6427</tag><!-- और, व, लेकिन, जबकि, तथा, या, पर, एवं, अथवा, मगर -->
+    <tag name="DET">7149</tag><!-- यह, कुछ, कई, वह, सभी, ऐसा, काफी, जो, हर, और -->
+    <tag name="INTJ">3</tag><!-- ऐ, वाह -->
+    <tag name="NOUN">78062</tag><!-- सरकार, लोग, मामला, पुलिस, राज्य, देश, नेता, पार्टी, बात, चुनाव -->
+    <tag name="NUM">6718</tag><!-- एक, दो, तीन, करोड, हजार, चार, लाख, पांच, छह, सात -->
+    <tag name="PART">7009</tag><!-- भी, नहीं, ही, न, तो, करीब, से, भर, लगभग, सिर्फ -->
+    <tag name="PRON">14690</tag><!-- वह, यह, अपना, कोई, जो, यहाँ, अब, हम, जब, मैं -->
+    <tag name="PROPN">42941</tag><!-- सिंह, भारत, प्रधानमंत्री, कांग्रेस, पाकिस्तान, दिल्ली, मंत्री, भाजपा, सरकार, कश्मीर -->
+    <tag name="PUNCT">23455</tag><!-- ।, COMMA, -, ., SINGLE_QUOTE, (, ), ?, 1, 2 -->
+    <tag name="SCONJ">6726</tag><!-- कि, तो, हालांकि, अगर, यदि, क्योंकि, ताकि, बहरहाल, बल्कि, यानि -->
+    <tag name="VERB">37256</tag><!-- कर, है, हो, कह, दे, ले, बता, आ, मिल, था -->
+    <tag name="X">121</tag><!-- पास, रिकॉर्ड, डाउनलोड, फिट, फेल, बुक, आउट, आफ, इंटरसेप्ट, रेफर -->
+    <tag name="adj">62</tag><!-- अलग, बड़ा, नया, बडा, इतना, छोटा, बड़ा, साफ, अच्छा, खासा -->
+    <tag name="adv">42</tag><!-- बार, धीरे, कभी, अलग, बाल, करीब, आहिस्ता, जल्द, जैसे, जोर -->
+    <tag name="avy">373</tag><!-- सबसे, बहुत, बेहद, काफी, और, सर्वाधिक, अति, अत्यन्त, मोस्ट, इतना -->
+    <tag name="n">37</tag><!-- समय, तरह, जगह, कोना, खुशी, पल, बारी, सुबह, कदम, चप्पा -->
+    <tag name="nst">56</tag><!-- साथ, आस, आमने, आगे, अगल, इधर, इर्द, ऊपर, दूर, पहला -->
+    <tag name="num">22</tag><!-- एक, दो, दस, ५०, 10, छह, पंद्रह, पांच, बीस, ३६ -->
+    <tag name="pn">12</tag><!-- अपना, कहीं, क्या, जहाँ, तहाँ -->
+    <tag name="punc">5</tag><!-- अलग, गरज, तीन, बार, साथ -->
+    <tag name="s">14</tag><!-- अपना, अलग, 50, आधा, कभी, दर्जन, दो, बडा, बार, बुझ -->
+    <tag name="v">8</tag><!-- हो, कर, जा, तडप, दबोच, देख, भाग -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="1115">
+    <feat name="case-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X,adj,adv,avy,nst,pn,punc,s,v">155631</feat><!-- ।, में, है, को, के, ने, से, कि, पर, और -->
+    <feat name="case-0" value="" upos="ADP,NOUN,PROPN,VERB">6</feat><!-- अधिवक्ता, अनिल, आसियान, करने, के, चलने -->
+    <feat name="case-any" value="" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB,avy,num,punc,s">6578</feat><!-- एक, दो, दोनों, तीन, चार, करोड़, लाख, हजार, पांच, छह -->
+    <feat name="case-d" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,adj,avy,n,nst,pn,punc,s">83587</feat><!-- का, की, यह, के, बाद, साथ, वह, कोई, दौरान, पहले -->
+    <feat name="case-o" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,adj,n,pn,s">105901</feat><!-- के, की, इस, उन्होंने, करने, सरकार, इसके, लोगों, होने, सिंह -->
+    <feat name="case-ए" value="" upos="VERB">1</feat><!-- पहुंचे -->
+    <feat name="cat-" value="" upos="ADJ,ADP,NOUN,PART,PROPN,PUNCT">22</feat><!-- ,, -, /, '1, ), ?, अबू, कार्यवाही, जारी, नीचे -->
+    <feat name="cat-adj" value="" upos="ADJ,ADP,DET,NOUN,NUM,PART,PROPN,adj">21936</feat><!-- भारतीय, शामिल, अन्य, जारी, पिछले, पूर्व, तैयार, राष्ट्रीय, स्थित, पूरी -->
+    <feat name="cat-adv" value="" upos="ADV,NOUN,adv">1547</feat><!-- फिर, वहीं, जल्द, लगातार, फिलहाल, जमकर, दोबारा, बार, दरअसल, हमेशा -->
+    <feat name="cat-avy" value="" upos="ADJ,ADP,ADV,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,avy">23271</feat><!-- कि, और, भी, नहीं, ही, व, लेकिन, तो, कुछ, कई -->
+    <feat name="cat-c" value="" upos="PROPN">1</feat><!-- चंद्रशेखर -->
+    <feat name="cat-n" value="" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,n">119918</feat><!-- सरकार, सिंह, भारत, पुलिस, लोगों, पार्टी, मंत्री, कांग्रेस, प्रधानमंत्री, मामले -->
+    <feat name="cat-nst" value="" upos="ADJ,ADP,ADV,PROPN,nst">4996</feat><!-- बाद, साथ, पहले, दौरान, बीच, ओर, पास, सामने, आगे, बाहर -->
+    <feat name="cat-null" value="" upos="NOUN,NUM,PROPN">103</feat><!-- सी., अब्दुल, अधिकार, आर., उल, एस., जनवरी, न्यायाधीश, पब्लिक, मार्च -->
+    <feat name="cat-num" value="" upos="ADJ,DET,NOUN,NUM,PROPN,num">7348</feat><!-- एक, दो, दोनों, तीन, करोड़, चार, लाख, हजार, पांच, छह -->
+    <feat name="cat-pn" value="" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,pn">19512</feat><!-- इस, उन्होंने, यह, इसके, वह, अपने, कोई, उनके, इन, उन्हें -->
+    <feat name="cat-psp" value="" upos="ADP,ADV,NOUN,PART,PROPN">69464</feat><!-- के, में, की, को, ने, से, का, पर, लिए, तक -->
+    <feat name="cat-punc" value="" upos="PUNCT,punc">23410</feat><!-- ।, ,, -, ., ', (, ), -JOIN, ?, '1 -->
+    <feat name="cat-punk" value="" upos="PUNCT">3</feat><!-- (, ), -JOIN -->
+    <feat name="cat-s" value="" upos="NOUN,NUM,PROPN,PUNCT,s">60</feat><!-- ।, ', ,, -, अपने, अलग, (, 50, आधा, उल -->
+    <feat name="cat-unk" value="" upos="ADJ,NOUN,PROPN,X">321</feat><!-- ऑफ, ए, पास, द, फॉर, एंड, रिकॉर्ड, रिटर्न, आउट, दि -->
+    <feat name="cat-v" value="" upos="AUX,PROPN,VERB,v">59791</feat><!-- है, कहा, हैं, कर, किया, गया, करने, की, था, हो -->
+    <feat name="cat-०००" value="" upos="NOUN">1</feat><!-- १०,००० -->
+    <feat name="chunkId-BLK" value="" upos="ADJ,INTJ,NOUN,PART,PUNCT,X">16563</feat><!-- ।, ., ?, पास, -, रिकॉर्ड, डाउनलोड, फिट, फेल, आउट -->
+    <feat name="chunkId-BLK2" value="" upos="PUNCT,X">125</feat><!-- ।, ., एंटर, बुक, हैक -->
+    <feat name="chunkId-BLK3" value="" upos="PUNCT">3</feat><!-- । -->
+    <feat name="chunkId-CCP" value="" upos="CONJ,PART,PUNCT,SCONJ">9280</feat><!-- कि, और, लेकिन, व, हालांकि, जबकि, ,, तथा, पर, या -->
+    <feat name="chunkId-CCP2" value="" upos="CONJ,PART,PUNCT,SCONJ">3041</feat><!-- और, कि, व, लेकिन, तो, या, तथा, अगर, यदि, क्योंकि -->
+    <feat name="chunkId-CCP3" value="" upos="CONJ,PART,PUNCT,SCONJ">819</feat><!-- और, कि, तो, व, या, लेकिन, अगर, तथा, यदि, क्योंकि -->
+    <feat name="chunkId-CCP4" value="" upos="CONJ,PART,SCONJ">196</feat><!-- और, तो, कि, व, या, लेकिन, क्योंकि, तथा, फिर, यदि -->
+    <feat name="chunkId-CCP5" value="" upos="CONJ,SCONJ">43</feat><!-- और, तो, कि, या, व, यदि, अगर, एवं, क्योंकि, लेकिन -->
+    <feat name="chunkId-CCP6" value="" upos="CONJ,SCONJ">11</feat><!-- तो, और, या, व -->
+    <feat name="chunkId-CCP7" value="" upos="CONJ,SCONJ">2</feat><!-- या, यानी -->
+    <feat name="chunkId-CCP8" value="" upos="CONJ">1</feat><!-- और -->
+    <feat name="chunkId-CCP9" value="" upos="CONJ">1</feat><!-- या -->
+    <feat name="chunkId-FRAGP" value="" upos="ADP,ADV,AUX,NOUN,NUM,PART,PRON,PROPN">361</feat><!-- के, की, ने, को, में, का, से, पर, भी, द्वारा -->
+    <feat name="chunkId-FRAGP2" value="" upos="ADP,NOUN,PROPN">13</feat><!-- की, के, का, को, तहत, ने, मुगल, विधानसभा, समेत, से -->
+    <feat name="chunkId-JJP" value="" upos="ADJ,DET,NUM,PART,PUNCT,adj,avy,s">7134</feat><!-- शामिल, जारी, स्थित, तैयार, पेश, गौरतलब, दर्ज, कम, बंद, ज्यादा -->
+    <feat name="chunkId-JJP2" value="" upos="ADJ,DET,NUM,PART,PUNCT,adj,avy">1547</feat><!-- शामिल, जारी, तैयार, पेश, दर्ज, गिरफ्तार, बंद, खारिज, उपलब्ध, वापस -->
+    <feat name="chunkId-JJP3" value="" upos="ADJ,DET,NUM,PART,PUNCT,adj,avy">300</feat><!-- शामिल, जारी, तैयार, दर्ज, लागू, वापस, अलग, समाप्त, अंतर्राष्ट्रीय, आर्थिक -->
+    <feat name="chunkId-JJP4" value="" upos="ADJ,DET,PART">50</feat><!-- जारी, तय, तैयार, मौजूद, सहमत, अतुलनीय, अमल, असफल, आयोजित, आर्थिक -->
+    <feat name="chunkId-JJP5" value="" upos="ADJ,PUNCT">10</feat><!-- ,, अमेरिकी, आर्थिक, खड़ा, गिरफ्तार, जापानी, पिछड़े, मजबूत, शामिल, सुरक्षित -->
+    <feat name="chunkId-JJP6" value="" upos="ADJ">2</feat><!-- पेश, ब्रिटिश -->
+    <feat name="chunkId-JJP7" value="" upos="ADJ">1</feat><!-- इस्राइली -->
+    <feat name="chunkId-NEGP" value="" upos="PART">35</feat><!-- नहीं, न, बिना -->
+    <feat name="chunkId-NEGP2" value="" upos="PART">1</feat><!-- न -->
+    <feat name="chunkId-NP" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,n,nst,punc">38593</feat><!-- के, ने, में, उन्होंने, की, इस, को, से, इसके, का -->
+    <feat name="chunkId-NP10" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy">5160</feat><!-- के, में, की, को, का, से, पर, ,, ने, भी -->
+    <feat name="chunkId-NP11" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,s">3492</feat><!-- के, में, को, की, से, पर, का, ने, ,, भी -->
+    <feat name="chunkId-NP12" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,s">2374</feat><!-- के, में, से, को, की, पर, का, ,, भी, ने -->
+    <feat name="chunkId-NP13" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,avy,n,num">1513</feat><!-- के, में, को, की, से, पर, का, ,, भी, इस -->
+    <feat name="chunkId-NP14" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,avy">1029</feat><!-- के, में, को, की, से, पर, का, ,, भी, शुरू -->
+    <feat name="chunkId-NP15" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT">592</feat><!-- को, की, के, में, का, पर, से, ,, -, सिंह -->
+    <feat name="chunkId-NP16" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,nst">371</feat><!-- के, में, की, ,, को, पर, साथ, से, ), का -->
+    <feat name="chunkId-NP17" value="" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT">250</feat><!-- के, में, से, को, का, ,, की, पर, भी, - -->
+    <feat name="chunkId-NP18" value="" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT">169</feat><!-- के, में, की, को, पर, ,, -, इन, का, सिंह -->
+    <feat name="chunkId-NP19" value="" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT">107</feat><!-- के, पर, का, की, से, ,, को, दिनेश, बातचीत, ) -->
+    <feat name="chunkId-NP2" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,n,nst,num,pn">38406</feat><!-- के, में, को, की, ने, से, इस, पर, का, भी -->
+    <feat name="chunkId-NP20" value="" upos="ADJ,ADP,DET,NOUN,PART,PRON,PROPN,PUNCT">85</feat><!-- के, -, का, को, भी, मदद, सिंह, (, ), , -->
+    <feat name="chunkId-NP21" value="" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,PUNCT">33</feat><!-- ,, आरोप, (, अनुमति, इन, इलेक्ट्रॅनिक्स, उचित, उपकरणों, उपभोक्ता, कंपनी -->
+    <feat name="chunkId-NP22" value="" upos="ADP,ADV,NOUN,NUM,PROPN,PUNCT">18</feat><!-- ), ,, आप्टे, ओआईसी, करोड़, किफायत, के, चर्चा, जी., देशों -->
+    <feat name="chunkId-NP23" value="" upos="ADP,NOUN,PRON,PROPN">9</feat><!-- के, की, कैदियों, डिबेंचर, तो, परिणाम, पुनर्गठन, भिखु -->
+    <feat name="chunkId-NP24" value="" upos="ADP,NOUN,PRON,PROPN">13</feat><!-- के, में, अलावा, आदान, इस्लाम, ऐसे, खरीद, पर, प्रदान, मामले -->
+    <feat name="chunkId-NP25" value="" upos="ADP,NOUN,NUM,PART,PRON,PROPN">14</feat><!-- भी, 5, अभी, इलेक्ट्रॉनिक, कश्मीर, के, पटेल, पुनर्जागरण, मुद्दा, रुपए -->
+    <feat name="chunkId-NP26" value="" upos="ADJ,ADP,NOUN,PRON,PUNCT">10</feat><!-- (, ,, उससे, कंपनियां, का, फार्मास्युटिकल्स, बौद्धिक, बड़ी, वातावरण, ज़रूरी -->
+    <feat name="chunkId-NP27" value="" upos="ADP,NOUN,NUM,PRON,PUNCT">10</feat><!-- ), ,, अधिक, करोड़, के, कोई, तोड़, निर्माण, पौंड, ४४.४ -->
+    <feat name="chunkId-NP28" value="" upos="ADP,NOUN,PROPN">4</feat><!-- की, बागरी, भुगतान, लॉर्ड -->
+    <feat name="chunkId-NP29" value="" upos="NOUN,PUNCT">3</feat><!-- ,, जानकारी, परिवार -->
+    <feat name="chunkId-NP3" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB,adj,avy,n,nst,num,s">36778</feat><!-- के, में, की, को, ने, से, का, पर, इस, भी -->
+    <feat name="chunkId-NP30" value="" upos="ADP,NOUN,NUM,PRON,PUNCT">9</feat><!-- (, ), ,, कंपनी, करोड़, किसी, के, पौंड, ६ -->
+    <feat name="chunkId-NP31" value="" upos="ADP,PROPN">5</feat><!-- अहलुवालिया, आईपीओ, में, सिंह, सुखपाल -->
+    <feat name="chunkId-NP32" value="" upos="NOUN,NUM,PUNCT">8</feat><!-- (, ), एक, करोड़, पौंड, रुपए, लाख, १० -->
+    <feat name="chunkId-NP33" value="" upos="NOUN,PRON,PROPN">4</feat><!-- उससे, गुलाम, नून, सर -->
+    <feat name="chunkId-NP34" value="" upos="ADP,NOUN,NUM,PUNCT">7</feat><!-- (, ), अधिक, करोड़, के, पौंड, ६.५ -->
+    <feat name="chunkId-NP35" value="" upos="NOUN,PUNCT">2</feat><!-- ,, निवेश -->
+    <feat name="chunkId-NP36" value="" upos="NOUN,NUM">3</feat><!-- तीस, रुपए, लाख -->
+    <feat name="chunkId-NP37" value="" upos="PRON">1</feat><!-- उससे -->
+    <feat name="chunkId-NP38" value="" upos="ADP,NOUN">2</feat><!-- अधिक, की -->
+    <feat name="chunkId-NP39" value="" upos="ADJ,ADP,NOUN">3</feat><!-- अचल, की, संपत्ति -->
+    <feat name="chunkId-NP4" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB,adj,avy,n,nst,num,pn,s">31395</feat><!-- के, में, को, की, से, ने, का, पर, भी, एक -->
+    <feat name="chunkId-NP40" value="" upos="NOUN,PUNCT">3</feat><!-- -, खरीद, बिक्री -->
+    <feat name="chunkId-NP41" value="" upos="NUM">2</feat><!-- 5, लाख -->
+    <feat name="chunkId-NP42" value="" upos="PRON">1</feat><!-- उससे -->
+    <feat name="chunkId-NP43" value="" upos="ADP,NOUN">2</feat><!-- अधिक, के -->
+    <feat name="chunkId-NP44" value="" upos="ADP,NOUN,PROPN">4</feat><!-- आरबीआई, की, बॉन्ड, रिलीफ -->
+    <feat name="chunkId-NP45" value="" upos="ADP,NOUN">2</feat><!-- की, खरीद -->
+    <feat name="chunkId-NP46" value="" upos="NOUN">1</feat><!-- जानकारियां -->
+    <feat name="chunkId-NP47" value="" upos="ADP,PROPN">3</feat><!-- एआईआर, के, जरिए -->
+    <feat name="chunkId-NP5" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,n,nst,num,pn,punc,s">25513</feat><!-- के, में, को, की, से, पर, का, ने, भी, इस -->
+    <feat name="chunkId-NP6" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,X,adj,avy,n,nst,num,punc,s">19903</feat><!-- के, में, को, की, से, पर, का, ने, भी, , -->
+    <feat name="chunkId-NP7" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,nst,num,pn,s">14797</feat><!-- के, में, को, की, से, का, पर, ने, भी, , -->
+    <feat name="chunkId-NP8" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,n,nst,num,pn,s">10790</feat><!-- के, में, को, की, से, पर, का, ने, एक, , -->
+    <feat name="chunkId-NP9" value="" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,adj,avy,pn">7464</feat><!-- के, में, को, की, से, पर, का, ने, ,, - -->
+    <feat name="chunkId-RBP" value="" upos="ADP,ADV,DET,NOUN,PART,PRON,PUNCT,adv,avy,punc,s">1904</feat><!-- फिर, ही, वहीं, जल्द, लगातार, फिलहाल, क्या, से, जमकर, , -->
+    <feat name="chunkId-RBP2" value="" upos="ADV,PART,PRON,PUNCT,adv">121</feat><!-- वहीं, क्यों, जल्द, फिर, ही, से, क्या, दोबारा, -, अलग -->
+    <feat name="chunkId-RBP3" value="" upos="ADV">2</feat><!-- फिर, लगभग -->
+    <feat name="chunkId-VGF" value="" upos="AUX,PART,PUNCT,VERB,v">29970</feat><!-- है, कहा, हैं, किया, गया, की, कर, था, ,, नहीं -->
+    <feat name="chunkId-VGF2" value="" upos="ADP,AUX,PART,PUNCT,VERB,s,v">14965</feat><!-- है, हैं, नहीं, किया, गया, कर, ,, था, हो, की -->
+    <feat name="chunkId-VGF3" value="" upos="AUX,PART,PUNCT,VERB">3831</feat><!-- है, नहीं, हैं, कर, किया, हो, गया, था, दिया, जा -->
+    <feat name="chunkId-VGF4" value="" upos="AUX,PART,PUNCT,VERB">725</feat><!-- है, नहीं, हैं, हो, किया, दिया, कर, जाएगा, चाहिए, जा -->
+    <feat name="chunkId-VGF5" value="" upos="AUX,PART,VERB">135</feat><!-- है, किया, नहीं, हैं, रहे, कर, चाहिए, जा, जाए, दिया -->
+    <feat name="chunkId-VGF6" value="" upos="AUX,PART,VERB">19</feat><!-- नहीं, है, किया, चाहते, चाहिए, जा, जाना, था, थे, निकाला -->
+    <feat name="chunkId-VGF7" value="" upos="PART,VERB">2</feat><!-- न, हो -->
+    <feat name="chunkId-VGNF" value="" upos="ADP,AUX,PART,PUNCT,VERB,punc,v">5135</feat><!-- हुए, कर, लेकर, करते, गए, रहे, हुई, देते, रही, किए -->
+    <feat name="chunkId-VGNF2" value="" upos="AUX,PART,VERB">684</feat><!-- हुए, कर, लेकर, करते, गए, हुई, ही, देखते, रही, रहे -->
+    <feat name="chunkId-VGNF3" value="" upos="AUX,PART,PUNCT,VERB">86</feat><!-- हुए, कर, गए, ही, करते, किए, गई, गये, छोड़कर, जाकर -->
+    <feat name="chunkId-VGNF4" value="" upos="VERB">8</feat><!-- चलती, देखकर, बढ़ी, मिले, लेकर, सुझाए, हुए, होती -->
+    <feat name="chunkId-VGNF5" value="" upos="AUX,VERB">2</feat><!-- करते, हुए -->
+    <feat name="chunkId-VGNN" value="" upos="ADP,ADV,AUX,PART,PUNCT,VERB,avy,nst">12584</feat><!-- के, करने, की, लिए, का, होने, जाने, वाले, से, कहना -->
+    <feat name="chunkId-VGNN2" value="" upos="ADP,ADV,AUX,PART,PUNCT,VERB,nst">2551</feat><!-- के, करने, की, का, लिए, देने, जाने, में, होने, वाले -->
+    <feat name="chunkId-VGNN3" value="" upos="ADP,ADV,AUX,PART,PUNCT,VERB">396</feat><!-- करने, के, की, का, लिए, से, जाने, देने, में, पर -->
+    <feat name="chunkId-VGNN4" value="" upos="ADP,ADV,AUX,PART,VERB">63</feat><!-- की, बनाने, करने, के, देने, जाने, पर, भी, करना, का -->
+    <feat name="chunkId-VGNN5" value="" upos="ADP,AUX,PART,VERB">19</feat><!-- की, करने, जाने, करना, किए, के, खटखटाना, घेरने, बनाने, भी -->
+    <feat name="chunkId-VGNN6" value="" upos="ADP,VERB">6</feat><!-- की, जाने, देने, बनाने, में, वाली -->
+    <feat name="chunkType-child" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,X,adj,adv,avy,n,nst,num,pn,punc,s,v">165104</feat><!-- के, में, की, को, ने, से, है, का, पर, , -->
+    <feat name="chunkType-head" value="" upos="ADJ,ADP,ADV,AUX,CONJ,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X">186600</feat><!-- ।, कि, और, है, कहा, किया, कर, उन्होंने, करने, की -->
+    <feat name="gen-" value="" upos="ADJ,ADP,ADV,CONJ,DET,INTJ,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,X,adv,avy,nst,pn,punc,s">98211</feat><!-- ।, में, को, के, ने, से, कि, पर, और, , -->
+    <feat name="gen-any" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,adj,avy,num,punc,s,v">67597</feat><!-- है, हैं, इस, एक, उन्होंने, यह, करने, कर, जा, वह -->
+    <feat name="gen-f" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,PROPN,PUNCT,VERB,adj,avy,n,nst,pn">55133</feat><!-- की, सरकार, गई, थी, दी, पुलिस, रही, पार्टी, कांग्रेस, हुई -->
+    <feat name="gen-m" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,adj,n,nst,pn,punc,s,v">130758</feat><!-- के, का, कहा, किया, गया, था, बाद, दिया, हुए, साथ -->
+    <feat name="gen-num" value="" upos="NOUN">1</feat><!-- १०,००० -->
+    <feat name="gen-punc" value="" upos="PUNCT">4</feat><!-- , -->
+    <feat name="num-" value="" upos="ADJ,ADP,ADV,CONJ,DET,INTJ,NOUN,PART,PRON,PROPN,PUNCT,SCONJ,X,adj,adv,avy,nst,pn,punc,s">100094</feat><!-- ।, में, के, को, ने, से, कि, पर, और, , -->
+    <feat name="num-any" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,adj,avy,num,pn,punc,s,v">33871</feat><!-- एक, जा, करने, अपने, जाने, दो, अपनी, चाहिए, भारतीय, कर -->
+    <feat name="num-pl" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,adj,n,s,v">30534</feat><!-- के, हैं, लोगों, की, गए, इन, रहे, थे, दोनों, लोग -->
+    <feat name="num-sg" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,adj,avy,n,nst,pn,punc,s,v">187205</feat><!-- है, की, के, का, कहा, इस, किया, गया, यह, उन्होंने -->
+    <feat name="pers-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X,adj,adv,avy,nst,num,pn,punc,s">150645</feat><!-- के, ।, में, की, को, ने, से, कि, का, पर -->
+    <feat name="pers-1" value="" upos="AUX,DET,NOUN,PRON,VERB">909</feat><!-- हम, मैं, हमें, हमारे, हूं, मुझे, हमने, हमारी, मैंने, हैं -->
+    <feat name="pers-2" value="" upos="AUX,PRON,PROPN,VERB">20</feat><!-- करो, बताओ, आप, तुमने, लो, आपके, आपने, तुम्हारे, भर, रहो -->
+    <feat name="pers-2h" value="" upos="ADP,AUX,PRON,PROPN,VERB">339</feat><!-- आप, हैं, सकते, आपको, आपके, आपकी, कर, ले, आपका, करें -->
+    <feat name="pers-3" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,NOUN,NUM,PART,PRON,PROPN,VERB,n,nst,punc,s,v">159294</feat><!-- है, इस, हैं, यह, सरकार, बाद, साथ, सिंह, किया, भारत -->
+    <feat name="pers-3h" value="" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">5852</feat><!-- उन्होंने, हैं, उनके, उन्हें, उनकी, के, रहे, थे, वे, कर -->
+    <feat name="pers-any" value="" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,pn,punc,s,v">34645</feat><!-- कहा, गया, करने, था, कर, हुए, किया, दिया, गई, जा -->
+    <feat name="stype-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X,adj,adv,avy,n,nst,num,pn,punc,s,v">325601</feat><!-- के, ।, में, की, को, ने, से, है, कि, का -->
+    <feat name="stype-declarartive" value="" upos="VERB">16</feat><!-- कहा, हुए, आने, उठाएगी, कर, करेगी, डूबे, दिया, बताया, बनाए -->
+    <feat name="stype-declarative" value="" upos="AUX,NOUN,PART,VERB">25749</feat><!-- है, कहा, किया, कर, की, हो, हैं, बताया, दिया, दी -->
+    <feat name="stype-Declarative" value="" upos="VERB">2</feat><!-- चल, दिया -->
+    <feat name="stype-declartive" value="" upos="VERB">1</feat><!-- कह -->
+    <feat name="stype-imperative" value="" upos="VERB">202</feat><!-- करे, करें, कर, करना, हो, ले, होना, करनी, किया, चाहें -->
+    <feat name="stype-interrogative" value="" upos="VERB">133</feat><!-- है, जाएँ, किया, की, हो, होगा, कर, ठहरें, रखा, लिया -->
+    <feat name="tam-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X,adj,adv,avy,nst,num,pn,punc,s">160832</feat><!-- के, ।, में, की, को, ने, से, कि, का, पर -->
+    <feat name="tam-0" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,n,pn,punc,s,v">131407</feat><!-- कर, सरकार, हो, सिंह, भारत, जा, पुलिस, यह, लोगों, अपने -->
+    <feat name="tam-ao" value="" upos="AUX,PROPN,VERB">13</feat><!-- करो, बताओ, दो, जाओ, बचाओ, लो -->
+    <feat name="tam-aO" value="" upos="AUX,PROPN,VERB">9</feat><!-- खटखटाओ, चलो, जाओ, बचाओ, बताओ, रहो, रोको, लो, समझो -->
+    <feat name="tam-e" value="" upos="AUX,VERB">2</feat><!-- रहे, लें -->
+    <feat name="tam-eM" value="" upos="AUX,PRON,PUNCT,VERB">664</feat><!-- जाए, सके, करें, करे, दें, रहे, जाएं, हुए, जाएँ, मिले -->
+    <feat name="tam-gA" value="" upos="AUX,PROPN,VERB">2404</feat><!-- जाएगा, होगा, करेंगे, होगी, जाएगी, होंगे, करेगी, करेगा, जाएंगे, रहेगा -->
+    <feat name="tam-hai" value="" upos="AUX">1</feat><!-- है -->
+    <feat name="tam-hAi" value="" upos="AUX">2</feat><!-- है, हैं -->
+    <feat name="tam-hE" value="" upos="AUX,VERB">11484</feat><!-- है, हैं, हूं, हूँ, हैँ -->
+    <feat name="tam-hEM" value="" upos="AUX,VERB">2</feat><!-- हैं -->
+    <feat name="tam-kA" value="" upos="ADP,PRON,avy">1880</feat><!-- उनके, उनकी, इसका, उनका, इसकी, उसके, उसकी, इसके, उसका, हमारे -->
+    <feat name="tam-kar" value="" upos="VERB">6</feat><!-- पहुंचकर, बनाकर, उलटपुलटकर, भांप -->
+    <feat name="tam-kara" value="" upos="ADJ,ADV,AUX,VERB">1130</feat><!-- लेकर, करके, होकर, देकर, मिलकर, आकर, जाकर, छोड़कर, बढ़कर, देखकर -->
+    <feat name="tam-ke" value="" upos="PRON,VERB">968</feat><!-- इसके, उनके, उसके, जिसके, इनके, हमारे, जिनके, आपके, मेरे, सबके -->
+    <feat name="tam-kI" value="" upos="PRON">1</feat><!-- इसकी -->
+    <feat name="tam-kO" value="" upos="PRON">1</feat><!-- इसे -->
+    <feat name="tam-ko" value="" upos="NOUN,PRON">1165</feat><!-- उन्हें, उसे, इसे, हमें, जिसे, मुझे, इन्हें, जिन्हें, आपको, उनको -->
+    <feat name="tam-me" value="" upos="PRON">2</feat><!-- इसमें, जिसमें -->
+    <feat name="tam-meM" value="" upos="PRON">482</feat><!-- इसमें, जिसमें, इनमें, जिनमें, उसमें, उनमें, हममें -->
+    <feat name="tam-nA" value="" upos="AUX,NOUN,VERB">7999</feat><!-- करने, होने, जाने, देने, कहना, करना, बनाने, आने, लेने, मिलने -->
+    <feat name="tam-nA_vAlA" value="" upos="VERB">3</feat><!-- होनेवाली, देनेवाले -->
+    <feat name="tam-ne" value="" upos="AUX,PRON,VERB">1768</feat><!-- उन्होंने, उसने, हमने, मैंने, जिसने, जिन्होंने, आपने, इन्होंने, किसने, इसने -->
+    <feat name="tam-o" value="" upos="NOUN,PROPN,VERB">4</feat><!-- आज, भारत, सुप्रीमो, हो -->
+    <feat name="tam-s" value="" upos="ADP">14</feat><!-- से -->
+    <feat name="tam-se" value="" upos="PRON">511</feat><!-- इससे, जिससे, उनसे, उससे, इनसे, जिनसे, सबसे, मुझसे, हमसे, उनके -->
+    <feat name="tam-UZ" value="" upos="AUX">2</feat><!-- सकूं, हूं -->
+    <feat name="tam-WA" value="" upos="ADP,AUX,VERB">2694</feat><!-- था, थी, थे, थीं, के, थी,, थीः, भांपते -->
+    <feat name="tam-wA" value="" upos="AUX,PROPN,VERB,v">3552</feat><!-- करते, सकता, जाता, सकते, सकती, देते, चाहते, होता, देखते, होती -->
+    <feat name="tam-yA" value="" upos="ADP,AUX,NOUN,VERB,s">19338</feat><!-- कहा, किया, की, दिया, हुए, बताया, दी, रहे, रही, रहा -->
+    <feat name="tam-yA1" value="" upos="AUX,VERB">3356</feat><!-- गया, गई, गए, गयी, गईं, गये, दिया, आईं, डाला, हुई -->
+    <feat name="tam-ya1" value="" upos="AUX">3</feat><!-- गई, गया -->
+    <feat name="tam-जी" value="" upos="PROPN">4</feat><!-- शिवजी, आदिनाथजी, ब्रह्माजी -->
+    <feat name="tam-से" value="" upos="PRON">1</feat><!-- सबसे -->
+    <feat name="vib-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,X,adj,adv,avy,nst,num,pn,punc,s">159718</feat><!-- के, ।, में, की, को, ने, से, कि, का, पर -->
+    <feat name="vib-0" value="" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,PROPN,PUNCT,VERB,n,pn,punc,s,v">69124</feat><!-- जा, यह, वह, अपने, कोई, मंत्री, अपनी, भारत, चाहिए, कर -->
+    <feat name="vib-00" value="" upos="AUX,NOUN,PROPN">16</feat><!-- कोटद्वार, सुनीता, पौड़ी, रोहित, आरकेपुरम, खड़ा, बार, मध्य, मूक, रासाचार्य -->
+    <feat name="vib-00_खडा+00_हो+या" value="" upos="VERB">1</feat><!-- भाग -->
+    <feat name="vib-0_अंदर" value="" upos="NOUN,PRON">4</feat><!-- अपने, इसके, किमी, मीटर -->
+    <feat name="vib-0_अतिरिक्त" value="" upos="PRON">4</feat><!-- इसके -->
+    <feat name="vib-0_अनुसार" value="" upos="PRON">5</feat><!-- इसके, जिसके, उनके -->
+    <feat name="vib-0_अलावा" value="" upos="PRON">147</feat><!-- इसके, इनके, उनके -->
+    <feat name="vib-0_आ+गा" value="" upos="VERB">1</feat><!-- निकल -->
+    <feat name="vib-0_आ+ना_से" value="" upos="VERB">1</feat><!-- घुस -->
+    <feat name="vib-0_आ+या" value="" upos="VERB">13</feat><!-- उतर, निकल, ले, लौट, उभर, घुस, छलक, भर -->
+    <feat name="vib-0_आ+या_जा+गा" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_आ+या_था" value="" upos="VERB">2</feat><!-- घुस, लौट -->
+    <feat name="vib-0_आ+या_है" value="" upos="VERB">2</feat><!-- उतर, लौट -->
+    <feat name="vib-0_आगे" value="" upos="NOUN,PRON">8</feat><!-- इसके, उसके, कदम, किमी, किलोमीटर, सबसे -->
+    <feat name="vib-0_आगे_का" value="" upos="PRON">2</feat><!-- अपने, उनके -->
+    <feat name="vib-0_आसपास" value="" upos="PRON">1</feat><!-- उसके -->
+    <feat name="vib-0_आसपास_का" value="" upos="PRON">4</feat><!-- उसके, इसके -->
+    <feat name="vib-0_उठ+गा" value="" upos="VERB">1</feat><!-- मचल -->
+    <feat name="vib-0_उठ+ता_है" value="" upos="VERB">3</feat><!-- हो -->
+    <feat name="vib-0_उठ+या" value="" upos="VERB">7</feat><!-- भड़क, हो, खिल, गूंज, थर्रा -->
+    <feat name="vib-0_उठ+या_है" value="" upos="VERB">2</feat><!-- जाग, भड़क -->
+    <feat name="vib-0_उठा" value="" upos="VERB">1</feat><!-- गूंज -->
+    <feat name="vib-0_उठा_है" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_उलट" value="" upos="PRON">4</feat><!-- इसके -->
+    <feat name="vib-0_ऊपर" value="" upos="NOUN,PRON">7</feat><!-- सबसे, अंक, अपने, इसके, इससे, सबके -->
+    <feat name="vib-0_ऊपर_का" value="" upos="NOUN">1</feat><!-- फीट -->
+    <feat name="vib-0_एवज_में" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-0_ओर" value="" upos="PRON">4</feat><!-- अपनी, इसकी -->
+    <feat name="vib-0_ओर_से" value="" upos="PRON">6</feat><!-- उनकी, अपनी, हमारी -->
+    <feat name="vib-0_कi_तरह" value="" upos="NOUN">1</feat><!-- मेजबान -->
+    <feat name="vib-0_कर" value="" upos="NOUN,VERB">127</feat><!-- मार, छोड़, मिल, रख, लिख, पहन, बढ़ा, भेज, लगा, ले -->
+    <feat name="vib-0_कर+ता_था" value="" upos="VERB">2</feat><!-- गूंजा, रहा -->
+    <feat name="vib-0_कर+या" value="" upos="VERB">1</feat><!-- जमा -->
+    <feat name="vib-0_कर+या_जा_रह+या_है" value="" upos="VERB">1</feat><!-- खर्च -->
+    <feat name="vib-0_करा+या_जा+या१" value="" upos="VERB">1</feat><!-- जमा -->
+    <feat name="vib-0_का" value="" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">17941</feat><!-- सरकार, लोगों, पार्टी, देश, पाकिस्तान, भारत, तरह, कांग्रेस, भाजपा, सिंह -->
+    <feat name="vib-0_का_अनुसार" value="" upos="NOUN,PROPN">3</feat><!-- अधिकारी, मुत्तेमवार, सरकार -->
+    <feat name="vib-0_का_अपेक्षा" value="" upos="NOUN,PROPN">7</feat><!-- अनुमान, दिनों, परिवहन, पाकिस्तान, प्रतिशत, फीसदी, साल -->
+    <feat name="vib-0_का_अपेक्षाकृत" value="" upos="NOUN">1</feat><!-- उपायों -->
+    <feat name="vib-0_का_ओर" value="" upos="NOUN,PRON,PROPN">77</feat><!-- उत्तर, दक्षिण, दिल्ली, मार्केट, समस्याओं, अंबाला, आवास, इंटरपोल, इलाकों, इलाहाबाद -->
+    <feat name="vib-0_का_ओर_से" value="" upos="NOUN,PROPN">163</feat><!-- सरकार, भारत, मंत्रालय, कांग्रेस, अमेरिका, आयोग, दल, भाजपा, कर्मचारियों, पक्ष -->
+    <feat name="vib-0_का_कारण" value="" upos="NOUN">2</feat><!-- खराबी, सुनामी -->
+    <feat name="vib-0_का_खातिर" value="" upos="NOUN">2</feat><!-- वोटों, सुरक्षा -->
+    <feat name="vib-0_का_जगह" value="" upos="NOUN,NUM,PROPN">7</feat><!-- अफसरों, आईएसडी, एस, कारावास, तीन, रुपये, सिंह -->
+    <feat name="vib-0_का_तरफ" value="" upos="NOUN,PROPN">13</feat><!-- उन्नति, एजेंडे, गरीबी, दिल्ली, दुनिया, भारत, राजस्थान, विधायकों, विरोधियों, वेल -->
+    <feat name="vib-0_का_तरफ_का" value="" upos="PROPN">1</feat><!-- उत्तर -->
+    <feat name="vib-0_का_तरफ_से" value="" upos="NOUN,PROPN">18</feat><!-- सरकार, भारत, अधिकारियों, आयोग, आरोपियों, इंद्रजीत, कलाम, जनता, बोर्ड, मंत्रालय -->
+    <feat name="vib-0_का_तरह" value="" upos="ADV,NOUN,PROPN">63</feat><!-- पहले, चिंगारी, चुनाव, तुसाद, बार, बिंदी, व्हील्स, अन्य, अफगानिस्तान, आईपीएस -->
+    <feat name="vib-0_का_तर्ज_पर" value="" upos="NOUN">1</feat><!-- मेंटेनेंस -->
+    <feat name="vib-0_का_तहत" value="" upos="PROPN">1</feat><!-- कार्यक्रम -->
+    <feat name="vib-0_का_तुलना_में" value="" upos="ADV,NOUN,NUM,PROPN">24</feat><!-- साल, मिमी, वर्ष, एजेंसियों, दिनों, देशों, पहले, पृथ्वी, प्रधानमंत्रियों, बोली -->
+    <feat name="vib-0_का_तौर_पर" value="" upos="NOUN">1</feat><!-- प्लांट -->
+    <feat name="vib-0_का_दौरान" value="" upos="NOUN">2</feat><!-- जिरह, सुनवाई -->
+    <feat name="vib-0_का_बजाए" value="" upos="NOUN">1</feat><!-- सैंडल -->
+    <feat name="vib-0_का_बजाय" value="" upos="NOUN,PROPN">3</feat><!-- कार्तिक, बहस, वायुसेना -->
+    <feat name="vib-0_का_बदौलत" value="" upos="NOUN">1</feat><!-- रनों -->
+    <feat name="vib-0_का_बल" value="" upos="NOUN">1</feat><!-- मुँह -->
+    <feat name="vib-0_का_बल_पर" value="" upos="NOUN">1</feat><!-- ताकत -->
+    <feat name="vib-0_का_बाद" value="" upos="NOUN">1</feat><!-- भाषण -->
+    <feat name="vib-0_का_बाबत" value="" upos="NOUN">3</feat><!-- इशारे, जोखिम, प्रस्ताव -->
+    <feat name="vib-0_का_भांति" value="" upos="ADV,NOUN,PROPN">5</feat><!-- पूर्व, ग्राहकों, राजस्थान, वर्षों -->
+    <feat name="vib-0_का_भीतर" value="" upos="NOUN">1</feat><!-- जिम -->
+    <feat name="vib-0_का_वक्त" value="" upos="NOUN">1</feat><!-- शादी -->
+    <feat name="vib-0_का_वजह" value="" upos="NOUN">2</feat><!-- उछाल, वारदात -->
+    <feat name="vib-0_का_वजह_से" value="" upos="NOUN,PROPN">52</feat><!-- भूस्खलन, कोहरे, बर्फबारी, बाढ़, वर्षा, अस्वस्थता, आई, आग, आलोचनाओं, ऑपरेशन -->
+    <feat name="vib-0_का_विरोध_में" value="" upos="NOUN">1</feat><!-- बमबारी -->
+    <feat name="vib-0_का_साथ" value="" upos="NOUN,PROPN">3</feat><!-- जिआबाओ, दोस्तों, नेपाल -->
+    <feat name="vib-0_का_हवाले_से" value="" upos="NOUN">1</feat><!-- खबरों -->
+    <feat name="vib-0_का_हैसियत_से" value="" upos="NOUN">1</feat><!-- नौसिखिए -->
+    <feat name="vib-0_कारण" value="" upos="PRON">14</feat><!-- जिसके, इसके, इसी, उसके, जिनके -->
+    <feat name="vib-0_की" value="" upos="NOUN,NUM,PROPN">3</feat><!-- भट, सरकार, ७.६२ -->
+    <feat name="vib-0_की_तरह" value="" upos="NOUN,PROPN">2</feat><!-- एंबेसडर, विश्वविद्यालय -->
+    <feat name="vib-0_की_बाबत" value="" upos="NOUN">1</feat><!-- फाइलों -->
+    <feat name="vib-0_की_वजह_से" value="" upos="NOUN">1</feat><!-- कारणों -->
+    <feat name="vib-0_के" value="" upos="ADJ,ADV,NOUN,PRON,PROPN">202</feat><!-- लोगों, आग, पुलिस, गांधी, राज्य, रेखा, अनुमति, असम, कार्यालय, दूसरे -->
+    <feat name="vib-0_के_अंतर्गत" value="" upos="NOUN,PROPN">9</feat><!-- कार्यक्रम, जी, 470, ब्लॉक, लोगों, सीमाओं -->
+    <feat name="vib-0_के_अंदर" value="" upos="NOUN,PRON,PROPN">45</feat><!-- साल, दिन, गज, जेल, झोपड़ी, मठ, महीने, मिनट, सरकार, कमरे -->
+    <feat name="vib-0_के_अंदर_का" value="" upos="NOUN">1</feat><!-- कलाकार -->
+    <feat name="vib-0_के_अंदर_से" value="" upos="NOUN">1</feat><!-- सरकार -->
+    <feat name="vib-0_के_अंर्तगत" value="" upos="NOUN">1</feat><!-- जिले -->
+    <feat name="vib-0_के_अतिरिक्त" value="" upos="NOUN,PROPN">4</feat><!-- एनएससीएन, खर्च, मंदिर, मंदिरों -->
+    <feat name="vib-0_के_अधीन" value="" upos="NOUN,PROPN">5</feat><!-- किंगडम, परिषद, प्रेसीडेंसी, मुगलों, रिजर्व -->
+    <feat name="vib-0_के_अनुकूल" value="" upos="NOUN">2</feat><!-- मानसून -->
+    <feat name="vib-0_के_अनुरूप" value="" upos="NOUN,PROPN">16</feat><!-- कार्यक्रम, निर्देश, सिफारिशों, आवश्यकता, कटौती, क्षेत्र, जर्निशन, नीतियों, प्रावधानों, मंशा -->
+    <feat name="vib-0_के_अनुसार" value="" upos="NOUN,PROPN">175</feat><!-- सूत्रों, जानकारी, विभाग, पुलिस, रिपोर्ट, अदालत, आंकड़ों, कार्यक्रम, खबर, प्रवक्ता -->
+    <feat name="vib-0_के_अलावा" value="" upos="NOUN,PROPN">84</feat><!-- भारत, लोगों, कश्मीर, पाटिल, सदस्यों, सिंह, अगरकर, अग्रवाल, अधिकारी, अध्यक्ष -->
+    <feat name="vib-0_के_आगे" value="" upos="NOUN">9</feat><!-- जिद, इच्छा, जुलूस, दबाव, पारी, स्टेशन, हवाओं -->
+    <feat name="vib-0_के_आधार_पर" value="" upos="NOUN,PRON">6</feat><!-- जानकारी, ऐसे, नियमों, शिकायत, हलफनामे -->
+    <feat name="vib-0_के_आसपास" value="" upos="NOUN,PROPN">14</feat><!-- स्थलों, डिग्री, ड्रेसिंगरूम, नदी, पहाड़ियों, बजे, भोजशाला, मंदिर, यूनीवर्सिटी, समूह -->
+    <feat name="vib-0_के_आसपास_के" value="" upos="PROPN">1</feat><!-- मुंबई -->
+    <feat name="vib-0_के_उलट" value="" upos="PROPN">2</feat><!-- अय्यर, प्रदेश -->
+    <feat name="vib-0_के_ऊपर" value="" upos="NOUN,PROPN">21</feat><!-- हरियाणा, अस्‍थियों, किले, खत, खान, टॉवर, तालाब, दयाराम, दर, दिल्ली -->
+    <feat name="vib-0_के_ऊपर_का" value="" upos="NOUN">1</feat><!-- कमर -->
+    <feat name="vib-0_के_ऊपर_से" value="" upos="NOUN">4</feat><!-- पहाड़ी, मकबरों, शव, सिर -->
+    <feat name="vib-0_के_ओर" value="" upos="NOUN">1</feat><!-- तारे -->
+    <feat name="vib-0_के_करीब" value="" upos="NOUN,PROPN">11</feat><!-- बजे, आडवाणी, जीत, विभाजन, शनि, साल, सूखे -->
+    <feat name="vib-0_के_कारण" value="" upos="NOUN,PROPN">174</feat><!-- कोहरे, बारिश, बर्फबारी, बाढ़, घटना, जुलूस, मौसम, रवैये, लहरों, अवकाश -->
+    <feat name="vib-0_के_खिलाफ" value="" upos="NOUN,PRON,PROPN">286</feat><!-- लोगों, सरकार, फैसले, आतंकवाद, पाकिस्तान, अधिकारियों, अन्य, आतंकियों, ईरान, नक्सलियों -->
+    <feat name="vib-0_के_खिलाफ़" value="" upos="PRON">1</feat><!-- दूसरे -->
+    <feat name="vib-0_के_गिर्द" value="" upos="PROPN">1</feat><!-- तोगड़िया -->
+    <feat name="vib-0_के_चलते" value="" upos="NOUN,PRON,PROPN">42</feat><!-- इसी, विरोध, गतिविधियों, लिवाली, कलह, गरीबी, गड़बड़ियों, घोषणा, जनाधार, दखलंदाजी -->
+    <feat name="vib-0_के_जरिये" value="" upos="NOUN,PROPN">119</feat><!-- इंटरनेट, बातचीत, वार्ता, तकनीक, पाइपलाइन, माध्यमों, उपकरण, उपक्रम, कार्ड, ट्रेन -->
+    <feat name="vib-0_के_तत्वावधान_में" value="" upos="PROPN">1</feat><!-- मनाली -->
+    <feat name="vib-0_के_तरफ" value="" upos="NOUN">1</feat><!-- परिसर -->
+    <feat name="vib-0_के_तले" value="" upos="NOUN">1</feat><!-- बैनर -->
+    <feat name="vib-0_के_तहत" value="" upos="NOUN,PRON,PROPN">167</feat><!-- योजना, कार्यक्रम, कानून, समझौते, अधिनियम, इसी, एक्ट, धाराओं, अभियान, एफबीटी -->
+    <feat name="vib-0_के_तौर_पर" value="" upos="NOUN,PROPN">30</feat><!-- एहतियात, अतिथि, नागरिक, सदस्य, आमंत्रित, आयुक्त, इस्टेट, उदाहरण, उन्मादी, गवाह -->
+    <feat name="vib-0_के_दरम्यान" value="" upos="NOUN">1</feat><!-- चुनाव -->
+    <feat name="vib-0_के_दौरान" value="" upos="NOUN,PROPN">373</feat><!-- यात्रा, सुनवाई, बैठक, बातचीत, मुलाकात, जांच, प्रश्नकाल, सत्र, अवधि, दौरे -->
+    <feat name="vib-0_के_द्वारा" value="" upos="NOUN,PROPN">10</feat><!-- कंपनी, कार्य, नेता, प्रताप, प्रशासन, बहल, मतदान, माँ, मेल, वेश्या -->
+    <feat name="vib-0_के_नजदीक" value="" upos="NOUN,PROPN">13</feat><!-- लाहौर, आसन, किरानदुल, किले, तालाब, पोस्ट, मंदिरों, मैदान, सीमा, सुमात्रा -->
+    <feat name="vib-0_के_नाते" value="" upos="NOUN,PROPN">2</feat><!-- प्रधानमंत्री, शासक -->
+    <feat name="vib-0_के_निकट" value="" upos="NOUN,PROPN">16</feat><!-- हिल, अंडमान, अहमदाबाद, कांग्रेस, कालोनी, चौकी, जैनापोरा, जैसलमेर, डोमना, मुंढल -->
+    <feat name="vib-0_के_नीचे" value="" upos="NOUN,PROPN">11</feat><!-- कमर, कर्ज, डिग्री, पहाड़, पहाड़ी, पैरों, बोगी, भूमि, रेखा, शेड -->
+    <feat name="vib-0_के_नीचे_से" value="" upos="NOUN">3</feat><!-- चट्टान, जमीन, ट्रक -->
+    <feat name="vib-0_के_पर" value="" upos="NOUN">1</feat><!-- तौर -->
+    <feat name="vib-0_के_परिणामस्वरूप" value="" upos="NOUN">5</feat><!-- दबाव, दृश्यता, नुकसान, प्रयासों, रिपोर्ट -->
+    <feat name="vib-0_के_पश्चात" value="" upos="NOUN">2</feat><!-- दर्शन, पड़ताल -->
+    <feat name="vib-0_के_पहले" value="" upos="NOUN,PROPN">4</feat><!-- अगस्त, छापे, जून, सीज़न -->
+    <feat name="vib-0_के_पास" value="" upos="NOUN,PRON,PROPN">161</feat><!-- सरकार, आयोग, स्टेशन, गांव, घर, पुलिस, लोगों, सेना, अय्यर, आवास -->
+    <feat name="vib-0_के_पास_का" value="" upos="NOUN">1</feat><!-- भवन -->
+    <feat name="vib-0_के_पास_से" value="" upos="NOUN,PROPN">7</feat><!-- आतंकियों, आतंकवादियों, गांव, दोनों, बैरियर, मुर्तज़ा -->
+    <feat name="vib-0_के_पीछे" value="" upos="NOUN,PRON">25</feat><!-- धमाकों, मंदिर, सलाखों, अवधारणा, आदमी, आश्रम, उछाल, कृत्य, घटना, घोषणा -->
+    <feat name="vib-0_के_पीछे_से" value="" upos="NOUN">1</feat><!-- परदे -->
+    <feat name="vib-0_के_पूर्व" value="" upos="NOUN">1</feat><!-- घोषणा -->
+    <feat name="vib-0_के_प्रति" value="" upos="NOUN,PRON,PROPN">60</feat><!-- लोगों, योजना, देश, विपक्ष, अधिकारों, अनंत, अपराध, आक्रमण, आतंकवादियों, आयोग -->
+    <feat name="vib-0_के_फलस्वरूप" value="" upos="NOUN">1</feat><!-- दृढ़ता -->
+    <feat name="vib-0_के_बजाए" value="" upos="NOUN">2</feat><!-- जिले, रुपये -->
+    <feat name="vib-0_के_बजाय" value="" upos="NOUN,PROPN">13</feat><!-- पुलिस, खेती, प्रक्रिया, फीसदी, फूलों, भारत, योजनाओं, विस्थापन, श्रीलंका, संघर्ष -->
+    <feat name="vib-0_के_बदले" value="" upos="NOUN">3</feat><!-- उत्पादन, करार, कानून -->
+    <feat name="vib-0_के_बदले_में" value="" upos="NOUN">2</feat><!-- अधिकार, रिहाई -->
+    <feat name="vib-0_के_बराबर" value="" upos="NOUN,PROPN">9</feat><!-- न, इन्फ्रास्ट्रक्चर, दाने, नहीं, पृथ्वी, बजट, मोहरों -->
+    <feat name="vib-0_के_बराबर_का" value="" upos="NOUN">1</feat><!-- ढांचे -->
+    <feat name="vib-0_के_बल_पर" value="" upos="NOUN">1</feat><!-- पुलिस -->
+    <feat name="vib-0_के_बहाना" value="" upos="NOUN,PROPN">3</feat><!-- चर्चा, बदलाव, मार्च -->
+    <feat name="vib-0_के_बाद" value="" upos="NOUN,PRON,PROPN,VERB">394</feat><!-- बैठक, मुलाकात, घटना, चुनाव, बातचीत, घोषणा, विमर्श, विस्फोट, हादसे, आश्वासन -->
+    <feat name="vib-0_के_बाद_का" value="" upos="NOUN,PROPN">2</feat><!-- गोधरा, हमलों -->
+    <feat name="vib-0_के_बाद_में" value="" upos="NOUN">1</feat><!-- तूफ़ान -->
+    <feat name="vib-0_के_बाद_से" value="" upos="NOUN,PROPN">18</feat><!-- घोषणा, १९९०, २००४, अपहरण, अप्रैल, कहर, गिरफ्तारी, घटना, दशक, दिन -->
+    <feat name="vib-0_के_बाबत" value="" upos="NOUN">2</feat><!-- जरूरत, दर -->
+    <feat name="vib-0_के_बारे_में" value="" upos="NOUN,PRON,PROPN">246</feat><!-- स्थिति, भूमिका, योजना, अभियान, आरक्षण, इस्तीफे, प्रक्रिया, प्रस्ताव, यात्रा, संख्या -->
+    <feat name="vib-0_के_बावजूद" value="" upos="NOUN">46</feat><!-- कोशिशों, दावे, बारिश, वृद्धि, अटकलों, अशांति, आमंत्रण, इजाफे, उपलब्धता, कार्यक्रम -->
+    <feat name="vib-0_के_बाहर" value="" upos="NOUN,PROPN">27</feat><!-- यूपीए, अदालत, सौरमंडल, स्कूल, काबू, कार्यालय, जंगल, जेल, दरवाजे, दिल्ली -->
+    <feat name="vib-0_के_बीच" value="" upos="NOUN,PROPN">355</feat><!-- देशों, पाकिस्तान, दलों, सरकार, पक्षों, नेताओं, सुरक्षा, दोनों, मुशर्रफ, पार्टियों -->
+    <feat name="vib-0_के_बीच_का" value="" upos="NOUN,PROPN">5</feat><!-- आईएम, इंडिया, गरीब, पक्षों, हावड़ा -->
+    <feat name="vib-0_के_बीच_में" value="" upos="NOUN,PROPN">9</feat><!-- देशों, जनता, झील, दोनों, नदी, नागरिकों, पाकिस्तान, भारत -->
+    <feat name="vib-0_के_बीच_से" value="" upos="NOUN">1</feat><!-- लोगों -->
+    <feat name="vib-0_के_बीचोंबीच" value="" upos="NOUN">1</feat><!-- जंगल -->
+    <feat name="vib-0_के_बूता" value="" upos="NOUN">1</feat><!-- सेना -->
+    <feat name="vib-0_के_बूते" value="" upos="PROPN">1</feat><!-- कर्मियों -->
+    <feat name="vib-0_के_बूते_पर" value="" upos="NOUN">1</feat><!-- ताकत -->
+    <feat name="vib-0_के_भीतर" value="" upos="NOUN,PROPN">33</feat><!-- महीने, दिन, माह, भाजपा, यूपीए, समुद्र, साल, अवधि, कमरे, कांग्रेस -->
+    <feat name="vib-0_के_भीतर_का" value="" upos="NOUN">1</feat><!-- पानी -->
+    <feat name="vib-0_के_मद्देजनर" value="" upos="NOUN">1</feat><!-- घटना -->
+    <feat name="vib-0_के_मद्देनजर" value="" upos="NOUN,PRON,PROPN">40</feat><!-- चुनाव, घटनाओं, रवैये, विरोध, स्थिति, अभाव, आगमन, आपदा, आशंका, इसी -->
+    <feat name="vib-0_के_मद्देनज़र" value="" upos="NOUN">1</feat><!-- परिदृश्य -->
+    <feat name="vib-0_के_मद्देनज़र" value="" upos="NOUN">16</feat><!-- अनियमितताओं, अपील, कारनामों, घटनाक्रम, घोषणा, चुनाव, चढ़ाव, टिथी, बैठक, भीड़ -->
+    <feat name="vib-0_के_मध्य" value="" upos="PROPN">1</feat><!-- सितंबर -->
+    <feat name="vib-0_के_मध्य_तक" value="" upos="PROPN">1</feat><!-- २००८ -->
+    <feat name="vib-0_के_मध्य_में" value="" upos="NOUN">4</feat><!-- दशक, प्रांगण, सप्ताह -->
+    <feat name="vib-0_के_माध्यम_से" value="" upos="NOUN,PRON">3</feat><!-- इन्हीं, उच्चायोग, रेलमार्ग -->
+    <feat name="vib-0_के_मार्फत" value="" upos="NOUN">1</feat><!-- उच्चायुक्त -->
+    <feat name="vib-0_के_मुकाबला" value="" upos="ADV,NOUN,NUM,PROPN">29</feat><!-- मिमी, अनुमान, एनसीपी, कंपनियों, करों, करोड़, चीन, जिलों, देशों, पर्यटकों -->
+    <feat name="vib-0_के_मुकाबला_में" value="" upos="NUM">1</feat><!-- चार -->
+    <feat name="vib-0_के_मुकाबले" value="" upos="ADV,NOUN,PROPN">5</feat><!-- पहले, वर्षों, चीन -->
+    <feat name="vib-0_के_मुताबिक" value="" upos="NOUN,PROPN">345</feat><!-- सूत्रों, रिपोर्ट, अधिकारियों, आंकड़ों, मंत्रालय, अधिकारी, जानकारी, विभाग, पुलिस, अखबार -->
+    <feat name="vib-0_के_रुप_में" value="" upos="NOUN,PROPN">2</feat><!-- खान, रिवार्ड -->
+    <feat name="vib-0_के_रूप_में" value="" upos="NOUN,PROPN">133</feat><!-- केंद्र, मुख्यमंत्री, सदस्य, आमंत्रित, उत्तराधिकारी, ऋण, नेता, प्रतिनिधि, प्रत्याशी, महासचिव -->
+    <feat name="vib-0_के_लिए" value="" upos="NOUN,PRON,PROPN">1189</feat><!-- जांच, लोगों, समाधान, सुरक्षा, दिन, विकास, सीटों, चुनाव, पद, भारत -->
+    <feat name="vib-0_के_लिये" value="" upos="NOUN">1</feat><!-- पीड़ितों -->
+    <feat name="vib-0_के_लिहाज_से" value="" upos="NOUN">2</feat><!-- तजुर्बे, रक्षा -->
+    <feat name="vib-0_के_ले" value="" upos="NOUN">1</feat><!-- नियुक्ति -->
+    <feat name="vib-0_के_वक्त" value="" upos="NOUN,PROPN">11</feat><!-- कारगिल, घोषणा, जरूरत, जांच, दौरे, धमाकों, यात्रा, शादी, शाम, हमले -->
+    <feat name="vib-0_के_वास्ते" value="" upos="NOUN">1</feat><!-- शूटिंग -->
+    <feat name="vib-0_के_विपरीत" value="" upos="NOUN">3</feat><!-- अटकलों, धर्म, संतुलन -->
+    <feat name="vib-0_के_विरुद्ध" value="" upos="NOUN,PROPN">8</feat><!-- अपराधियों, अल्पसंख्यकों, कानून, छेड़छाड़, बच्चों, मनचलों, लड़कियों, सोलंकी -->
+    <feat name="vib-0_के_विरूद्ध" value="" upos="PROPN">1</feat><!-- निरंजन -->
+    <feat name="vib-0_के_विरोध_में" value="" upos="NOUN">4</feat><!-- हत्या, मांग, विस्फोट -->
+    <feat name="vib-0_के_विरोधस्वरूप" value="" upos="NOUN">1</feat><!-- नीतियों -->
+    <feat name="vib-0_के_संबंध" value="" upos="NOUN">1</feat><!-- भागीदारी -->
+    <feat name="vib-0_के_संबंध_में" value="" upos="NOUN,PROPN">29</feat><!-- मामले, कंप्यूटर, बैठक, आतंकियों, उपयोग, कार्य, कार्रवाई, खजुराहो, खतरे, घोटाले -->
+    <feat name="vib-0_के_समकक्ष" value="" upos="PROPN">2</feat><!-- आईआईटी -->
+    <feat name="vib-0_के_समक्ष" value="" upos="NOUN,PROPN">47</feat><!-- अदालत, आयोग, खंडपीठ, कोर्ट, गांधी, सिंह, अधिकारियों, अमेरिका, इंडस्ट्रीज, किसानों -->
+    <feat name="vib-0_के_समय" value="" upos="NOUN,PROPN">50</feat><!-- दौरे, सरकार, रात, कार्निवल, यात्रा, युद्ध, विभाजन, शाम, आपदाओं, क्लिंटन -->
+    <feat name="vib-0_के_समय_पर" value="" upos="NOUN">2</feat><!-- उड़ानों, मानसून -->
+    <feat name="vib-0_के_समय_में" value="" upos="NOUN,PROPN">2</feat><!-- आज, गांधी -->
+    <feat name="vib-0_के_समय_से" value="" upos="PROPN">1</feat><!-- विजय -->
+    <feat name="vib-0_के_समान" value="" upos="NOUN,PROPN">11</feat><!-- पृथ्वी, चुनाव, कोयले, ताजमहल, दर, द्वार, मोबाइल -->
+    <feat name="vib-0_के_समानांतर" value="" upos="NOUN">1</feat><!-- सड़कों -->
+    <feat name="vib-0_के_समीप" value="" upos="NOUN,PROPN">12</feat><!-- मंदिर, आबादी, आल्टा, कोच्चि, खांडाखेड़ी, गुफाओं, घाट, टर्मिनल, पाठशाला, बॉर्डर -->
+    <feat name="vib-0_के_साथ" value="" upos="NOUN,PRON,PROPN">613</feat><!-- पाकिस्तान, नेताओं, सिंह, भारत, अधिकारियों, सरकार, पुलिस, लोगों, संपत्ति, भाजपा -->
+    <feat name="vib-0_के_सामने" value="" upos="NOUN,PRON,PROPN">82</feat><!-- समिति, मीडिया, अधिकारियों, दुनिया, अमेरिका, कांग्रेस, केंद्र, जनता, तालाब, पुलिस -->
+    <feat name="vib-0_के_सिलसिले_में" value="" upos="NOUN">1</feat><!-- महोत्सव -->
+    <feat name="vib-0_के_सौजन्य_से" value="" upos="PROPN">2</feat><!-- मीकन्स, सरकार -->
+    <feat name="vib-0_के_हवाला_से" value="" upos="NOUN,PROPN">15</feat><!-- मुशर्रफ, अधिकारी, आंकड़ों, एफबीआई, खान, जैदी, दयाल, न्यूज़, बयानों, संदागिरी -->
+    <feat name="vib-0_के_हिसाब_से" value="" upos="NOUN">4</feat><!-- फीसदी, बारिश, मौसम, हकीकतों -->
+    <feat name="vib-0_के_ज़रिए" value="" upos="NOUN,PROPN">6</feat><!-- कार्ड, पोस्ट, प्रस्ताव, मंत्रालय, मेल, विनिवेश -->
+    <feat name="vib-0_को" value="" upos="NOUN,NUM,PRON,PROPN">7208</feat><!-- लोगों, बुधवार, सरकार, मंगलवार, बृहस्पतिवार, सोमवार, शुक्रवार, शनिवार, रविवार, सिंह -->
+    <feat name="vib-0_खिलाफ" value="" upos="PRON">48</feat><!-- उनके, उसके, जिनके, इसके, अपने, इनके -->
+    <feat name="vib-0_गिरा+ना_में" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_गिरा+या" value="" upos="VERB">11</feat><!-- मार -->
+    <feat name="vib-0_गिरा+या_जा+या१" value="" upos="VERB">3</feat><!-- मार -->
+    <feat name="vib-0_गिरा+या_था" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_गुजर+ता_है" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_घेर+ता_है" value="" upos="VERB">1</feat><!-- आ -->
+    <feat name="vib-0_चल+या_है" value="" upos="VERB">2</feat><!-- हो -->
+    <feat name="vib-0_चलते" value="" upos="PRON">23</feat><!-- इसके, जिसके -->
+    <feat name="vib-0_चुक+एं" value="" upos="VERB">3</feat><!-- कर -->
+    <feat name="vib-0_चुक+एं_है" value="" upos="VERB">2</feat><!-- कर -->
+    <feat name="vib-0_चुक+या" value="" upos="VERB">28</feat><!-- हो, कर, रह, झेल, उतर, खा, खो, गंवा, छोड़, थक -->
+    <feat name="vib-0_चुक+या_था" value="" upos="VERB">9</feat><!-- कर, हो, आ, उठा, पहुंच, फैल -->
+    <feat name="vib-0_चुक+या_है" value="" upos="VERB">189</feat><!-- हो, कर, दे, पहुंच, मिल, कह, आ, लगा, जता, जा -->
+    <feat name="vib-0_चुक+या_हो" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_चुक+या_हो+गा" value="" upos="VERB">2</feat><!-- कर, चल -->
+    <feat name="vib-0_चुक+या_हो+ता" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_चुक_है" value="" upos="VERB">1</feat><!-- रह -->
+    <feat name="vib-0_चुका+या_था" value="" upos="VERB">1</feat><!-- गिर -->
+    <feat name="vib-0_चुका_है" value="" upos="VERB">4</feat><!-- हो, कर, रख -->
+    <feat name="vib-0_जगह" value="" upos="PRON">1</feat><!-- इनकी -->
+    <feat name="vib-0_जरिये" value="" upos="PRON">14</feat><!-- इसके, जिसके, जिनके -->
+    <feat name="vib-0_जा" value="" upos="VERB">1</feat><!-- बह -->
+    <feat name="vib-0_जा+एं" value="" upos="VERB">24</feat><!-- हो, मिल, पहुंच, आ, खुल, जम, जुट, भाग, मचल, लग -->
+    <feat name="vib-0_जा+कर" value="" upos="VERB">3</feat><!-- ले -->
+    <feat name="vib-0_जा+गा" value="" upos="VERB">133</feat><!-- हो, मिल, लग, आ, पहुंच, बन, बढ़, ले, रह, लौट -->
+    <feat name="vib-0_जा+ता" value="" upos="VERB">11</feat><!-- हो, मिल, बन -->
+    <feat name="vib-0_जा+ता_था" value="" upos="VERB">3</feat><!-- पहुंच, लग, ले -->
+    <feat name="vib-0_जा+ता_है" value="" upos="VERB">67</feat><!-- हो, बन, लग, बढ़, मिल, ले, पहुंच, आ, उठ, खा -->
+    <feat name="vib-0_जा+ना" value="" upos="VERB">5</feat><!-- ले, हो, लग -->
+    <feat name="vib-0_जा+ना_का" value="" upos="VERB">19</feat><!-- ले, हो, कर, पहुंच, पा, बह, मिल, मुकर, लौट -->
+    <feat name="vib-0_जा+ना_का_वजह_से" value="" upos="VERB">2</feat><!-- गिर, चिपक -->
+    <feat name="vib-0_जा+ना_के" value="" upos="VERB">1</feat><!-- जल -->
+    <feat name="vib-0_जा+ना_के_कारण" value="" upos="VERB">8</feat><!-- हो, उतर, गिर, घुस, जम, बह -->
+    <feat name="vib-0_जा+ना_के_बाद" value="" upos="VERB">12</feat><!-- हो, गिर, बन, भर, लग -->
+    <feat name="vib-0_जा+ना_के_लिए" value="" upos="VERB">1</feat><!-- हट -->
+    <feat name="vib-0_जा+ना_को" value="" upos="VERB">2</feat><!-- भाग, हो -->
+    <feat name="vib-0_जा+ना_चाहिए" value="" upos="VERB">4</feat><!-- हो, खुल, लग -->
+    <feat name="vib-0_जा+ना_था" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+ना_पड+या" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+ना_पर" value="" upos="VERB">7</feat><!-- हो, ले, पहुंच -->
+    <feat name="vib-0_जा+ना_पड़+या" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+ना_में" value="" upos="VERB">3</feat><!-- ले -->
+    <feat name="vib-0_जा+ना_से" value="" upos="VERB">16</feat><!-- आ, हो, गिर, टकरा, टूट, डूब, निपट, बन, बह, लग -->
+    <feat name="vib-0_जा+ना_है" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+या" value="" upos="VERB">43</feat><!-- हो, आ, चढ़, पहुंच, बच, भाग, उठ, उतर, जुट, टल -->
+    <feat name="vib-0_जा+या1" value="" upos="VERB">83</feat><!-- हो, आ, लग, कूद, गिर, टूट, ले, पहुंच, बढ़, बदल -->
+    <feat name="vib-0_जा+या1_था" value="" upos="VERB">13</feat><!-- हो, गहरा, पड़, भूल, ले -->
+    <feat name="vib-0_जा+या1_है" value="" upos="VERB">43</feat><!-- हो, आ, जुट, बदल, उड़, खुल, घिर, छिड़, ठन, ढक -->
+    <feat name="vib-0_जा+या_जा+गा" value="" upos="VERB">2</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा+ता_है" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा+या1" value="" upos="VERB">3</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा+या१" value="" upos="VERB">7</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा_रह+या" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा_रह+या_है" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+या_जा_सक+ता" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा+या_था" value="" upos="VERB">7</feat><!-- हो, आ, उतर, चल, पहुंच, लग -->
+    <feat name="vib-0_जा+या_है" value="" upos="VERB">25</feat><!-- हो, पहुंच, बढ़, मिल, आ, जुट, ठिठक, निकल, फैल, रह -->
+    <feat name="vib-0_जा+या१" value="" upos="VERB">414</feat><!-- हो, पहुंच, बन, आ, ले, रह, लग, बढ़, पड़, मिल -->
+    <feat name="vib-0_जा+या१_था" value="" upos="VERB">94</feat><!-- हो, पहुंच, बन, मुकर, लग, चल, जम, फंस, बढ़, आ -->
+    <feat name="vib-0_जा+या१_थी+था" value="" upos="VERB">1</feat><!-- कूद -->
+    <feat name="vib-0_जा+या१_है" value="" upos="VERB">280</feat><!-- हो, बन, आ, रह, पहुंच, मिल, जुट, बढ़, टल, पड़ -->
+    <feat name="vib-0_जा+या१_हो" value="" upos="VERB">1</feat><!-- दे -->
+    <feat name="vib-0_जा+या१_हो+गा" value="" upos="VERB">1</feat><!-- घुस -->
+    <feat name="vib-0_जा+या१_हो+ता" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_जा_पा_रह+या_है" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा_रह+या" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा_रह+या_है" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_जा_सक+ता" value="" upos="VERB">1</feat><!-- रखा -->
+    <feat name="vib-0_जैसा" value="" upos="ADV,NOUN,NUM,PRON,PROPN">125</feat><!-- कश्मीर, कारगिल, उनके, एक, चेन्नई, ट्रेनिंग, पहले, पानी, पृथ्वी, पोटा -->
+    <feat name="vib-0_जैसी" value="" upos="NOUN,PROPN">2</feat><!-- छूट, सितंबर -->
+    <feat name="vib-0_जैसे" value="" upos="NOUN,PROPN">5</feat><!-- केदारनाथ, दिवस, यादव, सरना, स्ट्रेचर -->
+    <feat name="vib-0_डाल+ना" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_डाल+ना_का" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_डाल+या" value="" upos="VERB">18</feat><!-- कर, मार, दे, तोड़, फूँक -->
+    <feat name="vib-0_डाल+या_था" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_डाल+या_है" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-0_तक" value="" upos="ADV,NOUN,NUM,PRON,PROPN">739</feat><!-- अब, अभी, घंटे, बजे, यहां, तब, अंत, जनवरी, हद, जब -->
+    <feat name="vib-0_तक_का" value="" upos="ADV,NOUN,NUM,PRON,PROPN">39</feat><!-- अब, फीसदी, अभी, जनवरी, मार्च, रुपये, आठ, आय, आयु, ऊपर -->
+    <feat name="vib-0_तक_के" value="" upos="NOUN">1</feat><!-- वर्ष -->
+    <feat name="vib-0_तक_के_लिए" value="" upos="NOUN,PRON,PROPN">13</feat><!-- बुधवार, अगस्त, कल, अनिश्चितकाल, कप, जुलाई, तब, पांच, सितंबर -->
+    <feat name="vib-0_तक_में" value="" upos="NOUN,PROPN">2</feat><!-- रत्ना, रुपये -->
+    <feat name="vib-0_तरफ_से" value="" upos="PRON">1</feat><!-- उनकी -->
+    <feat name="vib-0_तले" value="" upos="NOUN">7</feat><!-- बैनर, दाँतो -->
+    <feat name="vib-0_तहत" value="" upos="PRON">35</feat><!-- इसके, जिसके, उसके -->
+    <feat name="vib-0_था" value="" upos="VERB">6</feat><!-- लगा, जमा, दिया, बचा, मांगी -->
+    <feat name="vib-0_दबोच+या" value="" upos="VERB">1</feat><!-- धर -->
+    <feat name="vib-0_दिखा+या_है" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_दिया+या" value="" upos="VERB">1</feat><!-- खदेड़ -->
+    <feat name="vib-0_दिया+या_जा+या1" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_दूर" value="" upos="NOUN">23</feat><!-- किलोमीटर, किमी, कि.मी., बात, वर्ष -->
+    <feat name="vib-0_दूर_तक" value="" upos="NOUN">1</feat><!-- किलोमीटर -->
+    <feat name="vib-0_दे" value="" upos="VERB">5</feat><!-- कर, बता -->
+    <feat name="vib-0_दे+एं" value="" upos="VERB">18</feat><!-- कर, भेज, करा, दे, बता, कह, बेच, मचा, सौंप -->
+    <feat name="vib-0_दे+ओ" value="" upos="VERB">1</feat><!-- मार -->
+    <feat name="vib-0_दे+गा" value="" upos="VERB">29</feat><!-- कर, दे, भेज, करा, नकार, पहुंचा, फेर, बदल, रख, सौंप -->
+    <feat name="vib-0_दे+ता" value="" upos="VERB">2</feat><!-- छू, दे -->
+    <feat name="vib-0_दे+ता_था" value="" upos="VERB">1</feat><!-- डाल -->
+    <feat name="vib-0_दे+ता_है" value="" upos="VERB">18</feat><!-- कर, छोड़, डाल, दे, लगा, छेड़, दिला, नकार, भेज, रोक -->
+    <feat name="vib-0_दे+ना" value="" upos="VERB">3</feat><!-- कर, दे -->
+    <feat name="vib-0_दे+ना_का" value="" upos="VERB">3</feat><!-- कर, रोक, सौंप -->
+    <feat name="vib-0_दे+ना_के_बाद" value="" upos="VERB">1</feat><!-- लगा -->
+    <feat name="vib-0_दे+ना_चाहिए" value="" upos="VERB">9</feat><!-- छोड़, कर, दे, हटा -->
+    <feat name="vib-0_दे+ना_चाहिए_था" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_दे+ना_वाला" value="" upos="VERB">2</feat><!-- डाल, निकाल -->
+    <feat name="vib-0_दे+ना_से" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_दे+या" value="" upos="VERB">399</feat><!-- कर, दे, टाल, लगा, सौंप, उड़ा, भेज, मार, कह, ठुकरा -->
+    <feat name="vib-0_दे+या_जा+एं" value="" upos="VERB">18</feat><!-- कर, दे, भेज, सौंप, टाल, दिखा, निकाल, बढ़ा, बता, बदल -->
+    <feat name="vib-0_दे+या_जा+गा" value="" upos="VERB">31</feat><!-- कर, सौंप, उड़ा, दे, करा, कुचल, बना, मार, लगा, हटा -->
+    <feat name="vib-0_दे+या_जा+ता" value="" upos="VERB">2</feat><!-- भेज, सुना -->
+    <feat name="vib-0_दे+या_जा+ता_था" value="" upos="VERB">2</feat><!-- बाँट, भेज -->
+    <feat name="vib-0_दे+या_जा+ता_है" value="" upos="VERB">6</feat><!-- कर, खोल, लगा, सुलझा, हटा -->
+    <feat name="vib-0_दे+या_जा+ना_का" value="" upos="VERB">1</feat><!-- बांध -->
+    <feat name="vib-0_दे+या_जा+ना_चाहिए" value="" upos="VERB">4</feat><!-- कर, बदल -->
+    <feat name="vib-0_दे+या_जा+या" value="" upos="VERB">2</feat><!-- कर -->
+    <feat name="vib-0_दे+या_जा+या1" value="" upos="VERB">14</feat><!-- कर, बेच, खोल, दे, बाँट, रोक -->
+    <feat name="vib-0_दे+या_जा+या1_था" value="" upos="VERB">4</feat><!-- कर, ठुकरा, दे -->
+    <feat name="vib-0_दे+या_जा+या1_है" value="" upos="VERB">23</feat><!-- कर, दे, बढ़ा, भेज, कह, बढ़ा -->
+    <feat name="vib-0_दे+या_जा+या१" value="" upos="VERB">82</feat><!-- कर, लगा, छोड़, दे, रोक, टाल, भेज, खोल, जला, जोड़ -->
+    <feat name="vib-0_दे+या_जा+या१_था" value="" upos="VERB">26</feat><!-- कर, दे, जला, छोड़, पलट, रख, रोक, लगा, हटा -->
+    <feat name="vib-0_दे+या_जा+या१_है" value="" upos="VERB">84</feat><!-- कर, दे, भेज, सौंप, बदल, लगा, टाल, बढ़ा, रोक, करा -->
+    <feat name="vib-0_दे+या_जा+या१_हो" value="" upos="VERB">1</feat><!-- रख -->
+    <feat name="vib-0_दे+या_जान+ना_के_कारण" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_दे+या_था" value="" upos="VERB">126</feat><!-- कर, दे, लगा, भेज, मार, कह, छोड़, ठुकरा, बेच, रोक -->
+    <feat name="vib-0_दे+या_है" value="" upos="VERB">239</feat><!-- कर, दे, भेज, लगा, बढ़ा, खो, टाल, सौंप, खोल, करा -->
+    <feat name="vib-0_दे+या_हो+ता" value="" upos="VERB">1</feat><!-- भेज -->
+    <feat name="vib-0_दे+या१_जा+या१_है" value="" upos="VERB">1</feat><!-- छाप -->
+    <feat name="vib-0_दे_रह+या_था" value="" upos="VERB">1</feat><!-- दबा -->
+    <feat name="vib-0_द्वारा" value="" upos="NOUN,PRON,PROPN">459</feat><!-- सरकार, मंत्रालय, पुलिस, सिंह, आयोग, विभाग, कोर्ट, पाकिस्तान, समिति, अमेरिका -->
+    <feat name="vib-0_धमक+या" value="" upos="VERB">1</feat><!-- आ -->
+    <feat name="vib-0_नजदीक" value="" upos="PRON">1</feat><!-- सबसे -->
+    <feat name="vib-0_नायर" value="" upos="PROPN">1</feat><!-- नायर -->
+    <feat name="vib-0_निकट" value="" upos="PRON">1</feat><!-- सबसे -->
+    <feat name="vib-0_निकल+या" value="" upos="VERB">2</feat><!-- भाग -->
+    <feat name="vib-0_निकल+या_था" value="" upos="VERB">1</feat><!-- भाग -->
+    <feat name="vib-0_निकाल+या" value="" upos="VERB">1</feat><!-- ढूंढ़ -->
+    <feat name="vib-0_निकाल+या_जा+या१_है" value="" upos="VERB">1</feat><!-- खोज -->
+    <feat name="vib-0_निकाल+या_था" value="" upos="VERB">1</feat><!-- खोज -->
+    <feat name="vib-0_निकाल+या_है" value="" upos="VERB">1</feat><!-- खोज -->
+    <feat name="vib-0_नीचे" value="" upos="NOUN">5</feat><!-- डिग्री -->
+    <feat name="vib-0_नीचे_तक" value="" upos="NOUN">2</feat><!-- सेंटीग्रेट, सेंटीमीटर -->
+    <feat name="vib-0_ने" value="" upos="NOUN,NUM,PRON,PROPN">6030</feat><!-- सिंह, सरकार, पुलिस, अदालत, लोगों, सूत्रों, कोर्ट, प्रधानमंत्री, आयोग, अधिकारियों -->
+    <feat name="vib-0_पड+या" value="" upos="VERB">5</feat><!-- उलझ, आ, टूट, दौड़ -->
+    <feat name="vib-0_पड+या_है" value="" upos="VERB">1</feat><!-- चल -->
+    <feat name="vib-0_पड_रह+या_है" value="" upos="VERB">1</feat><!-- जान -->
+    <feat name="vib-0_पड़+या" value="" upos="VERB">1</feat><!-- निकल -->
+    <feat name="vib-0_पर" value="" upos="NOUN,NUM,PRON,PROPN">3637</feat><!-- मुद्दे, इस, मौके, आधार, मसले, तौर, याचिका, स्तर, स्थान, पद -->
+    <feat name="vib-0_पर_से" value="" upos="NOUN">2</feat><!-- चैनलों, मैच -->
+    <feat name="vib-0_परिणामस्वरूप" value="" upos="PRON">2</feat><!-- जिसके -->
+    <feat name="vib-0_पश्चात" value="" upos="PRON">3</feat><!-- इसके, उसके -->
+    <feat name="vib-0_पहला" value="" upos="NOUN">9</feat><!-- दिन, महीने, वर्ष, सप्ताह -->
+    <feat name="vib-0_पहले" value="" upos="NOUN,PRON">180</feat><!-- इससे, दिन, साल, महीने, इसके, माह, समय, मिनट, वर्ष, उनसे -->
+    <feat name="vib-0_पहले_का" value="" upos="NOUN">1</feat><!-- साल -->
+    <feat name="vib-0_पहले_तक" value="" upos="NOUN">7</feat><!-- दिन, साल, माह, समय -->
+    <feat name="vib-0_पहले_से" value="" upos="NOUN,PRON">5</feat><!-- महीने, उससे, चुनाव, समय -->
+    <feat name="vib-0_पहुँच+या" value="" upos="VERB">2</feat><!-- जा -->
+    <feat name="vib-0_पहुंच+एं" value="" upos="VERB">1</feat><!-- आ -->
+    <feat name="vib-0_पहुंच+या" value="" upos="VERB">4</feat><!-- जा, आ -->
+    <feat name="vib-0_पहुंच+या_है" value="" upos="VERB">1</feat><!-- जा -->
+    <feat name="vib-0_पहुंचा+या" value="" upos="VERB">1</feat><!-- जा -->
+    <feat name="vib-0_पा+एं" value="" upos="VERB">2</feat><!-- बिगड़, मिल -->
+    <feat name="vib-0_पा+गा" value="" upos="VERB">21</feat><!-- हो, कर, आ, उठा, उतर, खेल, डाल, दे, पहुंच, बेच -->
+    <feat name="vib-0_पा+ता" value="" upos="VERB">8</feat><!-- कर, हो, फटक, मिल, रोक, लगा -->
+    <feat name="vib-0_पा+ता_था" value="" upos="VERB">3</feat><!-- कमा, कर, हो -->
+    <feat name="vib-0_पा+ता_है" value="" upos="VERB">15</feat><!-- मिल, हो, आ, कर, जा, दे, पहुंच, रिस, लगा -->
+    <feat name="vib-0_पा+ना" value="" upos="VERB">7</feat><!-- कर, छोड़, बता, बोल, रोक -->
+    <feat name="vib-0_पा+ना_का" value="" upos="VERB">2</feat><!-- कह, समझ -->
+    <feat name="vib-0_पा+ना_के_कारण" value="" upos="VERB">4</feat><!-- बन, हो -->
+    <feat name="vib-0_पा+ना_के_बाद" value="" upos="VERB">1</feat><!-- खेल -->
+    <feat name="vib-0_पा+ना_पर" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_पा+ना_में" value="" upos="VERB">2</feat><!-- देख, रोक -->
+    <feat name="vib-0_पा+ना_वाला" value="" upos="VERB">1</feat><!-- चढ़ -->
+    <feat name="vib-0_पा+या" value="" upos="VERB">33</feat><!-- हो, कर, उठा, देख, बना, मिल, रख, जुटा, तलाश, पहुंच -->
+    <feat name="vib-0_पा+या_था" value="" upos="VERB">6</feat><!-- कर, हो, पहुँच, बन -->
+    <feat name="vib-0_पा+या_है" value="" upos="VERB">40</feat><!-- हो, चल, बन, मिल, उबर, कर, पहुंच, निभा, भेज -->
+    <feat name="vib-0_पा_रह+या" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_पा_रह+या_था" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_पा_रह+या_है" value="" upos="VERB">16</feat><!-- कर, बढ़, हो, जा, निकल, निभा, पचा, पहुंच, बढ़, बन -->
+    <feat name="vib-0_पास" value="" upos="PRON">50</feat><!-- उनके, उसके, हमारे, अपने, इसके, आपके, जिनके, जिसके, मेरे -->
+    <feat name="vib-0_पास_का" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-0_पास_से" value="" upos="PRON">1</feat><!-- उनके -->
+    <feat name="vib-0_पीछे" value="" upos="NOUN,PRON">13</feat><!-- इसके, अपने, उसके, बरस -->
+    <feat name="vib-0_पूर्व" value="" upos="NOUN,PRON">35</feat><!-- इससे, इसके, वर्ष, दिन, चुनाव, बजट, समय, साल, दशक, महीना -->
+    <feat name="vib-0_प्रति" value="" upos="PRON">4</feat><!-- उनके, उसके -->
+    <feat name="vib-0_पड़+ना_पर" value="" upos="VERB">1</feat><!-- आ -->
+    <feat name="vib-0_पड़+या" value="" upos="VERB">6</feat><!-- निकल, आन, उछल, गिर, हंस -->
+    <feat name="vib-0_पड़+या_है" value="" upos="VERB">3</feat><!-- चल -->
+    <feat name="vib-0_फलस्वरूप" value="" upos="PRON">1</feat><!-- जिसके -->
+    <feat name="vib-0_फूंक+कर" value="" upos="VERB">1</feat><!-- फूंक -->
+    <feat name="vib-0_फेंक+या" value="" upos="VERB">1</feat><!-- उखाड़ -->
+    <feat name="vib-0_बकौल" value="" upos="NOUN,PRON,PROPN">13</feat><!-- उनके, आडवाणी, आनंद, उमा, कांग्रेस, बोर्लेग, महरोत्रा, महाजन, साध्वी, सिंघवी -->
+    <feat name="vib-0_बगल_का" value="" upos="PRON">1</feat><!-- उसके -->
+    <feat name="vib-0_बजाय" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-0_बतौर" value="" upos="NOUN,PROPN">18</feat><!-- रिश्वत, सैंपल, अभिनेत्री, उत्तराधिकारी, एस्कार्ट, किराया, किरायेदार, परामर्शदाता, पाठशाला, भत्ता -->
+    <feat name="vib-0_बदले" value="" upos="PRON">3</feat><!-- इसके, उनके, उसके -->
+    <feat name="vib-0_बनाम" value="" upos="NOUN">1</feat><!-- जाट -->
+    <feat name="vib-0_बाद" value="" upos="NOUN,PRON">251</feat><!-- इसके, उसके, दिन, साल, देर, दोपहर, घंटे, दिनों, जिसके, महीने -->
+    <feat name="vib-0_बाद_का" value="" upos="NOUN,PRON,PROPN">3</feat><!-- उसके, गोधरा, चुनाव -->
+    <feat name="vib-0_बाद_से" value="" upos="NOUN,PRON">6</feat><!-- इसके, उसके, दोपहर -->
+    <feat name="vib-0_बाबत" value="" upos="PRON">9</feat><!-- इस -->
+    <feat name="vib-0_बारे_में" value="" upos="PRON">118</feat><!-- इस, इसके, इनके, उसके, अपने, इसी, उस, जिसके, तुम्हारे -->
+    <feat name="vib-0_बावजूद" value="" upos="PRON">13</feat><!-- इसके, सबके -->
+    <feat name="vib-0_बाहर" value="" upos="PRON">2</feat><!-- इससे, उसके -->
+    <feat name="vib-0_बीच" value="" upos="PRON">4</feat><!-- उनके, हमारे -->
+    <feat name="vib-0_बैठ+गा" value="" upos="VERB">1</feat><!-- खो -->
+    <feat name="vib-0_बैठ+ता_है" value="" upos="VERB">3</feat><!-- उठ, कर, तोड़ -->
+    <feat name="vib-0_बैठ+या" value="" upos="VERB">9</feat><!-- खो, दे, कर, छेड़, तुड़वा, थमा, बन -->
+    <feat name="vib-0_भी" value="" upos="NOUN">1</feat><!-- रुपये -->
+    <feat name="vib-0_मद्देनजर" value="" upos="PRON">6</feat><!-- इसके -->
+    <feat name="vib-0_मद्देनज़र" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-0_मध्य_में" value="" upos="PROPN">2</feat><!-- जून -->
+    <feat name="vib-0_मा" value="" upos="NOUN">1</feat><!-- नाटक -->
+    <feat name="vib-0_माध्यम_से" value="" upos="PRON">1</feat><!-- जिसके -->
+    <feat name="vib-0_मुताबिक" value="" upos="PRON">17</feat><!-- उनके, उसके, इसके -->
+    <feat name="vib-0_में" value="" upos="ADV,NOUN,NUM,PRON,PROPN">9512</feat><!-- मामले, बैठक, क्षेत्र, राज्य, देश, बाद, दिल्ली, भारत, हाल, चुनाव -->
+    <feat name="vib-0_में_पर" value="" upos="NOUN">1</feat><!-- विषय -->
+    <feat name="vib-0_में_से" value="" upos="NOUN,NUM,PRON,PROPN">75</feat><!-- समर्थकों, सीटों, घायलों, चार, तीन, पदों, मंदिरों, राशि, 28, 64 -->
+    <feat name="vib-0_रख+या_था" value="" upos="VERB">5</feat><!-- कर, छेड़, बांध -->
+    <feat name="vib-0_रख+या_है" value="" upos="VERB">16</feat><!-- कर, साध, छेड़, दे, रोक, लगा -->
+    <feat name="vib-0_रह+एं" value="" upos="VERB">4</feat><!-- घूम, चल, झेल, रह -->
+    <feat name="vib-0_रह+एं_था" value="" upos="VERB">2</feat><!-- कर, सोच -->
+    <feat name="vib-0_रह+एं_है" value="" upos="VERB">2</feat><!-- दे, लग -->
+    <feat name="vib-0_रह+गा" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-0_रह+ता_है" value="" upos="VERB">1</feat><!-- लगा -->
+    <feat name="vib-0_रह+या" value="" upos="VERB">206</feat><!-- चल, कर, हो, दे, आ, रह, जा, बन, जूझ, पढ़ -->
+    <feat name="vib-0_रह+या_था" value="" upos="VERB">186</feat><!-- कर, चल, दे, जा, आ, हो, लगा, गुजर, बोल, लौट -->
+    <feat name="vib-0_रह+या_है" value="" upos="VERB">790</feat><!-- कर, हो, चल, आ, जा, दे, बढ़, मिल, ले, बना -->
+    <feat name="vib-0_रह+या_हो" value="" upos="VERB">6</feat><!-- कर, कह, खेल, चल, छू, सुधर -->
+    <feat name="vib-0_रह+या_हो+गा" value="" upos="VERB">1</feat><!-- सोच -->
+    <feat name="vib-0_रह+या_हो+ता" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_रह+या_हो+ता_है" value="" upos="VERB">2</feat><!-- जूझ, दे -->
+    <feat name="vib-0_रह+या_हों" value="" upos="VERB">1</feat><!-- दे -->
+    <feat name="vib-0_रहा+या_है" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_लिए" value="" upos="PRON">163</feat><!-- इसके, उनके, उसके, अपने, आपके, जिसके, हमारे, मेरे, सबके, किस -->
+    <feat name="vib-0_लिया+या_जा+ना_चाहिए_था" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_ले" value="" upos="VERB">1</feat><!-- संभाल -->
+    <feat name="vib-0_ले+ए" value="" upos="VERB">1</feat><!-- डाल -->
+    <feat name="vib-0_ले+एं" value="" upos="VERB">9</feat><!-- कर, ले, काट, परख, बांध -->
+    <feat name="vib-0_ले+ओ" value="" upos="VERB">1</feat><!-- भर -->
+    <feat name="vib-0_ले+गा" value="" upos="VERB">9</feat><!-- ले, कर, काट, ढूँढ़, पकड़, बचा, सुलझा -->
+    <feat name="vib-0_ले+ता" value="" upos="VERB">2</feat><!-- रोक -->
+    <feat name="vib-0_ले+ता_है" value="" upos="VERB">13</feat><!-- कर, करा, घेर, जोड़, दबा, बना, मोह, वसूल, सो, हटा -->
+    <feat name="vib-0_ले+ना" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_ले+ना_का" value="" upos="VERB">5</feat><!-- कर, ले -->
+    <feat name="vib-0_ले+ना_के_बाद" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_ले+ना_चाहिए" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_ले+ना_पर" value="" upos="VERB">2</feat><!-- कर -->
+    <feat name="vib-0_ले+ना_वाला" value="" upos="VERB">1</feat><!-- माँग -->
+    <feat name="vib-0_ले+या" value="" upos="VERB">102</feat><!-- कर, ले, पकड़, घेर, जीत, दबोच, खींच, छीन, निकाल, बचा -->
+    <feat name="vib-0_ले+या_जा+एं" value="" upos="VERB">9</feat><!-- कर, मान, करवा -->
+    <feat name="vib-0_ले+या_जा+गा" value="" upos="VERB">21</feat><!-- कर, निकाल, पा, ले, चुन, तलाश, भर, लगा, सुलझा -->
+    <feat name="vib-0_ले+या_जा+ता_है" value="" upos="VERB">2</feat><!-- कर -->
+    <feat name="vib-0_ले+या_जा+ना_का" value="" upos="VERB">2</feat><!-- ले, हटा -->
+    <feat name="vib-0_ले+या_जा+ना_के_बाद" value="" upos="VERB">2</feat><!-- अपना, कर -->
+    <feat name="vib-0_ले+या_जा+या" value="" upos="VERB">2</feat><!-- कर -->
+    <feat name="vib-0_ले+या_जा+या1" value="" upos="VERB">6</feat><!-- कर, ले -->
+    <feat name="vib-0_ले+या_जा+या1_था" value="" upos="VERB">2</feat><!-- कर, बुला -->
+    <feat name="vib-0_ले+या_जा+या1_है" value="" upos="VERB">7</feat><!-- कर, चुन -->
+    <feat name="vib-0_ले+या_जा+या१" value="" upos="VERB">19</feat><!-- कर, ले, उतार, उठा, दबोच, मांग, रोक -->
+    <feat name="vib-0_ले+या_जा+या१_था" value="" upos="VERB">5</feat><!-- कर, बचा, ले, हटा -->
+    <feat name="vib-0_ले+या_जा+या१_है" value="" upos="VERB">28</feat><!-- कर, हटा, उतार, चुन, निपटा, पकड़, बुला, मंगा, मान, ले -->
+    <feat name="vib-0_ले+या_था" value="" upos="VERB">35</feat><!-- कर, ले, बना, उतार, माँग, करा, चुरा, ठान, थाम, दबोच -->
+    <feat name="vib-0_ले+या_है" value="" upos="VERB">73</feat><!-- कर, ले, पकड़, बदल, बुला, करा, कस, जुटा, झटक, झाड़ -->
+    <feat name="vib-0_ले+या_हो+ता" value="" upos="VERB">1</feat><!-- ले -->
+    <feat name="vib-0_ले_जा+या१" value="" upos="VERB">1</feat><!-- बहा -->
+    <feat name="vib-0_ले_रह+या_है" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_वजह_से" value="" upos="PRON">12</feat><!-- इसकी, जिसकी, जिनकी -->
+    <feat name="vib-0_वाला" value="" upos="ADV,NOUN,NUM,PROPN">206</feat><!-- नेतृत्व, अध्यक्षता, आबादी, क्षमता, ऊंचाई, घर, नियंत्रण, परिवार, अगुवाई, छवि -->
+    <feat name="vib-0_वाला_का" value="" upos="NOUN">1</feat><!-- गांव -->
+    <feat name="vib-0_वाला_के_लिए" value="" upos="NOUN">1</feat><!-- परिवार -->
+    <feat name="vib-0_वाला_को" value="" upos="NOUN">5</feat><!-- परिवार, घर -->
+    <feat name="vib-0_वाला_ने" value="" upos="NOUN">4</feat><!-- घर, परिवार, पुलिस, शिकारे -->
+    <feat name="vib-0_वाला_से" value="" upos="NOUN">1</feat><!-- पुलिस -->
+    <feat name="vib-0_विपरीत" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-0_विपिन" value="" upos="PROPN">1</feat><!-- विपिन -->
+    <feat name="vib-0_विरुद्ध" value="" upos="PRON">1</feat><!-- इनके -->
+    <feat name="vib-0_विरोध_में" value="" upos="PRON">1</feat><!-- उनके -->
+    <feat name="vib-0_संग" value="" upos="PRON">1</feat><!-- उनके -->
+    <feat name="vib-0_सक+ऊँ" value="" upos="VERB">1</feat><!-- कर -->
+    <feat name="vib-0_सक+एं" value="" upos="VERB">41</feat><!-- कर, हो, मिल, दे, निकल, लग, अपना, उठा, चल, पहचान -->
+    <feat name="vib-0_सक+गा" value="" upos="VERB">46</feat><!-- कर, हो, मिल, ले, उठा, आ, करा, जुटा, दे, बेच -->
+    <feat name="vib-0_सक+ता" value="" upos="VERB">54</feat><!-- हो, कर, कह, दे, जा, ले, सोच, अपना, टाल, डाल -->
+    <feat name="vib-0_सक+ता_था" value="" upos="VERB">8</feat><!-- कर, करा, खटक, दिला, पकड़, हो -->
+    <feat name="vib-0_सक+ता_है" value="" upos="VERB">358</feat><!-- कर, हो, ले, दे, मिल, आ, जा, पड़, लग, उठा -->
+    <feat name="vib-0_सक+ता_हो" value="" upos="VERB">1</feat><!-- निकल -->
+    <feat name="vib-0_सक+ना_का" value="" upos="VERB">1</feat><!-- दे -->
+    <feat name="vib-0_सक+ना_का_वजह_से" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-0_सक+या" value="" upos="VERB">46</feat><!-- हो, कर, चल, दे, मिल, आ, जा, निकल, उतर, उबर -->
+    <feat name="vib-0_सक+या_था" value="" upos="VERB">3</feat><!-- खोल, मिल, हो -->
+    <feat name="vib-0_सक+या_है" value="" upos="VERB">13</feat><!-- हो, चल, मिल, आ, कर, निकाल, बच, बन, लग -->
+    <feat name="vib-0_समक्ष" value="" upos="PRON">4</feat><!-- उसके, अपने, उनके -->
+    <feat name="vib-0_समान" value="" upos="NOUN">2</feat><!-- पिता -->
+    <feat name="vib-0_समेत" value="" upos="NOUN,PROPN">117</feat><!-- कश्मीर, कांफ्रेंस, टाटा, परिवार, बिहार, मॉल, लादेन, अधिकारियों, अफसरों, आकलन -->
+    <feat name="vib-0_सरीखा" value="" upos="NOUN,PROPN">4</feat><!-- कांग्रेस, पृथ्वी, भारती, मेकर -->
+    <feat name="vib-0_सहित" value="" upos="NOUN,PROPN">68</feat><!-- कश्मीर, कोर्ट, जोशी, भारतीय, सिंह, अंकों, अजहर, अपहरण, अमेरिका, आनंद -->
+    <feat name="vib-0_सा" value="" upos="NOUN">1</feat><!-- सोने -->
+    <feat name="vib-0_साथ" value="" upos="NOUN,PRON">142</feat><!-- इसके, उनके, अपने, उसके, हमारे, मेरे, आपके, एक, जिसके -->
+    <feat name="vib-0_साथ_में" value="" upos="PRON">1</feat><!-- उनके -->
+    <feat name="vib-0_सामने" value="" upos="PRON">10</feat><!-- उनके, अपने, आपके, इसके, मेरे, सबके, हमारे -->
+    <feat name="vib-0_से" value="" upos="ADV,NOUN,NUM,PRON,PROPN">4817</feat><!-- रूप, तरह, सरकार, पत्रकारों, तरीके, इनमें, नेताओं, पद, सिंह, गंभीरता -->
+    <feat name="vib-0_से_अलग" value="" upos="NOUN">1</feat><!-- बातों -->
+    <feat name="vib-0_से_आगे" value="" upos="NOUN,PROPN">5</feat><!-- कांग्रेस, बैण्ड, लड़कों, हदों, २००४ -->
+    <feat name="vib-0_से_ऊपर" value="" upos="NOUN">4</feat><!-- निशान, बयानबाजी, लाइन, विचारधारा -->
+    <feat name="vib-0_से_ऊपर_का" value="" upos="NOUN">1</feat><!-- रुपये -->
+    <feat name="vib-0_से_दूर" value="" upos="NOUN,PROPN">7</feat><!-- कवायद, क्षेत्र, खिचाव, बाध्यताओं, भाड़, भारत, माहौल -->
+    <feat name="vib-0_से_नीचे" value="" upos="NOUN">4</feat><!-- कमर, ट्रेन, मंच, रेखा -->
+    <feat name="vib-0_से_परे" value="" upos="NOUN">3</feat><!-- कल्पना, जीत -->
+    <feat name="vib-0_से_पहला" value="" upos="NOUN">2</feat><!-- आगमन, यात्रा -->
+    <feat name="vib-0_से_पहले" value="" upos="NOUN,PROPN">57</feat><!-- चुनाव, चुनावों, बैठक, यात्रा, अक्तूबर, घटना, मैच, समय, अंत, अवधि -->
+    <feat name="vib-0_से_पहले_का" value="" upos="PROPN">2</feat><!-- 1953, वैट -->
+    <feat name="vib-0_से_पीछा" value="" upos="NOUN">1</feat><!-- समझौते -->
+    <feat name="vib-0_से_पीछे" value="" upos="NOUN,PROPN">2</feat><!-- खोखर, हितों -->
+    <feat name="vib-0_से_पूर्व" value="" upos="NOUN">9</feat><!-- समय, अमल, चुनाव, दौरे, बजट, बातचीत, बैठक -->
+    <feat name="vib-0_से_पूर्व_का" value="" upos="PROPN">1</feat><!-- अजंता -->
+    <feat name="vib-0_से_बाहर" value="" upos="NOUN,PROPN">40</feat><!-- दायरे, सदन, क्षेत्र, घर, जेल, टीम, बिहार, भारत, कमरों, कार -->
+    <feat name="vib-0_से_बाहर_तक" value="" upos="NOUN">1</feat><!-- शहर -->
+    <feat name="vib-0_से_लेकर" value="" upos="NOUN,NUM,PRON,PROPN">20</feat><!-- घंटे, रुपये, 10.00, 3.00, 350, इंच, ई.पू., उपाधीक्षक, एक, तब -->
+    <feat name="vib-0_स्वरूप" value="" upos="NOUN">3</feat><!-- पुरस्कार, प्रसाद -->
+    <feat name="vib-0_हवाला_से" value="" upos="PRON">1</feat><!-- उनके -->
+    <feat name="vib-0_हेतु" value="" upos="NOUN">2</feat><!-- दर्शन, विमर्श -->
+    <feat name="vib-0_है" value="" upos="VERB">15</feat><!-- लगा, मिला, बना, घटा, चला, जुटा, पहुँचा, बढ़ा -->
+    <feat name="vib-0_हो+गा" value="" upos="VERB">1</feat><!-- चाहिए -->
+    <feat name="vib-0_हो+या" value="" upos="VERB">1</feat><!-- जमा -->
+    <feat name="vib-0_हो+या_था" value="" upos="VERB">1</feat><!-- जमा -->
+    <feat name="vib-0_हो+या_है" value="" upos="VERB">7</feat><!-- लगा, बना, छुपा, मचा -->
+    <feat name="vib-0_हो_जा+या१" value="" upos="VERB">1</feat><!-- जमा -->
+    <feat name="vib-0_ज़रिए" value="" upos="PRON">1</feat><!-- इसके -->
+    <feat name="vib-any" value="" upos="NOUN,NUM">6</feat><!-- अरब, तीन, १०,०००, १५, ३२०,०००, ४.१६ -->
+    <feat name="vib-o" value="" upos="ADP,NOUN,PROPN">4</feat><!-- अनुसार, आज, भारत, सुप्रीमो -->
+    <feat name="vib-o_जा+या" value="" upos="VERB">1</feat><!-- हो -->
+    <feat name="vib-o_दे+या" value="" upos="VERB">1</feat><!-- छोड़ -->
+    <feat name="vib-ऊँ" value="" upos="AUX">2</feat><!-- सकूं, हूं -->
+    <feat name="vib-ए" value="" upos="AUX,VERB">2</feat><!-- रहे, लें -->
+    <feat name="vib-एं" value="" upos="AUX,VERB">660</feat><!-- जाए, सके, करें, करे, दें, रहे, जाएं, हुए, जाएँ, मिले -->
+    <feat name="vib-एं_जा+या१" value="" upos="VERB">1</feat><!-- सौंपे -->
+    <feat name="vib-एं_जा_रह+एं_है" value="" upos="VERB">1</feat><!-- गिराए -->
+    <feat name="vib-ओ" value="" upos="AUX,PROPN,VERB">22</feat><!-- बताओ, करो, जाओ, दो, बचाओ, लो, खटखटाओ, चलो, रहो, रोको -->
+    <feat name="vib-कर" value="" upos="ADJ,ADV,AUX,VERB">1131</feat><!-- लेकर, करके, होकर, देकर, मिलकर, आकर, जाकर, छोड़कर, बढ़कर, देखकर -->
+    <feat name="vib-कर_आ+या" value="" upos="VERB">1</feat><!-- बहकर -->
+    <feat name="vib-कर_जा+या१" value="" upos="VERB">1</feat><!-- लेकर -->
+    <feat name="vib-कर_रख+या" value="" upos="VERB">1</feat><!-- रोके -->
+    <feat name="vib-कर_है" value="" upos="VERB">1</feat><!-- बढ़कर -->
+    <feat name="vib-कर_हो+या" value="" upos="VERB">1</feat><!-- लेकर -->
+    <feat name="vib-का" value="" upos="ADP,PRON,avy">1850</feat><!-- उनके, उनकी, इसका, उनका, इसकी, उसकी, उसके, इसके, उसका, हमारी -->
+    <feat name="vib-के" value="" upos="PRON,VERB">42</feat><!-- उनके, इसके, उसके, जिसके, इनके, करके, जिनके, मेरे, सबके -->
+    <feat name="vib-को" value="" upos="NOUN,PRON">1166</feat><!-- उन्हें, उसे, इसे, हमें, जिसे, मुझे, इन्हें, जिन्हें, आपको, उनको -->
+    <feat name="vib-गा" value="" upos="AUX,PROPN,VERB">2398</feat><!-- जाएगा, होगा, करेंगे, होगी, जाएगी, होंगे, करेगी, करेगा, जाएंगे, रहेगा -->
+    <feat name="vib-गा_जा+या१_था" value="" upos="VERB">1</feat><!-- मांगी -->
+    <feat name="vib-गा_था" value="" upos="VERB">1</feat><!-- मांगे -->
+    <feat name="vib-गा_है" value="" upos="VERB">4</feat><!-- मांगी, मांगा -->
+    <feat name="vib-ता" value="" upos="AUX,PROPN,VERB,v">1480</feat><!-- सकता, जाता, सकते, सकती, जाती, जाते, करते, होता, होते, देते -->
+    <feat name="vib-ता_आ+या_है" value="" upos="VERB">2</feat><!-- दिखाता, देते -->
+    <feat name="vib-ता_आ_रह+या_है" value="" upos="VERB">3</feat><!-- करता, करते -->
+    <feat name="vib-ता_चल+या_जा+या१" value="" upos="VERB">3</feat><!-- दौड़ता, निकलता, होते -->
+    <feat name="vib-ता_जा+ता_है" value="" upos="VERB">1</feat><!-- होता -->
+    <feat name="vib-ता_जा+या१" value="" upos="VERB">1</feat><!-- बढ़ती -->
+    <feat name="vib-ता_जा+या१_है" value="" upos="VERB">1</feat><!-- घटती -->
+    <feat name="vib-ता_जा_रह+या_है" value="" upos="VERB">28</feat><!-- होती, बढ़ता, बनता, बनते, होता, अपनाती, आती, कसता, खोते, निकलता -->
+    <feat name="vib-ता_था" value="" upos="VERB">99</feat><!-- चाहते, करते, चाहती, करता, रहता, रहते, करती, होता, लेता, होती -->
+    <feat name="vib-ता_था_जैसा" value="" upos="VERB">1</feat><!-- सोता -->
+    <feat name="vib-ता_बच+या" value="" upos="VERB">1</feat><!-- होते -->
+    <feat name="vib-ता_बन+ता_था" value="" upos="VERB">1</feat><!-- देखते -->
+    <feat name="vib-ता_बन+या" value="" upos="VERB">2</feat><!-- चलते -->
+    <feat name="vib-ता_में" value="" upos="VERB">4</feat><!-- लिखित -->
+    <feat name="vib-ता_रह+एं" value="" upos="VERB">2</feat><!-- करते, चलता -->
+    <feat name="vib-ता_रह+गा" value="" upos="VERB">19</feat><!-- करते, चलता, देता, देते, आते, करता, करती, कराता, घुटते, चलाता -->
+    <feat name="vib-ता_रह+ता_है" value="" upos="VERB">22</feat><!-- करते, होती, आती, मिलती, उड़ती, करती, खिसकती, गिरता, घुमाता, चलती -->
+    <feat name="vib-ता_रह+या" value="" upos="VERB">53</feat><!-- करते, करता, चलता, होती, चलते, देते, लगाते, अपनाता, आते, उठाते -->
+    <feat name="vib-ता_रह+या_है" value="" upos="VERB">45</feat><!-- करते, करता, करती, आते, देता, देते, निभाता, होती, आती, कहते -->
+    <feat name="vib-ता_रह_जा+या१" value="" upos="VERB">1</feat><!-- दबोचते -->
+    <feat name="vib-ता_वक्त" value="" upos="VERB">5</feat><!-- करते, कराते, जाते, बनाते, लौटते -->
+    <feat name="vib-ता_समय" value="" upos="VERB">19</feat><!-- करते, जाते, देते, होते, दौड़ते, निकलते, रचते, लेते, लौटते -->
+    <feat name="vib-ता_है" value="" upos="VERB">1029</feat><!-- करते, चाहते, होता, होती, चाहती, चाहता, करता, करती, लगता, बताते -->
+    <feat name="vib-ता_हो" value="" upos="VERB">8</feat><!-- करते, खुलती, बिकते, मरते, रखता, रखते, रहती, होता -->
+    <feat name="vib-ता_हो+एं" value="" upos="VERB">16</feat><!-- करते, देते, देखते, अपनाते, जताते, बताते, मानते, रहते, लगाते -->
+    <feat name="vib-ता_हो+गा" value="" upos="VERB">1</feat><!-- करता -->
+    <feat name="vib-ता_हो+ता" value="" upos="VERB">1</feat><!-- करते -->
+    <feat name="vib-ता_हो+या" value="" upos="VERB">704</feat><!-- करते, देते, देखते, बताते, जताते, रखते, लेते, लगाते, कहते, होते -->
+    <feat name="vib-ता_हो+या_में" value="" upos="VERB">1</feat><!-- सोते -->
+    <feat name="vib-था" value="" upos="AUX,VERB">2694</feat><!-- था, थी, थे, थीं, थी,, थीः, रखी -->
+    <feat name="vib-ना" value="" upos="AUX,NOUN,VERB">1941</feat><!-- जाने, कहना, करना, जाना, मानना, करने, देना, जानी, देने, लेने -->
+    <feat name="vib-ना_आ+या" value="" upos="VERB">1</feat><!-- उड़ाने -->
+    <feat name="vib-ना_कर+या_था" value="" upos="VERB">1</feat><!-- जाने -->
+    <feat name="vib-ना_का" value="" upos="VERB">2016</feat><!-- करने, होने, देने, बनाने, कराने, लेने, बढ़ाने, रखने, मिलने, जाने -->
+    <feat name="vib-ना_का_खातिर" value="" upos="VERB">1</feat><!-- निखारने -->
+    <feat name="vib-ना_का_जगह" value="" upos="VERB">1</feat><!-- उठाने -->
+    <feat name="vib-ना_का_बजाए" value="" upos="VERB">1</feat><!-- देने -->
+    <feat name="vib-ना_का_बजाय" value="" upos="VERB">2</feat><!-- करने, देने -->
+    <feat name="vib-ना_का_बाद" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_का_बाबत" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_का_बारे_में" value="" upos="VERB">1</feat><!-- हटाने -->
+    <feat name="vib-ना_का_लिए" value="" upos="VERB">1</feat><!-- संभालने -->
+    <feat name="vib-ना_का_वजह_से" value="" upos="VERB">20</feat><!-- होने, करने, कूदने, खाने, चलने, छोड़ने, जाने, झुकने, देने, पिघलने -->
+    <feat name="vib-ना_की_वजह_से" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_के" value="" upos="VERB">11</feat><!-- करने, होने, जाने, जीने, दिलाने, फिसलने, मिलने, रहने, लेने -->
+    <feat name="vib-ना_के_अलावा" value="" upos="VERB">8</feat><!-- करने, कराने, जाने, डालने, देने, मिलने, हराने -->
+    <feat name="vib-ना_के_एवज_में" value="" upos="VERB">4</feat><!-- करने, देने, रहने -->
+    <feat name="vib-ना_के_कारण" value="" upos="VERB">77</feat><!-- होने, आने, रहने, करने, मिलने, चलने, देने, लगाने, उठने, उड़ने -->
+    <feat name="vib-ना_के_खिलाफ" value="" upos="VERB">3</feat><!-- करने, देने, रखने -->
+    <feat name="vib-ना_के_चलते" value="" upos="VERB">6</feat><!-- होने, फंसने -->
+    <feat name="vib-ना_के_जैसा" value="" upos="VERB">1</feat><!-- गिराने -->
+    <feat name="vib-ना_के_तहत" value="" upos="VERB">1</feat><!-- पहनाने -->
+    <feat name="vib-ना_के_तौर_पर" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_के_दौरान" value="" upos="VERB">8</feat><!-- करने, रहने, खेलने, चराने, लिखने -->
+    <feat name="vib-ना_के_नाता" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_के_नाते" value="" upos="VERB">8</feat><!-- होने -->
+    <feat name="vib-ना_के_निकट" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_के_पश्चात" value="" upos="VERB">3</feat><!-- उठाने, करने, चलने -->
+    <feat name="vib-ना_के_पहले" value="" upos="VERB">4</feat><!-- आने, देखने, बनाने, सुलझने -->
+    <feat name="vib-ना_के_पीछे" value="" upos="VERB">6</feat><!-- करने, टूटने, बनाने, बसने, रोकने -->
+    <feat name="vib-ना_के_प्रति" value="" upos="VERB">1</feat><!-- रखने -->
+    <feat name="vib-ना_के_बजाए" value="" upos="VERB">4</feat><!-- करने, उठाने, जाने -->
+    <feat name="vib-ना_के_बजाय" value="" upos="VERB">9</feat><!-- करने, देने, लाने, सुलझाने -->
+    <feat name="vib-ना_के_बदले" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_के_बहाना" value="" upos="VERB">1</feat><!-- दिलाने -->
+    <feat name="vib-ना_के_बाद" value="" upos="VERB">296</feat><!-- करने, होने, आने, मिलने, देने, लौटने, देखने, लेने, बनने, बनाने -->
+    <feat name="vib-ना_के_बाद_से" value="" upos="VERB">8</feat><!-- होने, आने, करने, छपने -->
+    <feat name="vib-ना_के_बाबत" value="" upos="VERB">1</feat><!-- देने -->
+    <feat name="vib-ना_के_बारे_में" value="" upos="VERB">21</feat><!-- करने, होने, भेजने, उबरने, खोलने, छोड़ने, निपटने, बढ़ने, मिलने, सौंपने -->
+    <feat name="vib-ना_के_बावजूद" value="" upos="VERB">35</feat><!-- होने, करने, देने, छोड़ने, मिलने, रहने, उतरने, उमड़ने, कराने, घटाने -->
+    <feat name="vib-ना_के_बीच" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_के_मद्देनजर" value="" upos="VERB">5</feat><!-- तोड़ने, देने, बढ़ने, रखने, होने -->
+    <feat name="vib-ना_के_लिए" value="" upos="VERB">820</feat><!-- करने, देने, बनाने, रोकने, कराने, लेने, निपटने, लगाने, रखने, देखने -->
+    <feat name="vib-ना_के_लिए+या" value="" upos="VERB">3</feat><!-- करने, निपटने, रखने -->
+    <feat name="vib-ना_के_लिये" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_के_ले" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_के_वास्ते" value="" upos="VERB">3</feat><!-- करने, कराने, निपटने -->
+    <feat name="vib-ना_के_संबंध_में" value="" upos="VERB">6</feat><!-- करने, बनाने, लेने, हटाने, होने -->
+    <feat name="vib-ना_के_समय" value="" upos="VERB">3</feat><!-- करने, गुजरने, भरने -->
+    <feat name="vib-ना_के_समय_तक" value="" upos="VERB">1</feat><!-- कराने -->
+    <feat name="vib-ना_के_समान" value="" upos="VERB">1</feat><!-- लौटने -->
+    <feat name="vib-ना_के_साथ" value="" upos="VERB">40</feat><!-- होने, देने, करने, मिलने, रखने, कराने, छिपाने, जमने, जूझने, तलाशने -->
+    <feat name="vib-ना_के_साथ_साथ" value="" upos="VERB">1</feat><!-- देने -->
+    <feat name="vib-ना_के_सिवा" value="" upos="VERB">1</feat><!-- लगाने -->
+    <feat name="vib-ना_को" value="" upos="VERB">193</feat><!-- करने, देने, आने, देखने, रहने, कराने, रखने, लेने, होने, खोलने -->
+    <feat name="vib-ना_चाह" value="" upos="VERB">1</feat><!-- होना -->
+    <feat name="vib-ना_चाह+एं" value="" upos="VERB">1</feat><!-- जाना -->
+    <feat name="vib-ना_चाहिए" value="" upos="VERB">220</feat><!-- करना, होना, होनी, देना, करनी, मिलना, मिलनी, देनी, रहनी, लेना -->
+    <feat name="vib-ना_चाहिए_था" value="" upos="VERB">11</feat><!-- होनी, करना, करनी, झलकना, बुलाना, रहना, लेना, होना -->
+    <feat name="vib-ना_जा+एं" value="" upos="VERB">1</feat><!-- घूमने -->
+    <feat name="vib-ना_जा+ता_है" value="" upos="VERB">4</feat><!-- जाना, जानी -->
+    <feat name="vib-ना_जा+ना_वाला" value="" upos="VERB">3</feat><!-- जाना, पहचानी, पहने -->
+    <feat name="vib-ना_जा+या१" value="" upos="VERB">1</feat><!-- लेने -->
+    <feat name="vib-ना_जा+या१_हो+या_था" value="" upos="VERB">1</feat><!-- लेने -->
+    <feat name="vib-ना_जा_रह+या" value="" upos="VERB">3</feat><!-- होने -->
+    <feat name="vib-ना_जा_रह+या_था" value="" upos="VERB">1</feat><!-- लेने -->
+    <feat name="vib-ना_जा_रह+या_है" value="" upos="VERB">24</feat><!-- करने, होने, बनाने, लगाने, उठाने, कसने, देने, पड़ने, बनने, बसने -->
+    <feat name="vib-ना_जान+ना_वाला" value="" upos="VERB">1</feat><!-- पहचाने -->
+    <feat name="vib-ना_जैसा" value="" upos="VERB">5</feat><!-- करने, जोड़ने, पढ़ाने, बढ़ाने -->
+    <feat name="vib-ना_तक" value="" upos="VERB">13</feat><!-- होने, आने, चलने, पहुंचने, बोलने -->
+    <feat name="vib-ना_तक_का" value="" upos="VERB">4</feat><!-- छोड़ने, देखने, बजाने, बिठाने -->
+    <feat name="vib-ना_तक_से" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_था" value="" upos="VERB">27</feat><!-- करना, होना, होनी, करनी, आना, देना, पहुंचाना, भिड़ना, भुनाना, मिलना -->
+    <feat name="vib-ना_दे+एं" value="" upos="VERB">3</feat><!-- करने, जाने, लगाने -->
+    <feat name="vib-ना_दे+गा" value="" upos="VERB">4</feat><!-- चलने, जाने -->
+    <feat name="vib-ना_दे+ना_का" value="" upos="VERB">2</feat><!-- आने, करने -->
+    <feat name="vib-ना_दे+ना_के_बारे_में" value="" upos="VERB">1</feat><!-- लगने -->
+    <feat name="vib-ना_दे+ना_चाहिए" value="" upos="VERB">2</feat><!-- करने, रहने -->
+    <feat name="vib-ना_दे+ना_वाला" value="" upos="VERB">1</feat><!-- बढ़ने -->
+    <feat name="vib-ना_दे+या" value="" upos="VERB">5</feat><!-- जाने, करने, चलने, होने -->
+    <feat name="vib-ना_दे+या_जा+गा" value="" upos="VERB">3</feat><!-- होने, आने -->
+    <feat name="vib-ना_दे+या_जा+ना_चाहिए" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_दे+या_जा+या१" value="" upos="VERB">1</feat><!-- जाने -->
+    <feat name="vib-ना_दे_कर" value="" upos="VERB">1</feat><!-- कराने -->
+    <feat name="vib-ना_दे_रह+या_था" value="" upos="VERB">1</feat><!-- जाने -->
+    <feat name="vib-ना_पड+एं" value="" upos="VERB">1</feat><!-- करना -->
+    <feat name="vib-ना_पड+गा" value="" upos="VERB">6</feat><!-- करना, चलाना, चुकानी, रहना, रोकना, हटना -->
+    <feat name="vib-ना_पड+ता" value="" upos="VERB">1</feat><!-- करना -->
+    <feat name="vib-ना_पड+ता_है" value="" upos="VERB">4</feat><!-- करना, देनी, धोना -->
+    <feat name="vib-ना_पड+या" value="" upos="VERB">29</feat><!-- करना, करनी, जाना, झुकना, झेलनी, उठाना, उठानी, कराना, खानी, खोलना -->
+    <feat name="vib-ना_पड+या_था" value="" upos="VERB">8</feat><!-- करना, जाना, उठाना, गंवाना, गुजरना, भरनी -->
+    <feat name="vib-ना_पड+या_है" value="" upos="VERB">5</feat><!-- उठाना, करना, करनी, गुजरना -->
+    <feat name="vib-ना_पड_रह+या_था" value="" upos="VERB">1</feat><!-- गुजरना -->
+    <feat name="vib-ना_पड_रह+या_है" value="" upos="VERB">4</feat><!-- करना, लगाना -->
+    <feat name="vib-ना_पड़+ता_था" value="" upos="VERB">1</feat><!-- करना -->
+    <feat name="vib-ना_पड़+या" value="" upos="VERB">1</feat><!-- करना -->
+    <feat name="vib-ना_पड़+या_था" value="" upos="VERB">2</feat><!-- करना, करनी -->
+    <feat name="vib-ना_पड़+या_है" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_पड़_रह+या_है" value="" upos="VERB">2</feat><!-- करना, भुगतना -->
+    <feat name="vib-ना_पर" value="" upos="VERB">263</feat><!-- करने, होने, देने, मिलने, कहने, पहुंचने, आने, बढ़ाने, पूछने, बनाने -->
+    <feat name="vib-ना_पा+एं" value="" upos="VERB">3</feat><!-- होने, बनने -->
+    <feat name="vib-ना_पा+ता" value="" upos="VERB">1</feat><!-- आने -->
+    <feat name="vib-ना_पड़+एं" value="" upos="VERB">3</feat><!-- झुकाना, देना, बनाना -->
+    <feat name="vib-ना_पड़+गा" value="" upos="VERB">13</feat><!-- करना, करनी, अपनाना, उठाना, जाना, देना, रहना -->
+    <feat name="vib-ना_पड़+ता_था" value="" upos="VERB">1</feat><!-- जलाना -->
+    <feat name="vib-ना_पड़+ता_है" value="" upos="VERB">13</feat><!-- करना, जाना, देनी, उठाना, करनी, चुकाना, बैठना, लौटना, समझाना -->
+    <feat name="vib-ना_पड़+या" value="" upos="VERB">52</feat><!-- करना, करनी, उतरना, चलानी, छोड़ना, करने, करवाना, खरीदनी, गवांनी, गुजारनी -->
+    <feat name="vib-ना_पड़+या_था" value="" upos="VERB">9</feat><!-- देना, करना, करनी, चुकानी, जाना, देखना, हटना -->
+    <feat name="vib-ना_पड़+या_है" value="" upos="VERB">3</feat><!-- करना, हटना -->
+    <feat name="vib-ना_पड़_जा+ता_है" value="" upos="VERB">1</feat><!-- बेचनी -->
+    <feat name="vib-ना_पड़_रह+या_था" value="" upos="VERB">1</feat><!-- करना -->
+    <feat name="vib-ना_पड़_रह+या_है" value="" upos="VERB">9</feat><!-- करना, करनी, खरीदनी, जूझना, देनी, होना -->
+    <feat name="vib-ना_पड़_रह+या_हो" value="" upos="VERB">1</feat><!-- लेना -->
+    <feat name="vib-ना_पड़_सक+ता_है" value="" upos="VERB">3</feat><!-- करना, उठाना -->
+    <feat name="vib-ना_में" value="" upos="VERB">275</feat><!-- करने, बनाने, देने, लगाने, लेने, कराने, बढ़ाने, लाने, पाने, होने -->
+    <feat name="vib-ना_योग्य" value="" upos="VERB">1</feat><!-- देखने -->
+    <feat name="vib-ना_रह+गा" value="" upos="VERB">1</feat><!-- जाना -->
+    <feat name="vib-ना_रह+या" value="" upos="VERB">1</feat><!-- देना -->
+    <feat name="vib-ना_लग+एं" value="" upos="VERB">1</feat><!-- छूने -->
+    <feat name="vib-ना_लग+गा" value="" upos="VERB">3</feat><!-- करने, गलने, होने -->
+    <feat name="vib-ना_लग+ता" value="" upos="VERB">1</feat><!-- थमने -->
+    <feat name="vib-ना_लग+ता_है" value="" upos="VERB">4</feat><!-- करने, जलने, भागने, मिलने -->
+    <feat name="vib-ना_लग+या" value="" upos="VERB">46</feat><!-- करने, होने, चलने, जाने, बढ़ने, भागने, रोने, लगने, आने, खरीदने -->
+    <feat name="vib-ना_लग+या_था" value="" upos="VERB">4</feat><!-- करने, मंडराने, मानने, होने -->
+    <feat name="vib-ना_लग+या_है" value="" upos="VERB">21</feat><!-- मानने, मिलने, आने, करने, होने, घटने, चढ़ाने, छूने, जाने, पड़ने -->
+    <feat name="vib-ना_लग_जा+गा" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_लगा" value="" upos="VERB">1</feat><!-- लगाने -->
+    <feat name="vib-ना_लगा_है" value="" upos="VERB">1</feat><!-- होने -->
+    <feat name="vib-ना_लायक" value="" upos="VERB">6</feat><!-- देखने, करने, रहने -->
+    <feat name="vib-ना_वाला" value="" upos="VERB">601</feat><!-- होने, करने, आने, रहने, देने, जाने, मिलने, रखने, चलने, निकलने -->
+    <feat name="vib-ना_वाला+या" value="" upos="VERB">1</feat><!-- रहने -->
+    <feat name="vib-ना_वाला_का" value="" upos="VERB">16</feat><!-- मरने, करने, लेने, आने, खरीदने, चढ़ने, जानने, पाने, बनाने, लगाने -->
+    <feat name="vib-ना_वाला_के_खिलाफ" value="" upos="VERB">6</feat><!-- करने -->
+    <feat name="vib-ना_वाला_के_पास" value="" upos="VERB">1</feat><!-- पाने -->
+    <feat name="vib-ना_वाला_के_बारे_में" value="" upos="VERB">2</feat><!-- गवाने, भेजने -->
+    <feat name="vib-ना_वाला_के_लिए" value="" upos="VERB">6</feat><!-- करने, देने, पड़ने, रहने -->
+    <feat name="vib-ना_वाला_के_विरुद्ध" value="" upos="VERB">2</feat><!-- करने -->
+    <feat name="vib-ना_वाला_को" value="" upos="VERB">13</feat><!-- लगाने, करने, चलने, चाहने, तोड़ने, देने, रखने, लिखने -->
+    <feat name="vib-ना_वाला_था" value="" upos="VERB">6</feat><!-- आने, रहने, करने, होने -->
+    <feat name="vib-ना_वाला_द्वारा" value="" upos="VERB">1</feat><!-- बनाने -->
+    <feat name="vib-ना_वाला_ने" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_वाला_पर" value="" upos="VERB">2</feat><!-- करने -->
+    <feat name="vib-ना_वाला_में" value="" upos="VERB">10</feat><!-- पाने, मरने, जाने, जीतने, देने, पहुंचने, लेने, होने -->
+    <feat name="vib-ना_वाला_समय_में" value="" upos="VERB">1</feat><!-- आने -->
+    <feat name="vib-ना_वाला_से" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_वाला_है" value="" upos="VERB">47</feat><!-- होने, करने, आने, मिलने, अपनाने, आजमाने, चौंकाने, जाने, पहुंचने, पड़ने -->
+    <feat name="vib-ना_संबंधी" value="" upos="VERB">10</feat><!-- करने, कराने, दिलाने, पूछने, बताने, बनाने, हटाने -->
+    <feat name="vib-ना_संबधी" value="" upos="VERB">1</feat><!-- देने -->
+    <feat name="vib-ना_से" value="" upos="VERB">256</feat><!-- करने, होने, देने, आने, जाने, बनने, लेने, कहने, मिलने, रखने -->
+    <feat name="vib-ना_से_पहले" value="" upos="VERB">51</feat><!-- होने, करने, देने, पहुंचने, जाने, लेने, आने, खोलने, निकलने, पहनाने -->
+    <feat name="vib-ना_से_पहले_तक" value="" upos="VERB">2</feat><!-- होने -->
+    <feat name="vib-ना_से_पूर्व" value="" upos="VERB">9</feat><!-- करने, होने, जाने, रखने -->
+    <feat name="vib-ना_से_पूर्व_का" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_से_लेकर" value="" upos="VERB">1</feat><!-- बनाने -->
+    <feat name="vib-ना_हेतु" value="" upos="VERB">1</feat><!-- करने -->
+    <feat name="vib-ना_है" value="" upos="VERB">85</feat><!-- करना, होना, होनी, करनी, देना, देनी, उड़ाना, जताना, देखना, बनानी -->
+    <feat name="vib-ना_हो" value="" upos="VERB">1</feat><!-- देना -->
+    <feat name="vib-ना_हो+गा" value="" upos="VERB">116</feat><!-- करना, करनी, देना, करने, देनी, बनाना, बढ़ाना, रखना, रहना, लेना -->
+    <feat name="vib-ना_हो+ता_है" value="" upos="VERB">5</feat><!-- करना, करनी, कराना, जाना, देना -->
+    <feat name="vib-ने" value="" upos="AUX,PRON">1761</feat><!-- उन्होंने, उसने, हमने, मैंने, जिसने, जिन्होंने, आपने, इन्होंने, किसने, इसने -->
+    <feat name="vib-ने_का" value="" upos="VERB">3</feat><!-- बांटने, मांगने, संभालने -->
+    <feat name="vib-ने_के_बाद" value="" upos="VERB">3</feat><!-- पहुंचने, कराने -->
+    <feat name="vib-ने_के_लिए" value="" upos="VERB">1</feat><!-- सुलझाने -->
+    <feat name="vib-ने_को" value="" upos="VERB">1</feat><!-- जाने -->
+    <feat name="vib-ने_में" value="" upos="VERB">1</feat><!-- ढूंढ़ने -->
+    <feat name="vib-में" value="" upos="PRON">418</feat><!-- इसमें, जिसमें, इनमें, उसमें, जिनमें, उनमें, हममें -->
+    <feat name="vib-या" value="" upos="ADP,AUX,NOUN,VERB,s">11841</feat><!-- कहा, हुए, दिया, रहे, बताया, रही, रहा, दी, किया, की -->
+    <feat name="vib-या1" value="" upos="AUX,VERB">604</feat><!-- गया, गए, गई, गयी, गईं, गये, दिया, हुई -->
+    <feat name="vib-या1_था" value="" upos="VERB">2</feat><!-- गया -->
+    <feat name="vib-या_आ+एं" value="" upos="VERB">1</feat><!-- चले -->
+    <feat name="vib-या_आ+या" value="" upos="VERB">2</feat><!-- चली, चले -->
+    <feat name="vib-या_आ+या_था" value="" upos="VERB">1</feat><!-- चली -->
+    <feat name="vib-या_आ_रह+या" value="" upos="VERB">3</feat><!-- चली, चले -->
+    <feat name="vib-या_कर" value="" upos="VERB">4</feat><!-- हटा, बना, मिटा -->
+    <feat name="vib-या_कर+गा" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_कर+ता_था" value="" upos="VERB">8</feat><!-- हुआ, जाया, ढूंढ़ा, सुना -->
+    <feat name="vib-या_को" value="" upos="VERB">1</feat><!-- लिखे -->
+    <feat name="vib-या_चुक+या" value="" upos="VERB">1</feat><!-- करा -->
+    <feat name="vib-या_चुक+या_है" value="" upos="VERB">1</feat><!-- लगा -->
+    <feat name="vib-या_जा+एं" value="" upos="VERB">123</feat><!-- किया, की, दी, कराया, किए, दिया, लाया, कराई, रखा, कहा -->
+    <feat name="vib-या_जा+गा" value="" upos="VERB">404</feat><!-- किया, की, दिया, दी, किए, बनाया, रखा, लिया, कराई, दिए -->
+    <feat name="vib-या_जा+ता" value="" upos="VERB">7</feat><!-- ठहराया, दी, खिलाया, मारे, रखा -->
+    <feat name="vib-या_जा+ता_था" value="" upos="VERB">9</feat><!-- किया, कहा, गवाया, पहचाना, माना, माने, समझी -->
+    <feat name="vib-या_जा+ता_रह+या" value="" upos="VERB">2</feat><!-- बुलाया -->
+    <feat name="vib-या_जा+ता_रह+या_है" value="" upos="VERB">7</feat><!-- किया, की, उठाए, भेजे, माने -->
+    <feat name="vib-या_जा+ता_रह+या_हो+गा" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_जा+ता_है" value="" upos="VERB">204</feat><!-- किया, बताया, माना, कहा, की, समझा, जाना, दिया, दी, बताई -->
+    <feat name="vib-या_जा+ना" value="" upos="VERB">31</feat><!-- दिया, किए, किया, गिराया, लिया, हटाए, कराए, खोला, चलाया, छोड़ा -->
+    <feat name="vib-या_जा+ना_का" value="" upos="VERB">151</feat><!-- किए, दिए, बनाए, बढ़ाए, मारे, रखे, हटाए, लगाए, लिए, खोले -->
+    <feat name="vib-या_जा+ना_का_ओर" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_का_बजाय" value="" upos="VERB">1</feat><!-- कराए -->
+    <feat name="vib-या_जा+ना_का_बाबत" value="" upos="VERB">1</feat><!-- बढ़ाए -->
+    <feat name="vib-या_जा+ना_का_वजह_से" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_के_कारण" value="" upos="VERB">4</feat><!-- किए, कराए, लगाए -->
+    <feat name="vib-या_जा+ना_के_खिलाफ" value="" upos="VERB">1</feat><!-- रखे -->
+    <feat name="vib-या_जा+ना_के_चलते" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_के_दौरान" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_के_पीछे" value="" upos="VERB">2</feat><!-- किये, चलाए -->
+    <feat name="vib-या_जा+ना_के_बाद" value="" upos="VERB">21</feat><!-- किए, दिए, मारे, गिराए, चले, छोड़े, ठुकराए, पाए, बढ़ाए, भेजे -->
+    <feat name="vib-या_जा+ना_के_बाद_से" value="" upos="VERB">2</feat><!-- किए, दिए -->
+    <feat name="vib-या_जा+ना_के_बारे_में" value="" upos="VERB">5</feat><!-- किए, लगाए, कराए -->
+    <feat name="vib-या_जा+ना_के_बावजूद" value="" upos="VERB">6</feat><!-- दिए, किए, पूछे, बढ़ाए, भेजे -->
+    <feat name="vib-या_जा+ना_के_मद्देनजर" value="" upos="VERB">1</feat><!-- दिए -->
+    <feat name="vib-या_जा+ना_के_लिए" value="" upos="VERB">7</feat><!-- खोले, दिए, बढ़ाए, बनाए -->
+    <feat name="vib-या_जा+ना_के_विरोध_में" value="" upos="VERB">3</feat><!-- गिराए, कराए -->
+    <feat name="vib-या_जा+ना_के_संबंध_में" value="" upos="VERB">2</feat><!-- किए, लगाए -->
+    <feat name="vib-या_जा+ना_के_समय" value="" upos="VERB">1</feat><!-- सुनाए -->
+    <feat name="vib-या_जा+ना_के_समय_से" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_को" value="" upos="VERB">8</feat><!-- किए, दिए, बदले, बढ़ाए, लिए -->
+    <feat name="vib-या_जा+ना_चाहिए" value="" upos="VERB">86</feat><!-- किया, की, दिया, कराई, दी, देखा, निकाला, रखा, लिया, उठाया -->
+    <feat name="vib-या_जा+ना_चाहिए_था" value="" upos="VERB">6</feat><!-- किया, किए, दिया, ली -->
+    <feat name="vib-या_जा+ना_तक" value="" upos="VERB">3</feat><!-- लिखे, लिए -->
+    <feat name="vib-या_जा+ना_था" value="" upos="VERB">10</feat><!-- किया, की, किए, दिए, दिलाई, दी, बदला -->
+    <feat name="vib-या_जा+ना_पर" value="" upos="VERB">60</feat><!-- पूछे, किए, दिए, पाए, उठाए, चुने, जताए, बनाए, सौंपे, हटाए -->
+    <feat name="vib-या_जा+ना_में" value="" upos="VERB">3</feat><!-- किए, मारे, लाए -->
+    <feat name="vib-या_जा+ना_लग+या_है" value="" upos="VERB">3</feat><!-- कराए, किया, पूछा -->
+    <feat name="vib-या_जा+ना_लगा+या_है" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_जा+ना_लगा_है" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_जा+ना_वाला" value="" upos="VERB">54</feat><!-- किए, दिए, की, माने, कराए, चलाई, कहा, कहे, किया, खरीदे -->
+    <feat name="vib-या_जा+ना_वाला_था" value="" upos="VERB">1</feat><!-- चलाई -->
+    <feat name="vib-या_जा+ना_संबंधी" value="" upos="VERB">3</feat><!-- किए, दिए, लिये -->
+    <feat name="vib-या_जा+ना_से" value="" upos="VERB">21</feat><!-- किए, दिए, बनाए, उठाए, फोड़े, बताए, बनाये, माने, लगाए, लिखे -->
+    <feat name="vib-या_जा+ना_से_पहले" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा+ना_से_पूर्व" value="" upos="VERB">1</feat><!-- सौंपे -->
+    <feat name="vib-या_जा+ना_है" value="" upos="VERB">11</feat><!-- किया, की, किए, बनाई, बढ़ाए, भेजा, लाई -->
+    <feat name="vib-या_जा+ने_का" value="" upos="VERB">1</feat><!-- बुलाए -->
+    <feat name="vib-या_जा+या" value="" upos="VERB">12</feat><!-- किए, की, किया, दिया, दिलाई, दी, निपटाया, लिए -->
+    <feat name="vib-या_जा+या1" value="" upos="VERB">181</feat><!-- किया, की, किए, मारे, दी, दिए, दिया, पाया, बनाए, लगाए -->
+    <feat name="vib-या_जा+या1_था" value="" upos="VERB">54</feat><!-- किया, की, बनाया, मारे, किए, खोला, बताया, भेजा, रखी, करवाया -->
+    <feat name="vib-या_जा+या1_है" value="" upos="VERB">165</feat><!-- किया, की, कहा, दिया, बनाया, किए, बनाई, रखा, दी, बनाए -->
+    <feat name="vib-या_जा+या_था" value="" upos="VERB">6</feat><!-- किए, किया, की, खोली, देखा, निकाली -->
+    <feat name="vib-या_जा+या_है" value="" upos="VERB">3</feat><!-- कहा, भेजी -->
+    <feat name="vib-या_जा+या१" value="" upos="VERB">804</feat><!-- किया, की, किए, मारे, दी, कहा, दिए, लगाए, पूछा, पूछे -->
+    <feat name="vib-या_जा+या१_था" value="" upos="VERB">195</feat><!-- किया, की, कहा, मारे, रखा, भेजा, लगाए, किए, दी, लिया -->
+    <feat name="vib-या_जा+या१_है" value="" upos="VERB">615</feat><!-- किया, की, कहा, दिया, दी, बनाया, किए, बताया, रखा, कराया -->
+    <feat name="vib-या_जा+या१_हो" value="" upos="VERB">2</feat><!-- किया -->
+    <feat name="vib-या_जा+या१_हो+गा" value="" upos="VERB">1</feat><!-- रखे -->
+    <feat name="vib-या_जा+या१_हो+ता" value="" upos="VERB">2</feat><!-- किया, दिया -->
+    <feat name="vib-या_जा_चुक+या_था" value="" upos="VERB">1</feat><!-- की -->
+    <feat name="vib-या_जा_चुक+या_है" value="" upos="VERB">33</feat><!-- किया, की, मारे, किए, भेजा, लगाया, कराई, दिया, दी, निकाला -->
+    <feat name="vib-या_जा_चुक_है" value="" upos="VERB">1</feat><!-- पहुंचाया -->
+    <feat name="vib-या_जा_चुका+या_है" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_जा_चुका_है" value="" upos="VERB">5</feat><!-- दिया, किया, धमकाया, भेजा -->
+    <feat name="vib-या_जा_रह+या" value="" upos="VERB">32</feat><!-- की, किए, चलाई, लगाई, चलाए, कराई, किया, चलायी, डाले, बिछाई -->
+    <feat name="vib-या_जा_रह+या_था" value="" upos="VERB">21</feat><!-- की, माना, उछाली, किया, चलाया, चलायी, जताई, दिखाए, दिया, दी -->
+    <feat name="vib-या_जा_रह+या_है" value="" upos="VERB">272</feat><!-- की, किया, माना, किए, दिया, कहा, जताई, देखा, दी, बताया -->
+    <feat name="vib-या_जा_रह+या_है+या" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जा_सक+एं" value="" upos="VERB">37</feat><!-- किया, की, बनाया, उठाया, उबारा, कराई, चला, दिया, पहुँचाई, फोड़ा -->
+    <feat name="vib-या_जा_सक+गा" value="" upos="VERB">13</feat><!-- किया, कहा, किए, की, दी, देखे, निपटाया, पहुंचाया, बचाई, रोका -->
+    <feat name="vib-या_जा_सक+ता" value="" upos="VERB">51</feat><!-- किया, की, कहा, दी, माना, ठहराया, उगाई, खोला, टाला, दिए -->
+    <feat name="vib-या_जा_सक+ता_था" value="" upos="VERB">4</feat><!-- किया, देखा, भेजा, रोका -->
+    <feat name="vib-या_जा_सक+ता_है" value="" upos="VERB">136</feat><!-- किया, की, दिया, देखा, लगाया, दी, बनाया, कहा, किए, देखे -->
+    <feat name="vib-या_जा_सक+या" value="" upos="VERB">10</feat><!-- किया, लिया, उठाया, कराया, किए, चलाया, बचाई, लाये -->
+    <feat name="vib-या_जा_सक+या_था" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_जा_सक+या_है" value="" upos="VERB">6</feat><!-- किया, खोला, पहनाया, पहुंचा, हटाया -->
+    <feat name="vib-या_जान+ना" value="" upos="VERB">1</feat><!-- की -->
+    <feat name="vib-या_जान+ना_का" value="" upos="VERB">1</feat><!-- किए -->
+    <feat name="vib-या_जान+ना_के_बाद" value="" upos="VERB">3</feat><!-- कराए, दिए, लिए -->
+    <feat name="vib-या_जान+ना_पर" value="" upos="VERB">2</feat><!-- पूछे -->
+    <feat name="vib-या_जान+ना_वाला" value="" upos="VERB">1</feat><!-- उठायी -->
+    <feat name="vib-या_जाना+ना" value="" upos="VERB">1</feat><!-- हटाया -->
+    <feat name="vib-या_जाना_चाहिए" value="" upos="VERB">1</feat><!-- की -->
+    <feat name="vib-या_डाल+या१" value="" upos="VERB">1</feat><!-- जला -->
+    <feat name="vib-या_था" value="" upos="VERB">914</feat><!-- की, किया, कहा, दिया, हुआ, हुई, दी, आए, किए, आई -->
+    <feat name="vib-या_दे" value="" upos="VERB">1</feat><!-- दिखाई -->
+    <feat name="vib-या_दे+गा" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_दे+ता_था" value="" upos="VERB">1</feat><!-- दिखाई -->
+    <feat name="vib-या_दे+ता_है" value="" upos="VERB">9</feat><!-- दिखाई, बना, लगा -->
+    <feat name="vib-या_दे+या" value="" upos="VERB">26</feat><!-- करा, दिखाई, बना, लगा, सुनाई, कर, गिरा, चौंका, पकड़ा, पहुंचा -->
+    <feat name="vib-या_दे+या1" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_दे+या_जा+एं" value="" upos="VERB">1</feat><!-- बढ़ा -->
+    <feat name="vib-या_दे+या_जा+गा" value="" upos="VERB">4</feat><!-- करा, कर -->
+    <feat name="vib-या_दे+या_जा+ता" value="" upos="VERB">1</feat><!-- हटा -->
+    <feat name="vib-या_दे+या_जा+या१" value="" upos="VERB">2</feat><!-- करा, बना -->
+    <feat name="vib-या_दे+या_जा+या१_था" value="" upos="VERB">2</feat><!-- करा, लगा -->
+    <feat name="vib-या_दे+या_जा+या१_है" value="" upos="VERB">3</feat><!-- पहना, पहुँचा, लगा -->
+    <feat name="vib-या_दे+या_था" value="" upos="VERB">3</feat><!-- करा, बना, लगा -->
+    <feat name="vib-या_दे+या_है" value="" upos="VERB">5</feat><!-- करा, दिखा, बना, लगा -->
+    <feat name="vib-या_दे_रह+या_था" value="" upos="VERB">1</feat><!-- सुनाई -->
+    <feat name="vib-या_दे_रह+या_है" value="" upos="VERB">6</feat><!-- दिखाई -->
+    <feat name="vib-या_पड+या_था" value="" upos="VERB">1</feat><!-- बिखरे -->
+    <feat name="vib-या_पड_जा+गा" value="" upos="VERB">1</feat><!-- दिखाई -->
+    <feat name="vib-या_पड_रह+या_है" value="" upos="VERB">1</feat><!-- दिखाई -->
+    <feat name="vib-या_पा+ना" value="" upos="VERB">1</feat><!-- लगा -->
+    <feat name="vib-या_पा+या" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_पा+या_है" value="" upos="VERB">1</feat><!-- करा -->
+    <feat name="vib-या_पड़+ता_है" value="" upos="VERB">1</feat><!-- दिखाई -->
+    <feat name="vib-या_पड़+या" value="" upos="VERB">2</feat><!-- जाना, दिखाई -->
+    <feat name="vib-या_पड़+या_है" value="" upos="VERB">2</feat><!-- बिखरे, लटके -->
+    <feat name="vib-या_बैठ+या" value="" upos="VERB">1</feat><!-- थमा -->
+    <feat name="vib-या_बैठ+या_था" value="" upos="VERB">1</feat><!-- करा -->
+    <feat name="vib-या_रख+गा" value="" upos="VERB">2</feat><!-- बनाए -->
+    <feat name="vib-या_रख+ता_है" value="" upos="VERB">1</feat><!-- बनाए -->
+    <feat name="vib-या_रख+ता_हो+या" value="" upos="VERB">1</feat><!-- बनाए -->
+    <feat name="vib-या_रख+था_था" value="" upos="VERB">1</feat><!-- बनाए -->
+    <feat name="vib-या_रख+ना" value="" upos="VERB">6</feat><!-- बनाए -->
+    <feat name="vib-या_रख+ना_का" value="" upos="VERB">6</feat><!-- बनाए, बनाये -->
+    <feat name="vib-या_रख+ना_के_लिए" value="" upos="VERB">7</feat><!-- बनाए, बचाए -->
+    <feat name="vib-या_रख+ना_में" value="" upos="VERB">1</feat><!-- बनाए -->
+    <feat name="vib-या_रख+या" value="" upos="VERB">4</feat><!-- लगाए, उठाए, बनाए -->
+    <feat name="vib-या_रख+या_जा+एं" value="" upos="VERB">2</feat><!-- बनाए -->
+    <feat name="vib-या_रख+या_जा+गा" value="" upos="VERB">2</feat><!-- बनाए -->
+    <feat name="vib-या_रख+या_जा+ना_का" value="" upos="VERB">1</feat><!-- लटकाए -->
+    <feat name="vib-या_रख+या_था" value="" upos="VERB">3</feat><!-- डाले, बना, बनाए -->
+    <feat name="vib-या_रख+या_है" value="" upos="VERB">1</feat><!-- खुले -->
+    <feat name="vib-या_रह+एं" value="" upos="VERB">7</feat><!-- बना, बने, बची, बनी -->
+    <feat name="vib-या_रह+गा" value="" upos="VERB">14</feat><!-- बने, बनी, खुली, छाये, झुका, डटे, बना, बढ़ा -->
+    <feat name="vib-या_रह+ता" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_रह+ता_है" value="" upos="VERB">22</feat><!-- खुला, लगा, लगी, खुले, बनी, गड़ी, जुटे, ढकी, ढके, बैठी -->
+    <feat name="vib-या_रह+ना" value="" upos="VERB">3</feat><!-- बने -->
+    <feat name="vib-या_रह+ना_का" value="" upos="VERB">3</feat><!-- छाए, बने -->
+    <feat name="vib-या_रह+ना_के_कारण" value="" upos="VERB">1</feat><!-- छाए -->
+    <feat name="vib-या_रह+ना_के_लिए" value="" upos="VERB">1</feat><!-- बने -->
+    <feat name="vib-या_रह+ना_को" value="" upos="VERB">1</feat><!-- बने -->
+    <feat name="vib-या_रह+ना_चाहिए" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_रह+या" value="" upos="VERB">26</feat><!-- भरा, छाई, छाया, निभा, बने, अटे, करा, चला, जमे, जुटे -->
+    <feat name="vib-या_रह+या_था" value="" upos="VERB">3</feat><!-- दिखा, बना, लौट -->
+    <feat name="vib-या_रह+या_है" value="" upos="VERB">22</feat><!-- करा, बना, उठा, कर, पहुंचा, चला, ठहरा, फिर, बढ़, मंगा -->
+    <feat name="vib-या_रह_जा+या१" value="" upos="VERB">1</feat><!-- धरी -->
+    <feat name="vib-या_रह_जा+या१_है" value="" upos="VERB">1</feat><!-- बचे -->
+    <feat name="vib-या_रह_सक+एं" value="" upos="VERB">1</feat><!-- छिपी -->
+    <feat name="vib-या_रहूं+गा" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_ले+या" value="" upos="VERB">4</feat><!-- करा, बदलवा, बना, लगा -->
+    <feat name="vib-या_ले+या_जा+एं" value="" upos="VERB">2</feat><!-- करा -->
+    <feat name="vib-या_ले+या_जा+या१" value="" upos="VERB">2</feat><!-- करा, बचा -->
+    <feat name="vib-या_ले+या_था" value="" upos="VERB">1</feat><!-- रचा -->
+    <feat name="vib-या_ले+या_है" value="" upos="VERB">2</feat><!-- बना -->
+    <feat name="vib-या_सक+गा" value="" upos="VERB">2</feat><!-- करा -->
+    <feat name="vib-या_सक+ता" value="" upos="VERB">1</feat><!-- किया -->
+    <feat name="vib-या_सक+ता_है" value="" upos="VERB">5</feat><!-- पहुंचा, करा, हटा -->
+    <feat name="vib-या_सक+या" value="" upos="VERB">1</feat><!-- करा -->
+    <feat name="vib-या_सक+या_है" value="" upos="VERB">1</feat><!-- धुँधला -->
+    <feat name="vib-या_समा_रह+या" value="" upos="VERB">1</feat><!-- फूले -->
+    <feat name="vib-या_है" value="" upos="VERB">2130</feat><!-- किया, की, कहा, हुई, दिया, हुआ, दी, जताई, मिली, लगाया -->
+    <feat name="vib-या_है+ऊँ" value="" upos="VERB">1</feat><!-- पहुंची -->
+    <feat name="vib-या_है+हैं" value="" upos="VERB">1</feat><!-- बैठे -->
+    <feat name="vib-या_है.+है" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_हो" value="" upos="VERB">5</feat><!-- किया, दिया, लगी, हुआ, हुई -->
+    <feat name="vib-या_हो+गा" value="" upos="VERB">12</feat><!-- जुड़ा, की, खुले, टकरायी, देखा, देखे, पड़े, फंसे, रही, रहें -->
+    <feat name="vib-या_हो+ता" value="" upos="VERB">6</feat><!-- किया, दिया, बनाया, बैठी, हुआ, हुई -->
+    <feat name="vib-या_हो+ता_है" value="" upos="VERB">1</feat><!-- बना -->
+    <feat name="vib-या_हो+ना_का" value="" upos="VERB">5</feat><!-- छिपे, फंसे -->
+    <feat name="vib-या_हो+ना_का_वजह_से" value="" upos="VERB">2</feat><!-- जमा, जुड़े -->
+    <feat name="vib-या_हो+या" value="" upos="VERB">36</feat><!-- चुने, हारे, किए, खड़े, छिला, लिए, कढ़े, खिली, चुनी, जमी -->
+    <feat name="vib-या_हो+या1" value="" upos="VERB">1</feat><!-- बढ़ी -->
+    <feat name="vib-या_हो+या_था" value="" upos="VERB">34</feat><!-- बैठे, किए, जुड़े, पहने, बनाए, रखे, सोए, अड़ा, उमड़ी, किया -->
+    <feat name="vib-या_हो+या_है" value="" upos="VERB">120</feat><!-- बना, बनी, जुटे, रखे, जुटी, जुड़ा, जुड़े, बनाए, लगा, लगे -->
+    <feat name="vib-या_हो+या_हो+गा" value="" upos="VERB">1</feat><!-- डरा -->
+    <feat name="vib-या_हो_सक+ता_है" value="" upos="VERB">2</feat><!-- छिपा, जुड़ा -->
+    <feat name="vib-या१" value="" upos="AUX,VERB">2735</feat><!-- गया, गई, गए, गयी, गईं, गये, आईं, डाला, दिया -->
+    <feat name="vib-या१_था" value="" upos="VERB">15</feat><!-- गए, गया, गईं, गये -->
+    <feat name="vib-या१_है" value="" upos="VERB">6</feat><!-- गया, गए -->
+    <feat name="vib-से" value="" upos="PRON">391</feat><!-- इससे, जिससे, उनसे, उससे, इनसे, जिनसे, मुझसे, हमसे, सबसे, जिसे -->
+    <feat name="vib-है" value="" upos="AUX,VERB">11487</feat><!-- है, हैं, हूं, हूँ, हैँ -->
+    <feat name="vib-हैं" value="" upos="AUX,VERB">3</feat><!-- हैं -->
+    <feat name="vib-०" value="" upos="NOUN">1</feat><!-- एडवांस -->
+    <feat name="voicetype-" value="" upos="ADJ,ADP,ADV,AUX,CONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,PUNCT,SCONJ,VERB,X,adj,adv,avy,n,nst,num,pn,punc,s,v">325598</feat><!-- के, ।, में, की, को, ने, से, है, कि, का -->
+    <feat name="voicetype-active" value="" upos="AUX,NOUN,PART,VERB">23655</feat><!-- है, कहा, कर, किया, हो, की, हैं, बताया, दिया, हुई -->
+    <feat name="voicetype-Active" value="" upos="VERB">1</feat><!-- चल -->
+    <feat name="voicetype-imperative" value="" upos="VERB">1</feat><!-- करे -->
+    <feat name="voicetype-passive" value="" upos="NOUN,PROPN,VERB">2448</feat><!-- किया, की, कर, कहा, दिया, किए, दी, बनाया, मारे, रखा -->
+    <feat name="voicetype-Passive" value="" upos="VERB">1</feat><!-- दिया -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="27">
+    <dep name="acl">3119</dep>
+    <dep name="acl:relcl">1198</dep>
+    <dep name="advcl">4456</dep>
+    <dep name="advmod">3750</dep>
+    <dep name="amod">14209</dep>
+    <dep name="aux">11419</dep>
+    <dep name="auxpass">11108</dep>
+    <dep name="case">67790</dep>
+    <dep name="cc">6564</dep>
+    <dep name="compound">36464</dep>
+    <dep name="conj">7445</dep>
+    <dep name="cop">3512</dep>
+    <dep name="dep">4960</dep>
+    <dep name="det">7205</dep>
+    <dep name="dislocated">348</dep>
+    <dep name="dobj">17134</dep>
+    <dep name="iobj">2518</dep>
+    <dep name="mark">14445</dep>
+    <dep name="neg">2164</dep>
+    <dep name="nmod">63747</dep>
+    <dep name="nsubj">21071</dep>
+    <dep name="nsubjpass">562</dep>
+    <dep name="nummod">5587</dep>
+    <dep name="punct">23545</dep>
+    <dep name="root">16648</dep>
+    <dep name="vocative">7</dep>
+    <dep name="xcomp">729</dep>
   </deps>
 </treebank>

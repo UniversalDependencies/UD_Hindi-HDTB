@@ -4,5 +4,5 @@ Hindi UD treebank
 Documentation status: stub
 Data source: unknown
 Data available since:
-License:
+License: HDTB
 ===============================================================================
