@@ -548,7 +548,7 @@
 3	चार	चार	NUM	QC	Case=Any|Gender=Any|Number=Pl	7	nummod	_	_
 4	बड़े	बड़ा	ADJ	JJ	Case=D|Gender=M|Number=Pl	7	amod	_	_
 5	-	-	PUNCT	SYM	_	4	punct	_	_
-6	बड़े	बड़ा	adj	RDP	Case=D|Gender=M|Number=Pl	4	compound	_	_
+6	बड़े	बड़ा	ADJ	RDP	Case=D|Gender=M|Number=Pl	4	compound	_	_
 7	द्वार	द्वार	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Pl|Person=3	0	root	_	_
 8	हैं	है	VERB	VM	Aspect=He|Gender=Any|Number=Pl|Person=3|Stype=Declarative|Voice=Active	7	cop	_	_
 9	,	COMMA	PUNCT	SYM	_	8	punct	_	_
@@ -1206,7 +1206,7 @@
 2	अलावा	अलावा	ADP	PSP	_	1	case	_	_
 3	अलग	अलग	ADJ	JJ	Case=D|Gender=Any|Number=Any	6	amod	_	_
 4	-	-	PUNCT	SYM	_	3	punct	_	_
-5	अलग	अलग	adj	RDP	Case=O|Gender=Any|Number=Any	3	compound	_	_
+5	अलग	अलग	ADJ	RDP	Case=O|Gender=Any|Number=Any	3	compound	_	_
 6	देशों	देश	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	8	nmod	_	_
 7	के	का	ADP	PSP	Case=O|Gender=M|Number=Pl	6	case	_	_
 8	मंदिरों	मंदिर	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	10	nmod	_	_
@@ -2629,7 +2629,7 @@
 5	अब	अब	PRON	PRP	Case=D	14	nmod	_	_
 6	धीरे	धीरे	ADV	RB	_	14	advmod	_	_
 7	-	-	PUNCT	SYM	_	6	punct	_	_
-8	धीरे	धीरे	adv	RDP	_	6	compound	_	_
+8	धीरे	धीरे	ADV	RDP	_	6	compound	_	_
 9	स्वपोषित	स्वपोषित	ADJ	JJ	Case=O|Gender=Any|Number=Any	11	amod	_	_
 10	वाणिज्यिक	वाणिज्यिक	ADJ	JJ	Case=O|Gender=Any|Number=Any	9	amod	_	_
 11	प्रणाली	प्रणाली	NOUN	NN	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	14	nmod	_	_
@@ -5085,7 +5085,7 @@
 4	में	में	ADP	PSP	_	3	case	_	_
 5	दो	दो	NUM	QC	Case=Any|Gender=Any|Number=Any	9	nummod	_	_
 6	-	-	PUNCT	SYM	_	5	punct	_	_
-7	दो	दो	num	RDP	Case=Any|Gender=Any|Number=Any	5	compound	_	_
+7	दो	दो	NUM	RDP	Case=Any|Gender=Any|Number=Any	5	compound	_	_
 8	जांच	जांच	NOUN	NNC	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	9	compound	_	_
 9	आदेश	आदेश	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	19	nmod	_	_
 10	के	के	ADP	PSP	_	9	case	_	_
@@ -6861,7 +6861,7 @@
 17	के	के	ADP	PSP	_	16	mark	_	_
 18	साथ	साथ	ADV	NST	Case=D|Gender=M|Number=Sg|Person=3	16	mark	_	_
 19	-	-	PUNCT	SYM	_	18	punct	_	_
-20	साथ	साथ	nst	RDP	Case=D|Gender=M|Number=Sg|Person=3	18	compound	_	_
+20	साथ	साथ	ADV	RDP	Case=D|Gender=M|Number=Sg|Person=3	18	compound	_	_
 21	वरिष्ठ	वरिष्ठ	ADJ	JJ	Case=O|Gender=Any|Number=Any	22	amod	_	_
 22	अधिकारियों	अधिकारी	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	24	dobj	_	_
 23	को	को	ADP	PSP	_	22	case	_	_
@@ -7012,7 +7012,7 @@
 6	उन्होंने	वह	PRON	PRP	Aspect=Ne|Case=O|Gender=Any|Number=Sg|Person=3H	14	nsubj	_	_
 7	सुबह	सुबह	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	14	nmod	_	_
 8	-	-	PUNCT	SYM	_	7	punct	_	_
-9	सुबह	सुबह	n	RDP	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	7	compound	_	_
+9	सुबह	सुबह	NOUN	RDP	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	7	compound	_	_
 10	रिट्रीट	रिट्रीट	PROPN	NNP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	14	nmod	_	_
 11	के	के	ADP	PSP	_	10	case	_	_
 12	लिए	लिए	ADP	PSP	_	10	case	_	_
@@ -7526,7 +7526,7 @@
 23	की	का	ADP	PSP	Case=O|Gender=F|Number=Pl	22	case	_	_
 24	भीनी	भीना	ADJ	JJ	Case=O|Gender=F|Number=Pl	27	amod	_	_
 25	-	-	PUNCT	SYM	_	24	punct	_	_
-26	भीनी	भीना	adj	RDP	Case=O|Gender=F|Number=Pl	24	compound	_	_
+26	भीनी	भीना	ADJ	RDP	Case=O|Gender=F|Number=Pl	24	compound	_	_
 27	बूंदों	बूंद	NOUN	NN	Aspect=0|Case=O|Gender=F|Number=Pl|Person=3	29	nmod	_	_
 28	का	का	ADP	PSP	Case=D|Gender=M|Number=Sg	27	case	_	_
 29	मजा	मजा	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	30	compound	_	_
@@ -7558,7 +7558,7 @@
 22	लिए	लिए	ADP	PSP	_	20	case	_	_
 23	समय	समय	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	29	nmod	_	_
 24	-	-	PUNCT	SYM	_	23	punct	_	_
-25	समय	समय	n	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	23	compound	_	_
+25	समय	समय	NOUN	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	23	compound	_	_
 26	पर	पर	ADP	PSP	_	23	case	_	_
 27	बारिश	बारिश	NOUN	NN	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	29	nsubj	_	_
 28	का	का	ADP	PSP	Case=D|Gender=M|Number=Sg	27	case	_	_
@@ -7593,7 +7593,7 @@
 
 1	समय	समय	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	5	nmod	_	_
 2	-	-	PUNCT	SYM	_	1	punct	_	_
-3	समय	समय	n	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	1	compound	_	_
+3	समय	समय	NOUN	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	1	compound	_	_
 4	पर	पर	ADP	PSP	_	1	case	_	_
 5	हो	हो	VERB	VM	Aspect=0|Gender=Any|Number=Sg|Person=Any	7	acl	_	_
 6	रही	रह	AUX	VAUX	Aspect=Ya|Gender=F|Number=Sg|Person=Any	5	aux	_	_
@@ -7641,7 +7641,7 @@
 22	की	का	ADP	PSP	Case=D|Gender=F|Number=Pl	21	case	_	_
 23	हल्की	हल्का	ADJ	JJ	Case=D|Gender=F|Number=Pl	26	amod	_	_
 24	-	-	PUNCT	SYM	_	23	punct	_	_
-25	हल्की	हल्का	adj	RDP	Case=D|Gender=F|Number=Pl	23	compound	_	_
+25	हल्की	हल्का	ADJ	RDP	Case=D|Gender=F|Number=Pl	23	compound	_	_
 26	बौछारें	बौछार	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Pl|Person=3	28	nsubj	_	_
 27	शुरू	शुरू	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	28	compound	_	_
 28	हुई	हो	VERB	VM	Aspect=Ya|Gender=F|Number=Pl|Person=Any|Stype=Declarative|Voice=Active	11	conj	_	_
@@ -7826,7 +7826,7 @@
 3	जिन	जो	DET	DEM	Case=O|Gender=Any|Number=Pl|Person=3	4	det	_	_
 4	लोगों	लोग	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	11	nmod	_	_
 5	से	से	ADP	PSP	_	4	case	_	_
-6	आमने	आमने	nst	NSTC	Case=D|Gender=M|Number=Sg|Person=3	8	case	_	_
+6	आमने	आमने	ADV	NSTC	Case=D|Gender=M|Number=Sg|Person=3	8	case	_	_
 7	-	-	PUNCT	SYM	_	8	punct	_	_
 8	सामने	सामने	ADV	NST	Case=D|Gender=M|Number=Sg|Person=3	11	nmod	_	_
 9	बात	बात	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	11	compound	_	_
@@ -9166,7 +9166,7 @@
 2	को	को	ADP	PSP	_	1	case	_	_
 3	अलग	अलग	ADJ	JJ	Case=D|Gender=Any|Number=Any	6	amod	_	_
 4	-	-	PUNCT	SYM	_	3	punct	_	_
-5	अलग	अलग	adj	RDP	Case=O|Gender=Any|Number=Any	3	compound	_	_
+5	अलग	अलग	ADJ	RDP	Case=O|Gender=Any|Number=Any	3	compound	_	_
 6	अस्पताल	अस्पताल	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	9	nmod	_	_
 7	में	में	ADP	PSP	_	6	case	_	_
 8	भर्ती	भर्ती	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	9	compound	_	_
@@ -18371,7 +18371,7 @@
 13	पर	पर	ADP	PSP	_	12	case	_	_
 14	५०	५०	NUM	QCC	Case=Any|Gender=Any|Number=Any	17	case	_	_
 15	-	-	PUNCT	SYM	_	14	punct	_	_
-16	५०	५०	num	RDP	Case=Any|Gender=Any|Number=Any	14	compound	_	_
+16	५०	५०	NUM	RDP	Case=Any|Gender=Any|Number=Any	14	compound	_	_
 17	हजार	हजार	NUM	QC	Case=Any|Gender=Any|Number=Any	18	nummod	_	_
 18	रुपयों	रुपया	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	21	nmod	_	_
 19	की	का	ADP	PSP	Case=D|Gender=F|Number=Sg	18	case	_	_
@@ -20504,7 +20504,7 @@
 13	ही	ही	PART	RP	_	12	dep	_	_
 14	खुशी	खुशी	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	17	advmod	_	_
 15	-	-	PUNCT	SYM	_	14	punct	_	_
-16	खुशी	खुशी	n	RDP	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	14	compound	_	_
+16	खुशी	खुशी	NOUN	RDP	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	14	compound	_	_
 17	छोड़	छोड़	VERB	VM	Aspect=0|Gender=M|Number=Sg|Person=3|Stype=Declarative|Voice=Active	0	root	_	_
 18	दिया	दे	AUX	VAUX	Aspect=Ya|Gender=M|Number=Sg|Person=3	17	aux	_	_
 19	है	है	AUX	VAUX	Aspect=He|Gender=Any|Number=Sg|Person=3	18	auxpass	_	_
@@ -20937,7 +20937,7 @@
 5	वे	वह	PRON	PRP	Aspect=0|Case=D|Gender=Any|Number=Pl|Person=3	13	nsubj	_	_
 6	तरह	तरह	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	10	nmod	_	_
 7	-	-	PUNCT	SYM	_	6	punct	_	_
-8	तरह	तरह	n	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	6	compound	_	_
+8	तरह	तरह	NOUN	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	6	compound	_	_
 9	की	का	ADP	PSP	Case=O|Gender=F|Number=Pl	6	case	_	_
 10	बीमारियों	बीमारी	NOUN	NN	Aspect=0|Case=O|Gender=F|Number=Pl|Person=3	13	iobj	_	_
 11	को	को	ADP	PSP	_	10	case	_	_
@@ -24573,7 +24573,7 @@
 9	के	के	ADP	PSP	_	8	mark	_	_
 10	साथ	साथ	ADV	NST	Case=D|Gender=M|Number=Sg|Person=3	8	mark	_	_
 11	-	-	PUNCT	SYM	_	10	punct	_	_
-12	साथ	साथ	nst	RDP	Case=D|Gender=M|Number=Sg|Person=3	10	compound	_	_
+12	साथ	साथ	ADV	RDP	Case=D|Gender=M|Number=Sg|Person=3	10	compound	_	_
 13	श्रीलंका	श्रीलंका	PROPN	NNP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	16	nmod	_	_
 14	के	का	ADP	PSP	Case=O|Gender=M|Number=Sg	13	case	_	_
 15	जातीय	जातीय	ADJ	JJ	Case=O|Gender=Any|Number=Any	16	amod	_	_
@@ -25923,7 +25923,7 @@
 11	भी	भी	PART	RP	_	10	dep	_	_
 12	बीस	बीस	NUM	QC	Case=Any|Gender=Any|Number=Any	15	nummod	_	_
 13	-	-	PUNCT	SYM	_	12	punct	_	_
-14	बीस	बीस	num	RDP	Case=Any|Gender=Any|Number=Any	12	compound	_	_
+14	बीस	बीस	NUM	RDP	Case=Any|Gender=Any|Number=Any	12	compound	_	_
 15	मीटर	मीटर	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	22	nmod	_	_
 16	तक	तक	ADP	PSP	_	15	case	_	_
 17	समुद्र	समुद्र	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	22	nsubj	_	_
@@ -27008,7 +27008,7 @@
 10	ने	ने	ADP	PSP	_	9	case	_	_
 11	अलग	अलग	ADJ	JJ	Case=D|Gender=Any|Number=Any	14	amod	_	_
 12	-	-	PUNCT	SYM	_	11	punct	_	_
-13	अलग	अलग	adj	RDP	Case=D|Gender=Any|Number=Any	11	compound	_	_
+13	अलग	अलग	ADJ	RDP	Case=D|Gender=Any|Number=Any	11	compound	_	_
 14	मोर्चे	मोर्चा	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Pl|Person=3	15	dobj	_	_
 15	बनाकर	बना	VERB	VM	Aspect=Kara|Gender=Any|Number=Any|Person=Any	21	advcl	_	_
 16	अपनी	अपना	PRON	PRP	Aspect=0|Case=O|Gender=F|Number=Any|Person=Any	17	nmod	_	_
@@ -27267,7 +27267,7 @@
 24	के	के	ADP	PSP	_	23	mark	_	_
 25	साथ	साथ	ADV	NST	Case=D|Gender=M|Number=Sg|Person=3	23	mark	_	_
 26	-	-	PUNCT	SYM	_	25	punct	_	_
-27	साथ	साथ	nst	RDP	Case=D|Gender=M|Number=Sg|Person=3	25	compound	_	_
+27	साथ	साथ	ADV	RDP	Case=D|Gender=M|Number=Sg|Person=3	25	compound	_	_
 28	भारतीय	भारतीय	PROPN	NNPC	Case=O|Gender=Any|Number=Any	29	compound	_	_
 29	वायुसेना	वायुसेना	PROPN	NNP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	35	nmod	_	_
 30	के	के	ADP	PSP	_	29	case	_	_
@@ -27296,7 +27296,7 @@
 15	के	के	ADP	PSP	_	14	case	_	_
 16	साथ	साथ	ADP	NST	Case=D|Gender=M|Number=Sg|Person=3	14	case	_	_
 17	-	-	PUNCT	SYM	_	16	punct	_	_
-18	साथ	साथ	nst	RDP	Case=D|Gender=M|Number=Sg|Person=3	16	compound	_	_
+18	साथ	साथ	ADP	RDP	Case=D|Gender=M|Number=Sg|Person=3	16	compound	_	_
 19	पुराने	पुराना	ADJ	JJ	Case=O|Gender=M|Number=Sg	20	amod	_	_
 20	मिराज	मिराज	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	23	nmod	_	_
 21	२०००	२०००	PROPN	NNPC	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	22	compound	_	_
@@ -27340,7 +27340,7 @@
 13	के	के	ADP	PSP	_	12	mark	_	_
 14	साथ	साथ	ADV	NST	Case=D|Gender=M|Number=Sg|Person=3	12	mark	_	_
 15	-	-	PUNCT	SYM	_	14	punct	_	_
-16	साथ	साथ	nst	RDP	Case=D|Gender=M|Number=Sg|Person=3	14	compound	_	_
+16	साथ	साथ	ADV	RDP	Case=D|Gender=M|Number=Sg|Person=3	14	compound	_	_
 17	समूहों	समूह	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Pl|Person=3	20	nmod	_	_
 18	में	में	ADP	PSP	_	17	case	_	_
 19	उड़ान	उड़ान	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	20	compound	_	_
@@ -27385,7 +27385,7 @@
 1	उन्होंने	वह	PRON	PRP	Aspect=Ne|Case=O|Gender=Any|Number=Sg|Person=3H	13	nsubj	_	_
 2	समय	समय	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	13	nmod	_	_
 3	-	-	PUNCT	SYM	_	2	punct	_	_
-4	समय	समय	n	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	2	compound	_	_
+4	समय	समय	NOUN	RDP	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	2	compound	_	_
 5	पर	पर	ADP	PSP	_	2	case	_	_
 6	राजनीतिक	राजनीतिक	ADJ	JJ	Case=O|Gender=Any|Number=Any	7	amod	_	_
 7	सत्ता	सत्ता	NOUN	NN	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	13	iobj	_	_
@@ -29198,7 +29198,7 @@
 13	कर	कर	VERB	VM	Aspect=0|Gender=Any|Number=Any|Person=Any	17	advcl	_	_
 14	बार	बार	ADV	RB	_	17	advmod	_	_
 15	-	-	PUNCT	SYM	_	14	punct	_	_
-16	बार	बार	adv	RDP	_	14	compound	_	_
+16	बार	बार	ADV	RDP	_	14	compound	_	_
 17	जीत	जीत	VERB	VM	Aspect=0|Gender=F|Number=Sg|Person=3|Stype=Declarative|Voice=Active	0	root	_	_
 18	रही	रह	AUX	VAUX	Aspect=Ya|Gender=F|Number=Sg|Person=Any	17	aux	_	_
 19	है	है	AUX	VAUX	Aspect=He|Gender=Any|Number=Sg|Person=3	18	auxpass	_	_
@@ -31390,7 +31390,7 @@
 16	लिए	लिए	ADP	PSP	_	14	mark	_	_
 17	तरह	तरह	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	21	nmod	_	_
 18	-	-	PUNCT	SYM	_	17	punct	_	_
-19	तरह	तरह	n	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	17	compound	_	_
+19	तरह	तरह	NOUN	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	17	compound	_	_
 20	का	का	ADP	PSP	Case=D|Gender=M|Number=Sg	17	case	_	_
 21	प्रयास	प्रयास	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	22	compound	_	_
 22	कर	कर	VERB	VM	Aspect=0|Gender=M|Number=Sg|Person=3|Stype=Declarative|Voice=Active	8	conj	_	_
@@ -31636,7 +31636,7 @@
 9	आयोग	आयोग	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Sg|Person=3	15	nsubj	_	_
 10	तरह	तरह	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	14	nmod	_	_
 11	-	-	PUNCT	SYM	_	10	punct	_	_
-12	तरह	तरह	n	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	10	compound	_	_
+12	तरह	तरह	NOUN	RDP	Aspect=0|Case=O|Gender=F|Number=Sg|Person=3	10	compound	_	_
 13	के	का	ADP	PSP	Case=D|Gender=M|Number=Pl	10	case	_	_
 14	प्रयास	प्रयास	NOUN	NN	Aspect=0|Case=D|Gender=M|Number=Pl|Person=3	15	compound	_	_
 15	कर	कर	VERB	VM	Aspect=0|Gender=M|Number=Sg|Person=3|Stype=Declarative|Voice=Active	0	root	_	_
@@ -31796,7 +31796,7 @@
 15	लेकिन	लेकिन	CONJ	CC	_	12	cc	_	_
 16	कभी	कभी	ADV	RB	_	26	advmod	_	_
 17	-	-	PUNCT	SYM	_	16	punct	_	_
-18	कभी	कभी	adv	RDP	_	16	compound	_	_
+18	कभी	कभी	ADV	RDP	_	16	compound	_	_
 19	वे	वह	PRON	PRP	Aspect=0|Case=D|Gender=Any|Number=Pl|Person=3	26	nsubj	_	_
 20	सार्वजनिक	सार्वजनिक	ADJ	JJ	Case=O|Gender=Any|Number=Any	21	amod	_	_
 21	तौर	तौर	NOUN	NN	Aspect=0|Case=O|Gender=M|Number=Sg|Person=3	26	nmod	_	_
@@ -36627,7 +36627,7 @@
 27	की	का	ADP	PSP	Case=D|Gender=F|Number=Sg	26	mark	_	_
 28	पूरी	पूरा	ADJ	JJ	Case=D|Gender=F|Number=Sg	31	amod	_	_
 29	-	-	PUNCT	SYM	_	28	punct	_	_
-30	पूरी	पूरा	adj	RDP	Case=D|Gender=F|Number=Sg	28	compound	_	_
+30	पूरी	पूरा	ADJ	RDP	Case=D|Gender=F|Number=Sg	28	compound	_	_
 31	उम्मीद	उम्मीद	NOUN	NN	Aspect=0|Case=D|Gender=F|Number=Sg|Person=3	13	conj	_	_
 32	है	है	VERB	VM	Aspect=He|Gender=Any|Number=Sg|Person=3|Stype=Declarative|Voice=Active	31	cop	_	_
 33	।	।	PUNCT	SYM	_	2	punct	_	_
