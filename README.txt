@@ -4,7 +4,22 @@ Any publication reporting the work done using this data should cite the followin
 
 Riyaz Ahmad Bhat, Rajesh Bhatt, Annahita Farudi, Prescott Klassen, Bhuvana Narasimhan, Martha Palmer, Owen Rambow, Dipti Misra Sharma, Ashwini Vaidya, Sri Ramagurumurthy Vishnu, and Fei Xia. The Hindi/Urdu Treebank Project. In the Handbook of Linguistic Annotation (edited by Nancy Ide and James Pustejovsky), Springer Press
 
-Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma, Fei Xia,  Hindi Syntax: Annotating Dependency, Lexical Predicate-Argument Structure, and Phrase Structure, In the Proceedings of the 7th International Conference on Natural Language Processing, ICON-2009, Hyderabad, India, Dec 14-17, 2009.
+@InCollection{bhathindi,
+  Title                    = {The Hindi/Urdu Treebank Project},
+  Author                   = {Bhat, Riyaz Ahmad and Bhatt, Rajesh and Farudi, Annahita and Klassen, Prescott and Narasimhan, Bhuvana and Palmer, Martha and Rambow, Owen and Sharma, Dipti Misra and Vaidya, Ashwini and Vishnu, Sri Ramagurumurthy and others},
+  Booktitle                = {Handbook of Linguistic Annotation},
+  Publisher                = {Springer Press}
+}
+
+Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma, Fei Xia. Hindi Syntax: Annotating Dependency, Lexical Predicate-Argument Structure, and Phrase Structure. In the Proceedings of the 7th International Conference on Natural Language Processing, ICON-2009, Hyderabad, India, Dec 14-17, 2009.
+
+@inproceedings{palmer2009hindi,
+  title={Hindi syntax: Annotating dependency, lexical predicate-argument structure, and phrase structure},
+  author={Palmer, Martha and Bhatt, Rajesh and Narasimhan, Bhuvana and Rambow, Owen and Sharma, Dipti Misra and Xia, Fei},
+  booktitle={The 7th International Conference on Natural Language Processing},
+  pages={14--17},
+  year={2009}
+}
 
 === Machine-readable metadata =================================================
 Documentation status: stub
