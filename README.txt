@@ -27,9 +27,5 @@ Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Genre: news
-<<<<<<< HEAD
-Contributors: Bhat, Riyaz Ahmad; Zeman, Dan
-=======
-Contributors: Ahmad, Riyaz; Zeman, Daniel
->>>>>>> ec8b5fa31f5a98e401a4d19b1d035b17ef4af7fd
+Contributors: Bhat, Riyaz Ahmad; Zeman, Daniel
 ===============================================================================
