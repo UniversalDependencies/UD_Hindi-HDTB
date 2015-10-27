@@ -27,4 +27,5 @@ Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Genre: news
+Contributors: Ahmad, Riyaz; Zeman, Daniel
 ===============================================================================
