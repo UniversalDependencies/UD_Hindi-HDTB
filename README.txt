@@ -1,6 +1,6 @@
 Hindi UD treebank
 
-The Hindi Universal Dependency Treebank was automatically converted from Hindi Dependency Treebank (HDTB) which is part of an ongoing effort of creating multi-layered treebanks for Hindi and Urdu. HDTB is developed at IIT-H India. The project is supported by NSF Grant (Award Number: CNS 0751202; CFDA Number: 47.070).
+The Hindi Universal Dependency Treebank was automatically converted from Hindi Dependency Treebank (HDTB) which is part of an ongoing effort of creating multi-layered treebanks for Hindi and Urdu. HDTB is developed at IIIT-H India. The project is supported by NSF Grant (Award Number: CNS 0751202; CFDA Number: 47.070).
 
 Any publication reporting the work done using this data should cite the following references:
 
