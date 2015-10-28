@@ -1,5 +1,7 @@
 Hindi UD treebank
 
+The Hindi Universal Dependency Treebank was automatically converted from Hindi Dependency Treebank (HDTB) which is part of an ongoing effort of creating multi-layered treebanks for Hindi and Urdu. HDTB is developed at IIT-H India and can be downloaded from http://ltrc.iiit.ac.in/treebank_H2014/index.html. The project is supported by NSF Grant (Award Number: CNS 0751202; CFDA Number: 47.070).
+
 Any publication reporting the work done using this data should cite the following references:
 
 Riyaz Ahmad Bhat, Rajesh Bhatt, Annahita Farudi, Prescott Klassen, Bhuvana Narasimhan, Martha Palmer, Owen Rambow, Dipti Misra Sharma, Ashwini Vaidya, Sri Ramagurumurthy Vishnu, and Fei Xia. The Hindi/Urdu Treebank Project. In the Handbook of Linguistic Annotation (edited by Nancy Ide and James Pustejovsky), Springer Press
