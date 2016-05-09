@@ -23,6 +23,10 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
   year={2009}
 }
 
+## Changelog
+
+No change since UD v1.2.
+
 === Machine-readable metadata =================================================
 Documentation status: stub
 Data source: automatic
