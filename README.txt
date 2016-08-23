@@ -34,4 +34,5 @@ Data available since: UD v1.2
 License: CC BY-NC-SA 4.0
 Genre: news
 Contributors: Bhat, Riyaz Ahmad; Zeman, Daniel
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
