@@ -25,7 +25,10 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 ## Changelog
 
-No change since UD v1.2.
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines (Dan Zeman).
+2015-11-01 v1.2
+  * Initial release (Riyaz Bhat and Dan Zeman).
 
 === Machine-readable metadata =================================================
 Documentation status: stub
