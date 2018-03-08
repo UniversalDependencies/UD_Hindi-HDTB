@@ -41,9 +41,11 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
-2017-03-01 v2.0
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Hindi to UD_Hindi-HDTB.
+* 2017-03-01 v2.0
   * Converted to UD v2 guidelines (Dan Zeman).
-2015-11-01 v1.2
+* 2015-11-01 v1.2
   * Initial release (Riyaz Bhat and Dan Zeman).
 
 
