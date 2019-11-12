@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Hindi-HDTB:
-commit 190e4b453d52545625d0af78fca8e37c6438e7af
-Merge: 21fa102 5668e5f
+commit 43abfc746653726d000fb6a9aa3fb621c40a6a00
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:19:59 2019 +0200
 Size: counted 351704 of 351704 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7255798254896.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,81 @@ Udapi: found 6739 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 351704 words.
 Genres: found 1 out of 17 known.
 validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-dev.conllu
-*** PASSED ***
+[Line 684 Sent dev-s39 Node 17]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 1090 Sent dev-s63 Node 32]: [L5 Morpho aux-lemma] 'हों' is not an auxiliary verb in language [hi]
+[Line 1463 Sent dev-s86 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 1550 Sent dev-s90 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 1551 Sent dev-s90 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 1565 Sent dev-s90 Node 21]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 1731 Sent dev-s99 Node 4]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
+[Line 2266 Sent dev-s126 Node 14]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 2475 Sent dev-s133 Node 31]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 2722 Sent dev-s143 Node 8]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 3262 Sent dev-s167 Node 16]: [L5 Morpho aux-lemma] 'चुका' is not an auxiliary verb in language [hi]
+[Line 3599 Sent dev-s181 Node 11]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
+...suppressing further errors regarding Syntax
+[Line 7102 Sent dev-s322 Node 7]: [L5 Morpho aux-lemma] 'निकाल' is not an auxiliary verb in language [hi]
+[Line 8539 Sent dev-s380 Node 20]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 8875 Sent dev-s392 Node 8]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 20191 Sent dev-s842 Node 8]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 23011 Sent dev-s968 Node 9]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 26545 Sent dev-s1109 Node 16]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+...suppressing further errors regarding Morpho
+Morpho errors: 13
+Syntax errors: 162
+*** FAILED *** with 175 errors
+Exit code: 1
 validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-test.conllu
-*** PASSED ***
+[Line 2595 Sent test-s125 Node 27]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 2866 Sent test-s135 Node 13]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 3288 Sent test-s155 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 4029 Sent test-s191 Node 5]: [L3 Syntax rel-upos-case] 'case' should not be 'NUM'
+[Line 4108 Sent test-s194 Node 4]: [L3 Syntax rel-upos-mark] 'mark' should not be 'ADJ'
+[Line 4312 Sent test-s202 Node 13]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 4927 Sent test-s225 Node 33]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
+[Line 5241 Sent test-s235 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 5278 Sent test-s236 Node 14]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+[Line 5484 Sent test-s244 Node 11]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
+...suppressing further errors regarding Syntax
+[Line 8380 Sent test-s356 Node 36]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 12530 Sent test-s522 Node 21]: [L5 Morpho aux-lemma] 'चुका' is not an auxiliary verb in language [hi]
+[Line 17519 Sent test-s735 Node 10]: [L5 Morpho aux-lemma] 'जान' is not an auxiliary verb in language [hi]
+[Line 19895 Sent test-s821 Node 10]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 20514 Sent test-s847 Node 28]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 22370 Sent test-s925 Node 10]: [L5 Morpho aux-lemma] 'गिरा' is not an auxiliary verb in language [hi]
+[Line 22440 Sent test-s927 Node 19]: [L5 Morpho aux-lemma] 'गिरा' is not an auxiliary verb in language [hi]
+[Line 24012 Sent test-s989 Node 17]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+...suppressing further errors regarding Morpho
+Morpho errors: 17
+Syntax errors: 168
+*** FAILED *** with 185 errors
+Exit code: 1
 validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 220 Sent train-s13 Node 31]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 349 Sent train-s19 Node 6]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'ADJ'
+[Line 594 Sent train-s32 Node 9]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 826 Sent train-s46 Node 11]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 1637 Sent train-s88 Node 3]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+[Line 2533 Sent train-s135 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 2755 Sent train-s148 Node 1]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'CCONJ'
+[Line 2756 Sent train-s148 Node 2]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'SCONJ'
+[Line 2900 Sent train-s156 Node 4]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'cc'
+...suppressing further errors regarding Syntax
+[Line 7276 Sent train-s398 Node 20]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 12749 Sent train-s680 Node 19]: [L5 Morpho aux-lemma] 'उठा' is not an auxiliary verb in language [hi]
+[Line 18909 Sent train-s938 Node 19]: [L5 Morpho aux-lemma] 'समा' is not an auxiliary verb in language [hi]
+[Line 19052 Sent train-s943 Node 19]: [L5 Morpho aux-lemma] 'थी' is not an auxiliary verb in language [hi]
+[Line 25905 Sent train-s1225 Node 17]: [L5 Morpho aux-lemma] 'धमक' is not an auxiliary verb in language [hi]
+[Line 26863 Sent train-s1277 Node 34]: [L5 Morpho aux-lemma] 'चल' is not an auxiliary verb in language [hi]
+[Line 28215 Sent train-s1332 Node 13]: [L5 Morpho aux-lemma] 'वाला' is not an auxiliary verb in language [hi]
+[Line 30961 Sent train-s1453 Node 17]: [L5 Morpho aux-lemma] 'लगा' is not an auxiliary verb in language [hi]
+[Line 34935 Sent train-s1617 Node 28]: [L5 Morpho aux-lemma] 'गिरा' is not an auxiliary verb in language [hi]
+...suppressing further errors regarding Morpho
+Morpho errors: 128
+Syntax errors: 1358
+*** FAILED *** with 1486 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +106,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.808390009780952) = 0.248735387624908
 (weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.743076632922708) * (availability=1) * (validity=1) = 0.743076632922708
-STARS = 3.5
-UD_Hindi-HDTB	0.743076632922708	3.5
+(TOTAL score=0.743076632922708) * (availability=1) * (validity=0.01) = 0.00743076632922708
+STARS = 0
+UD_Hindi-HDTB	0.00743076632922708	0
