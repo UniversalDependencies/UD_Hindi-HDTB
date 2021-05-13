@@ -41,6 +41,8 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Normalized lemmatization of punctuation symbols: LEMMA=FORM.
 * 2019-05-15 v2.4
   * Fixed some violations of the guidelines reported by the new validator.
 * 2018-04-15 v2.2
