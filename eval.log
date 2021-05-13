@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Hindi-HDTB:
-commit 2c9757541ce09df0af85e711168f5a1a6985ec69
+commit d6ea47fd4ecdca18966dc021c7b9572168afd7bf
+Merge: 9dd30e4 c51e948
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 18:12:53 2020 +0200
 Size: counted 351704 of 351704 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7255798254896.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,6 +19,8 @@ Features: 300020 out of 351704 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL       6739
 Udapi: found 6739 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 351704 words.
 Genres: found 1 out of 17 known.
