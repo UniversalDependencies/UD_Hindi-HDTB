@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Hindi-HDTB:
-commit 8a3b653ad7496eea12a0e495ef2938ab28dd2fcf
+commit e24340c96b6d4a33375876b3a24c0a1d68525bf9
+Merge: c59bcd4 c721293
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:24:10 2021 +0200
 Size: counted 351704 of 351704 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7255798254896.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -96,8 +96,8 @@ validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-train.conllu
 [Line 34935 Sent train-s1617 Node 28]: [L5 Morpho aux-lemma] 'गिरा' is not an auxiliary verb in language [hi]
 ...suppressing further errors regarding Morpho
 Morpho errors: 128
-Syntax errors: 1358
-*** FAILED *** with 1486 errors
+Syntax errors: 1354
+*** FAILED *** with 1482 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
