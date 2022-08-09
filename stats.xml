@@ -89,7 +89,7 @@
     <dep name="aux:pass">11108</dep>
     <dep name="case">67790</dep>
     <dep name="cc">6564</dep>
-    <dep name="compound">36503</dep>
+    <dep name="compound">36519</dep>
     <dep name="conj">7445</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
@@ -100,7 +100,7 @@
     <dep name="nmod">34452</dep>
     <dep name="nsubj">21071</dep>
     <dep name="nsubj:pass">562</dep>
-    <dep name="nummod">5588</dep>
+    <dep name="nummod">5572</dep>
     <dep name="obj">17134</dep>
     <dep name="obl">31274</dep>
     <dep name="punct">23545</dep>
