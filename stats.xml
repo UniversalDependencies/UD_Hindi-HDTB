@@ -89,11 +89,11 @@
     <dep name="aux:pass">11108</dep>
     <dep name="case">67790</dep>
     <dep name="cc">6564</dep>
-    <dep name="compound">36483</dep>
+    <dep name="compound">36503</dep>
     <dep name="conj">7445</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
-    <dep name="det">7186</dep>
+    <dep name="det">7166</dep>
     <dep name="dislocated">348</dep>
     <dep name="iobj">2518</dep>
     <dep name="mark">14446</dep>
