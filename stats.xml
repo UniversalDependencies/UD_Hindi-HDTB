@@ -88,8 +88,8 @@
     <dep name="aux">11404</dep>
     <dep name="aux:pass">11103</dep>
     <dep name="case">67790</dep>
-    <dep name="cc">6527</dep>
-    <dep name="compound">36537</dep>
+    <dep name="cc">6464</dep>
+    <dep name="compound">36600</dep>
     <dep name="conj">7445</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
