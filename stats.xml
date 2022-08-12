@@ -82,12 +82,12 @@
   <deps unique="27">
     <dep name="acl">3119</dep>
     <dep name="acl:relcl">1198</dep>
-    <dep name="advcl">4456</dep>
-    <dep name="advmod">3924</dep>
+    <dep name="advcl">4534</dep>
+    <dep name="advmod">3846</dep>
     <dep name="amod">14210</dep>
     <dep name="aux">11404</dep>
     <dep name="aux:pass">11103</dep>
-    <dep name="case">66794</dep>
+    <dep name="case">66792</dep>
     <dep name="cc">6428</dep>
     <dep name="compound">37426</dep>
     <dep name="conj">7446</dep>
@@ -97,7 +97,7 @@
     <dep name="dislocated">348</dep>
     <dep name="iobj">2518</dep>
     <dep name="mark">14267</dep>
-    <dep name="nmod">34460</dep>
+    <dep name="nmod">34462</dep>
     <dep name="nsubj">20961</dep>
     <dep name="nsubj:pass">558</dep>
     <dep name="nummod">5572</dep>
