@@ -37,7 +37,7 @@
     <feat name="AdpType" value="Post" upos="ADP,ADV,NOUN">73452</feat><!-- के, में, की, को, ने, से, का, पर, लिए, बाद -->
     <feat name="AdvType" value="Deg" upos="ADV">372</feat><!-- सबसे, बहुत, बेहद, काफी, और, सर्वाधिक, अति, अत्यंत, मोस्ट, इतनी -->
     <feat name="Aspect" value="Imp" upos="AUX,PROPN,VERB">3552</feat><!-- करते, सकता, जाता, सकते, सकती, देते, चाहते, होता, देखते, होती -->
-    <feat name="Aspect" value="Perf" upos="ADJ,ADP,AUX,NOUN,VERB,X">22694</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
+    <feat name="Aspect" value="Perf" upos="ADP,AUX,NOUN,VERB,X">22693</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,X">99173</feat><!-- के, की, इस, करने, सरकार, लोगों, होने, सिंह, जाने, अपने -->
     <feat name="Case" value="Acc,Dat" upos="NOUN,PRON">1165</feat><!-- उन्हें, उसे, इसे, हमें, जिसे, मुझे, इन्हें, जिन्हें, आपको, उनको -->
     <feat name="Case" value="Acc,Erg" upos="AUX,PRON,VERB">1768</feat><!-- उन्होंने, उसने, हमने, मैंने, जिसने, जिन्होंने, आपने, इन्होंने, किसने, इसने -->
@@ -74,7 +74,7 @@
     <feat name="VerbForm" value="Conv" upos="ADJ,ADV,AUX,VERB">1130</feat><!-- लेकर, करके, होकर, देकर, मिलकर, आकर, जाकर, छोड़कर, बढ़कर, देखकर -->
     <feat name="VerbForm" value="Fin" upos="ADP,AUX,PRON,PROPN,PUNCT,VERB">17259</feat><!-- है, हैं, था, थी, थे, जाएगा, होगा, करेंगे, होगी, जाएगी -->
     <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">7999</feat><!-- करने, होने, जाने, देने, कहना, करना, बनाने, आने, लेने, मिलने -->
-    <feat name="VerbForm" value="Part" upos="ADJ,ADP,AUX,NOUN,PROPN,VERB,X">26246</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
+    <feat name="VerbForm" value="Part" upos="ADP,AUX,NOUN,PROPN,VERB,X">26245</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
     <feat name="Voice" value="Act" upos="AUX,NOUN,PART,VERB">23655</feat><!-- है, कहा, कर, किया, हो, की, हैं, बताया, दिया, हुई -->
     <feat name="Voice" value="Pass" upos="AUX,NOUN,PROPN,VERB">2448</feat><!-- किया, की, कर, कहा, दिया, किए, दी, बनाया, मारे, रखा -->
   </feats>
