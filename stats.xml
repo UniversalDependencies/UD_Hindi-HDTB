@@ -15,10 +15,10 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">20646</tag><!-- पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार, स्थित -->
-    <tag name="ADP">74145</tag><!-- का, में, के, को, ने, से, पर, लिए, वाला, तक -->
+    <tag name="ADJ">21645</tag><!-- वाला, पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार -->
+    <tag name="ADP">73215</tag><!-- का, में, के, को, ने, से, पर, लिए, तक, साथ -->
     <tag name="ADV">3307</tag><!-- बाद, पहले, सबसे, फिर, वहीं, आगे, जल्द, साथ, लगातार, फिलहाल -->
-    <tag name="AUX">23897</tag><!-- है, जा, था, रह, हो, सक, चाहिए, पड़, पा, कर -->
+    <tag name="AUX">23826</tag><!-- है, जा, था, रह, हो, सक, चाहिए, पड़, पा, कर -->
     <tag name="CCONJ">6427</tag><!-- और, व, लेकिन, जबकि, तथा, या, पर, एवं, अथवा, मगर -->
     <tag name="DET">7525</tag><!-- यह, कुछ, कई, वह, सभी, कम, ज्यादा, ऐसा, काफी, जो -->
     <tag name="INTJ">3</tag><!-- ऐ, वाह -->
@@ -26,18 +26,18 @@
     <tag name="NUM">6740</tag><!-- एक, दो, तीन, करोड, हजार, चार, लाख, पांच, छह, सात -->
     <tag name="PART">7009</tag><!-- भी, नहीं, ही, न, तो, करीब, से, भर, लगभग, सिर्फ -->
     <tag name="PRON">14702</tag><!-- वह, यह, अपना, कोई, जो, यहाँ, अब, हम, जब, मैं -->
-    <tag name="PROPN">42941</tag><!-- सिंह, भारत, प्रधानमंत्री, कांग्रेस, पाकिस्तान, दिल्ली, मंत्री, भाजपा, सरकार, कश्मीर -->
+    <tag name="PROPN">42940</tag><!-- सिंह, भारत, प्रधानमंत्री, कांग्रेस, पाकिस्तान, दिल्ली, मंत्री, भाजपा, सरकार, कश्मीर -->
     <tag name="PUNCT">23455</tag><!-- ।, ,, -, ., ', (, ), -JOIN, ?, '1 -->
     <tag name="SCONJ">6726</tag><!-- कि, तो, हालांकि, अगर, यदि, क्योंकि, ताकि, बहरहाल, बल्कि, यानि -->
-    <tag name="VERB">35886</tag><!-- कर, हो, कह, दे, ले, बता, है, आ, मिल, रह -->
+    <tag name="VERB">35889</tag><!-- कर, हो, कह, दे, ले, बता, है, आ, मिल, रह -->
     <tag name="X">140</tag><!-- पास, रिकॉर्ड, डाउनलोड, फिट, फेल, बुक, अलग, आउट, आफ, इंटरसेप्ट -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="43">
-    <feat name="AdpType" value="Post" upos="ADP,ADV,NOUN">74379</feat><!-- के, में, की, को, ने, से, का, पर, लिए, बाद -->
+    <feat name="AdpType" value="Post" upos="ADP,ADV,NOUN">73452</feat><!-- के, में, की, को, ने, से, का, पर, लिए, बाद -->
     <feat name="AdvType" value="Deg" upos="ADV">372</feat><!-- सबसे, बहुत, बेहद, काफी, और, सर्वाधिक, अति, अत्यंत, मोस्ट, इतनी -->
     <feat name="Aspect" value="Imp" upos="AUX,PROPN,VERB">3552</feat><!-- करते, सकता, जाता, सकते, सकती, देते, चाहते, होता, देखते, होती -->
-    <feat name="Aspect" value="Perf" upos="ADP,AUX,NOUN,VERB,X">22694</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
+    <feat name="Aspect" value="Perf" upos="ADJ,ADP,AUX,NOUN,VERB,X">22694</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB,X">99173</feat><!-- के, की, इस, करने, सरकार, लोगों, होने, सिंह, जाने, अपने -->
     <feat name="Case" value="Acc,Dat" upos="NOUN,PRON">1165</feat><!-- उन्हें, उसे, इसे, हमें, जिसे, मुझे, इन्हें, जिन्हें, आपको, उनको -->
     <feat name="Case" value="Acc,Erg" upos="AUX,PRON,VERB">1768</feat><!-- उन्होंने, उसने, हमने, मैंने, जिसने, जिन्होंने, आपने, इन्होंने, किसने, इसने -->
@@ -74,7 +74,7 @@
     <feat name="VerbForm" value="Conv" upos="ADJ,ADV,AUX,VERB">1130</feat><!-- लेकर, करके, होकर, देकर, मिलकर, आकर, जाकर, छोड़कर, बढ़कर, देखकर -->
     <feat name="VerbForm" value="Fin" upos="ADP,AUX,PRON,PROPN,PUNCT,VERB">17259</feat><!-- है, हैं, था, थी, थे, जाएगा, होगा, करेंगे, होगी, जाएगी -->
     <feat name="VerbForm" value="Inf" upos="AUX,NOUN,VERB">7999</feat><!-- करने, होने, जाने, देने, कहना, करना, बनाने, आने, लेने, मिलने -->
-    <feat name="VerbForm" value="Part" upos="ADP,AUX,NOUN,PROPN,VERB,X">26246</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADP,AUX,NOUN,PROPN,VERB,X">26246</feat><!-- कहा, किया, गया, की, दिया, हुए, गई, गए, बताया, दी -->
     <feat name="Voice" value="Act" upos="AUX,NOUN,PART,VERB">23655</feat><!-- है, कहा, कर, किया, हो, की, हैं, बताया, दिया, हुई -->
     <feat name="Voice" value="Pass" upos="AUX,NOUN,PROPN,VERB">2448</feat><!-- किया, की, कर, कहा, दिया, किए, दी, बनाया, मारे, रखा -->
   </feats>
@@ -85,18 +85,18 @@
     <dep name="advcl">4534</dep>
     <dep name="advmod">3796</dep>
     <dep name="amod">14210</dep>
-    <dep name="aux">9743</dep>
-    <dep name="aux:pass">10631</dep>
-    <dep name="case">66792</dep>
+    <dep name="aux">9676</dep>
+    <dep name="aux:pass">10627</dep>
+    <dep name="case">66573</dep>
     <dep name="cc">6428</dep>
-    <dep name="compound">39202</dep>
+    <dep name="compound">40200</dep>
     <dep name="conj">7446</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
     <dep name="det">7796</dep>
-    <dep name="dislocated">348</dep>
+    <dep name="dislocated">347</dep>
     <dep name="iobj">2518</dep>
-    <dep name="mark">14267</dep>
+    <dep name="mark">13557</dep>
     <dep name="nmod">34462</dep>
     <dep name="nsubj">20961</dep>
     <dep name="nsubj:pass">558</dep>
@@ -106,6 +106,6 @@
     <dep name="punct">23455</dep>
     <dep name="root">16647</dep>
     <dep name="vocative">7</dep>
-    <dep name="xcomp">1086</dep>
+    <dep name="xcomp">1089</dep>
   </deps>
 </treebank>
