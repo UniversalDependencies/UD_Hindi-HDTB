@@ -18,7 +18,7 @@
     <tag name="ADJ">21645</tag><!-- वाला, पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार -->
     <tag name="ADP">73215</tag><!-- का, में, के, को, ने, से, पर, लिए, तक, साथ -->
     <tag name="ADV">3307</tag><!-- बाद, पहले, सबसे, फिर, वहीं, आगे, जल्द, साथ, लगातार, फिलहाल -->
-    <tag name="AUX">23777</tag><!-- है, जा, था, रह, हो, सक, चाहिए, पड़, पा, कर -->
+    <tag name="AUX">23775</tag><!-- है, जा, था, रह, हो, सक, चाहिए, पड़, पा, कर -->
     <tag name="CCONJ">6427</tag><!-- और, व, लेकिन, जबकि, तथा, या, पर, एवं, अथवा, मगर -->
     <tag name="DET">7525</tag><!-- यह, कुछ, कई, वह, सभी, कम, ज्यादा, ऐसा, काफी, जो -->
     <tag name="INTJ">3</tag><!-- ऐ, वाह -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">42940</tag><!-- सिंह, भारत, प्रधानमंत्री, कांग्रेस, पाकिस्तान, दिल्ली, मंत्री, भाजपा, सरकार, कश्मीर -->
     <tag name="PUNCT">23455</tag><!-- ।, ,, -, ., ', (, ), -JOIN, ?, '1 -->
     <tag name="SCONJ">6726</tag><!-- कि, तो, हालांकि, अगर, यदि, क्योंकि, ताकि, बहरहाल, बल्कि, यानि -->
-    <tag name="VERB">35938</tag><!-- कर, हो, कह, दे, ले, बता, है, आ, मिल, रह -->
+    <tag name="VERB">35940</tag><!-- कर, हो, कह, दे, ले, बता, है, आ, मिल, रह -->
     <tag name="X">140</tag><!-- पास, रिकॉर्ड, डाउनलोड, फिट, फेल, बुक, अलग, आउट, आफ, इंटरसेप्ट -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -85,11 +85,11 @@
     <dep name="advcl">4534</dep>
     <dep name="advmod">3796</dep>
     <dep name="amod">14210</dep>
-    <dep name="aux">9644</dep>
+    <dep name="aux">9642</dep>
     <dep name="aux:pass">10610</dep>
     <dep name="case">66573</dep>
     <dep name="cc">6428</dep>
-    <dep name="compound">40234</dep>
+    <dep name="compound">40236</dep>
     <dep name="conj">7446</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
