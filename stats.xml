@@ -79,7 +79,7 @@
     <feat name="Voice" value="Pass" upos="AUX,NOUN,PROPN,VERB">2448</feat><!-- किया, की, कर, कहा, दिया, किए, दी, बनाया, मारे, रखा -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="27">
+  <deps unique="28">
     <dep name="acl">3119</dep>
     <dep name="acl:relcl">1198</dep>
     <dep name="advcl">4534</dep>
@@ -89,6 +89,7 @@
     <dep name="aux:pass">10609</dep>
     <dep name="case">66573</dep>
     <dep name="cc">6428</dep>
+    <dep name="ccomp">762</dep>
     <dep name="compound">40251</dep>
     <dep name="conj">7446</dep>
     <dep name="cop">3511</dep>
@@ -101,7 +102,7 @@
     <dep name="nsubj">20961</dep>
     <dep name="nsubj:pass">558</dep>
     <dep name="nummod">5572</dep>
-    <dep name="obj">17134</dep>
+    <dep name="obj">16372</dep>
     <dep name="obl">31323</dep>
     <dep name="punct">23455</dep>
     <dep name="root">16647</dep>
