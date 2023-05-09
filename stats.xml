@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16647</sentences><tokens>351704</tokens><words>351704</words><fused>0</fused></total>
-    <train><sentences>13304</sentences><tokens>281057</tokens><words>281057</words><fused>0</fused></train>
+    <total><sentences>16649</sentences><tokens>351704</tokens><words>351704</words><fused>0</fused></total>
+    <train><sentences>13306</sentences><tokens>281057</tokens><words>281057</words><fused>0</fused></train>
     <dev><sentences>1659</sentences><tokens>35217</tokens><words>35217</words><fused>0</fused></dev>
     <test><sentences>1684</sentences><tokens>35430</tokens><words>35430</words><fused>0</fused></test>
   </size>
@@ -79,7 +79,7 @@
     <feat name="Voice" value="Pass" upos="AUX,NOUN,PROPN,VERB">2448</feat><!-- किया, की, कर, कहा, दिया, किए, दी, बनाया, मारे, रखा -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="27">
+  <deps unique="28">
     <dep name="acl">3119</dep>
     <dep name="acl:relcl">1198</dep>
     <dep name="advcl">4534</dep>
@@ -89,6 +89,7 @@
     <dep name="aux:pass">10609</dep>
     <dep name="case">66573</dep>
     <dep name="cc">6428</dep>
+    <dep name="ccomp">762</dep>
     <dep name="compound">40251</dep>
     <dep name="conj">7446</dep>
     <dep name="cop">3511</dep>
@@ -97,14 +98,14 @@
     <dep name="dislocated">347</dep>
     <dep name="iobj">2518</dep>
     <dep name="mark">13557</dep>
-    <dep name="nmod">34462</dep>
+    <dep name="nmod">34461</dep>
     <dep name="nsubj">20961</dep>
     <dep name="nsubj:pass">558</dep>
     <dep name="nummod">5572</dep>
-    <dep name="obj">17134</dep>
+    <dep name="obj">16371</dep>
     <dep name="obl">31323</dep>
     <dep name="punct">23455</dep>
-    <dep name="root">16647</dep>
+    <dep name="root">16649</dep>
     <dep name="vocative">7</dep>
     <dep name="xcomp">1108</dep>
   </deps>
