@@ -41,6 +41,9 @@ Martha Palmer, Rajesh Bhatt, Bhuvana Narasimhan, Owen Rambow, Dipti Misra Sharma
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Added transliteration of lemmas and sentences.
+  * Verbal lemma is infinitive instead of stem.
 * 2023-05-15 v2.12
   * Fixed: Finite verbs head clauses, hence ccomp instead of obj.
   * Two sentences split after exclamation mark.
