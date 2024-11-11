@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Hindi-HDTB:
-commit 752fab076024e120d6e392cee26175e01dc676a7
-Merge: d17e937 afc3da9
+commit 238a85f51a413897cacff3cd120c3fea8f91160c
+Merge: 4aeef32 2e5314f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 351704 of 351704 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7255798254896.
@@ -25,9 +25,20 @@ Udapi: found 6305 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 351704 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-dev.conllu
+[Line 1277 Sent dev-s71 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:सभी:det --> 5:लगभग:dep)
+[Line 3693 Sent dev-s177 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:कम:det --> 16:से:dep)
 [Line 5276 Sent dev-s238 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [14, 15] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6447 Sent dev-s287 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
+[Line 9832 Sent dev-s415 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:कम:det --> 3:से:dep)
+[Line 10790 Sent dev-s452 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:चंद:det --> 9:ही:dep)
+[Line 11054 Sent dev-s464 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:और:det --> 5:भी:dep)
+[Line 11150 Sent dev-s468 Node 30]: [L3 Warning leaf-det] 'det' not expected to have children (30:कम:det --> 31:से:dep)
+[Line 11787 Sent dev-s493 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:ज्यादा:det --> 16:से:dep)
+[Line 13630 Sent dev-s560 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:और:det --> 13:कुछ:nmod)
+[Line 14021 Sent dev-s574 Node 16]: [L3 Warning leaf-det] 'det' not expected to have children (16:कुछ:det --> 17:ही:dep)
 [Line 14639 Sent dev-s600 Node 22]: [L3 Syntax too-many-subjects] Multiple subjects [18, 20] not subtyped as ':outer'.
 [Line 19698 Sent dev-s790 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [2, 14] not subtyped as ':outer'.
+...suppressing further errors regarding Warning
 [Line 23101 Sent dev-s922 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [6, 8] not subtyped as ':outer'.
 [Line 27395 Sent dev-s1098 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [2, 4] not subtyped as ':outer'.
 [Line 27477 Sent dev-s1101 Node 24]: [L3 Syntax too-many-subjects] Multiple subjects [9, 22] not subtyped as ':outer'.
@@ -37,36 +48,61 @@ Genres: found 1 out of 17 known.
 [Line 30727 Sent dev-s1219 Node 17]: [L3 Syntax too-many-subjects] Multiple subjects [13, 15] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 16
+Warnings: 17
 *** FAILED *** with 16 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-test.conllu
+[Line 120 Sent test-s6 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
+[Line 850 Sent test-s43 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:बहुत:det --> 9:ही:dep)
 [Line 2610 Sent test-s122 Node 22]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3505 Sent test-s158 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:कम:det --> 4:से:dep)
+[Line 4531 Sent test-s203 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:ज्यादा:det --> 7:से:dep)
 [Line 4852 Sent test-s215 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
+[Line 4927 Sent test-s218 Node 24]: [L3 Warning leaf-det] 'det' not expected to have children (24:कम:det --> 25:से:dep)
+[Line 6820 Sent test-s286 Node 33]: [L3 Warning leaf-det] 'det' not expected to have children (33:कम:det --> 34:से:dep)
+[Line 6926 Sent test-s290 Node 37]: [L3 Warning leaf-det] 'det' not expected to have children (37:कम:det --> 38:से:dep)
+[Line 6970 Sent test-s292 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:कम:det --> 6:से:dep)
+[Line 8355 Sent test-s345 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:कम:det --> 8:से:dep)
 [Line 9153 Sent test-s371 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [21, 24] not subtyped as ':outer'.
 [Line 10061 Sent test-s402 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] not subtyped as ':outer'.
+[Line 10304 Sent test-s413 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:थोड़ा:det --> 22:सा:dep)
 [Line 10872 Sent test-s435 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [7, 8] not subtyped as ':outer'.
 [Line 11363 Sent test-s457 Node 29]: [L3 Syntax too-many-subjects] Multiple subjects [14, 20] not subtyped as ':outer'.
+...suppressing further errors regarding Warning
 [Line 18597 Sent test-s749 Node 12]: [L3 Syntax too-many-subjects] Multiple subjects [3, 10] not subtyped as ':outer'.
 [Line 19355 Sent test-s775 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [14, 17] not subtyped as ':outer'.
 [Line 19788 Sent test-s789 Node 13]: [L3 Syntax too-many-subjects] Multiple subjects [7, 12] not subtyped as ':outer'.
 [Line 21569 Sent test-s856 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [1, 12] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 13
+Warnings: 24
 *** FAILED *** with 13 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-train.conllu
+[Line 194 Sent train-s12 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:और:det --> 16:भी:dep)
+[Line 1800 Sent train-s92 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:कितने:det --> 7:ही:dep)
+[Line 2620 Sent train-s133 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:थोड़ा:det --> 5:सा:dep)
+[Line 2948 Sent train-s149 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:थोड़े:det --> 20:से:dep)
 [Line 3079 Sent train-s157 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 18] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 3708 Sent train-s187 Node 48]: [L3 Syntax too-many-subjects] Multiple subjects [45, 46] not subtyped as ':outer'.
 [Line 5023 Sent train-s260 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
 [Line 5281 Sent train-s274 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [5, 22] not subtyped as ':outer'.
 [Line 6240 Sent train-s325 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] not subtyped as ':outer'.
+[Line 8115 Sent train-s425 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:जितने:det --> 4:भी:dep)
+[Line 8329 Sent train-s434 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:कौन:det --> 21:सी:dep)
 [Line 8821 Sent train-s459 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [4, 9] not subtyped as ':outer'.
+[Line 11684 Sent train-s604 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:बहुत:det --> 8:सी:dep)
 [Line 14267 Sent train-s711 Node 24]: [L3 Syntax too-many-subjects] Multiple subjects [17, 20] not subtyped as ':outer'.
 [Line 16477 Sent train-s804 Node 25]: [L3 Syntax too-many-subjects] Multiple subjects [22, 24] not subtyped as ':outer'.
 [Line 17178 Sent train-s831 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 2] not subtyped as ':outer'.
+[Line 17618 Sent train-s849 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:कुछ:det --> 20:न:dep)
 [Line 20708 Sent train-s970 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [5, 14] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
+[Line 27329 Sent train-s1236 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:कुछ:det --> 2:ही:dep)
+[Line 31237 Sent train-s1400 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:बहुत:det --> 5:से:dep)
+...suppressing further errors regarding Warning
 Syntax errors: 163
+Warnings: 107
 *** FAILED *** with 163 errors
 Exit code: 1
 Validity: 0.01
