@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Hindi-HDTB:
-commit 37c316a31d9350786c7acc84f09c2846ed223f22
+commit 43371dd22e1130b1ddd6d4960651903b3ba4bfe9
+Merge: b0aebe4 144c374
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:40:09 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'hi_hdtb'
+Language code (from CoNLL-U file name) = 'hi'
+Found the following data files: hi_hdtb-ud-dev.conllu, hi_hdtb-ud-test.conllu, hi_hdtb-ud-train.conllu
 Size: counted 351704 of 351704 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.7255798254896.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,65 +23,105 @@ Features: 300020 out of 351704 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       6304
-Udapi: found 6304 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 351704 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-dev.conllu
-[Line 1277 Sent dev-s71 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:सभी:det --> 5:लगभग:dep)
-[Line 3693 Sent dev-s177 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:कम:det --> 16:से:dep)
-[Line 5276 Sent dev-s238 Node 16]: [L3 Syntax too-many-subjects] Multiple subjects [14, 15] not subtyped as ':outer'.
-[Line 6447 Sent dev-s287 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
-[Line 9832 Sent dev-s415 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:कम:det --> 3:से:dep)
-[Line 10790 Sent dev-s452 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:चंद:det --> 9:ही:dep)
-[Line 11054 Sent dev-s464 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:और:det --> 5:भी:dep)
-[Line 11150 Sent dev-s468 Node 30]: [L3 Syntax leaf-det] 'det' not expected to have children (30:कम:det --> 31:से:dep)
-[Line 11787 Sent dev-s493 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:ज्यादा:det --> 16:से:dep)
-[Line 13630 Sent dev-s560 Node 14]: [L3 Syntax leaf-det] 'det' not expected to have children (14:और:det --> 13:कुछ:nmod)
+[Line 1277 Sent dev-s71]: [L3 Syntax leaf-det] 'det' not expected to have children (6:सभी:det --> 5:लगभग:dep)
+[Line 2735 Sent dev-s138]: [L3 Warning pron-det-without-prontype] The word 'अपने apane' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3122 Sent dev-s154]: [L3 Syntax too-many-objects] Multiple direct objects [12, 18] ('जो jo', 'करना karanā') under the predicate 'चाहता cāhatā'.
+[Line 3693 Sent dev-s177]: [L3 Syntax leaf-det] 'det' not expected to have children (15:कम:det --> 16:से:dep)
+[Line 3870 Sent dev-s184]: [L3 Warning pron-det-without-prontype] The word 'उतने utane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5276 Sent dev-s238]: [L3 Syntax too-many-subjects] Multiple subjects [14, 15] ('काम kāma', 'कोई koī') under the predicate 'रोजगार rojagāra' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 5807 Sent dev-s261]: [L3 Warning pron-det-without-prontype] The word 'सारे sāre' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6447 Sent dev-s287]: [L3 Syntax leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
+[Line 7332 Sent dev-s318]: [L3 Warning pron-det-without-prontype] The word 'दोहरे dohare' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7722 Sent dev-s334]: [L3 Warning pron-det-without-prontype] The word 'दोहरे dohare' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8581 Sent dev-s369]: [L3 Warning pron-det-without-prontype] The word 'अनेकों anekoṁ' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9832 Sent dev-s415]: [L3 Syntax leaf-det] 'det' not expected to have children (2:कम:det --> 3:से:dep)
+[Line 10201 Sent dev-s428]: [L3 Warning pron-det-without-prontype] The word 'सारा sārā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10790 Sent dev-s452]: [L3 Syntax leaf-det] 'det' not expected to have children (8:चंद:det --> 9:ही:dep)
+[Line 11054 Sent dev-s464]: [L3 Syntax leaf-det] 'det' not expected to have children (4:और:det --> 5:भी:dep)
+[Line 11150 Sent dev-s468]: [L3 Syntax leaf-det] 'det' not expected to have children (30:कम:det --> 31:से:dep)
+[Line 11787 Sent dev-s493]: [L3 Syntax leaf-det] 'det' not expected to have children (15:ज्यादा:det --> 16:से:dep)
 ...suppressing further errors regarding Syntax
-Syntax errors: 33
-*** FAILED *** with 33 errors
+[Line 21690 Sent dev-s866]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'घर ghara') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 22092 Sent dev-s880]: [L3 Warning pron-det-without-prontype] The word 'इतने itane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 22203 Sent dev-s884]: [L3 Warning pron-det-without-prontype] The word 'इतना itanā' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Syntax errors: 34
+Warnings: 21
+*** FAILED *** with 34 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-test.conllu
-[Line 120 Sent test-s6 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
-[Line 850 Sent test-s43 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:बहुत:det --> 9:ही:dep)
-[Line 2610 Sent test-s122 Node 22]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] not subtyped as ':outer'.
-[Line 3505 Sent test-s158 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:कम:det --> 4:से:dep)
-[Line 4531 Sent test-s203 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:ज्यादा:det --> 7:से:dep)
-[Line 4852 Sent test-s215 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] not subtyped as ':outer'.
-[Line 4927 Sent test-s218 Node 24]: [L3 Syntax leaf-det] 'det' not expected to have children (24:कम:det --> 25:से:dep)
-[Line 6820 Sent test-s286 Node 33]: [L3 Syntax leaf-det] 'det' not expected to have children (33:कम:det --> 34:से:dep)
-[Line 6926 Sent test-s290 Node 37]: [L3 Syntax leaf-det] 'det' not expected to have children (37:कम:det --> 38:से:dep)
-[Line 6970 Sent test-s292 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:कम:det --> 6:से:dep)
+[Line 22 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'आधा ādhā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 120 Sent test-s6]: [L3 Syntax leaf-det] 'det' not expected to have children (9:बहुत:det --> 10:ही:dep)
+[Line 850 Sent test-s43]: [L3 Syntax leaf-det] 'det' not expected to have children (8:बहुत:det --> 9:ही:dep)
+[Line 2610 Sent test-s122]: [L3 Syntax too-many-subjects] Multiple subjects [10, 11] ('तकनीक takanīka', 'उसे use') under the predicate 'होगी hogī' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 3443 Sent test-s155]: [L3 Warning pron-det-without-prontype] The word 'सब saba' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3505 Sent test-s158]: [L3 Syntax leaf-det] 'det' not expected to have children (3:कम:det --> 4:से:dep)
+[Line 4436 Sent test-s199]: [L3 Warning pron-det-without-prontype] The word 'सारी sārī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4531 Sent test-s203]: [L3 Syntax leaf-det] 'det' not expected to have children (6:ज्यादा:det --> 7:से:dep)
+[Line 4614 Sent test-s206]: [L3 Warning pron-det-without-prontype] The word 'इतना itanā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4852 Sent test-s215]: [L3 Syntax too-many-subjects] Multiple subjects [8, 10] ('सरकार sarakāra', 'उम्मीद ummīda') under the predicate 'है hai' not subtyped as ':outer'.
+[Line 4927 Sent test-s218]: [L3 Syntax leaf-det] 'det' not expected to have children (24:कम:det --> 25:से:dep)
+[Line 5560 Sent test-s238]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'स्थान sthāna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5742 Sent test-s245]: [L3 Warning pron-det-without-prontype] The word 'इतना itanā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6820 Sent test-s286]: [L3 Syntax leaf-det] 'det' not expected to have children (33:कम:det --> 34:से:dep)
+[Line 6926 Sent test-s290]: [L3 Syntax leaf-det] 'det' not expected to have children (37:कम:det --> 38:से:dep)
+[Line 6970 Sent test-s292]: [L3 Syntax leaf-det] 'det' not expected to have children (5:कम:det --> 6:से:dep)
 ...suppressing further errors regarding Syntax
+[Line 10303 Sent test-s413]: [L3 Warning pron-det-without-prontype] The word 'थोड़ा thoṛā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10834 Sent test-s433]: [L3 Warning pron-det-without-prontype] The word 'आधा ādhā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 15015 Sent test-s605]: [L3 Warning pron-det-without-prontype] The word 'थोड़ी thoṛī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 17896 Sent test-s722]: [L3 Warning pron-det-without-prontype] The word 'जितनी jitanī' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
 Syntax errors: 37
+Warnings: 16
 *** FAILED *** with 37 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hi --max-err=10 UD_Hindi-HDTB/hi_hdtb-ud-train.conllu
-[Line 194 Sent train-s12 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:और:det --> 16:भी:dep)
-[Line 1800 Sent train-s92 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:कितने:det --> 7:ही:dep)
-[Line 2620 Sent train-s133 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:थोड़ा:det --> 5:सा:dep)
-[Line 2948 Sent train-s149 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:थोड़े:det --> 20:से:dep)
-[Line 3079 Sent train-s157 Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [7, 18] not subtyped as ':outer'.
-[Line 3708 Sent train-s187 Node 48]: [L3 Syntax too-many-subjects] Multiple subjects [45, 46] not subtyped as ':outer'.
-[Line 5023 Sent train-s260 Node 8]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
-[Line 5281 Sent train-s274 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [5, 22] not subtyped as ':outer'.
-[Line 6240 Sent train-s325 Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] not subtyped as ':outer'.
-[Line 8115 Sent train-s425 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:जितने:det --> 4:भी:dep)
+[Line 194 Sent train-s12]: [L3 Syntax leaf-det] 'det' not expected to have children (15:और:det --> 16:भी:dep)
+[Line 1799 Sent train-s92]: [L3 Warning pron-det-without-prontype] The word 'कितने kitane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1800 Sent train-s92]: [L3 Syntax leaf-det] 'det' not expected to have children (6:कितने:det --> 7:ही:dep)
+[Line 2619 Sent train-s133]: [L3 Warning pron-det-without-prontype] The word 'थोड़ा thoṛā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2620 Sent train-s133]: [L3 Syntax leaf-det] 'det' not expected to have children (4:थोड़ा:det --> 5:सा:dep)
+[Line 2947 Sent train-s149]: [L3 Warning pron-det-without-prontype] The word 'थोड़े thoṛe' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2948 Sent train-s149]: [L3 Syntax leaf-det] 'det' not expected to have children (19:थोड़े:det --> 20:से:dep)
+[Line 3079 Sent train-s157]: [L3 Syntax too-many-subjects] Multiple subjects [7, 18] ('आपको āpako', 'समर्पित samarpita') under the predicate 'होगा hogā' not subtyped as ':outer'.
+
+Outer subjects are allowed if a clause acts as the predicate of another clause.
+
+[Line 3464 Sent train-s177]: [L3 Warning pron-det-without-prontype] The word 'इतना itanā' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3708 Sent train-s187]: [L3 Syntax too-many-subjects] Multiple subjects [45, 46] ('यह yaha', 'कोई koī') under the predicate 'बात bāta' not subtyped as ':outer'.
+[Line 4136 Sent train-s210]: [L3 Warning pron-det-without-prontype] The word 'सारी sārī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4330 Sent train-s219]: [L3 Warning pron-det-without-prontype] The word 'आधे ādhe' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5023 Sent train-s260]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] ('वर्किंग varkiṁga', 'दर्जा darjā') under the predicate 'प्राप्त prāpta' not subtyped as ':outer'.
+[Line 5281 Sent train-s274]: [L3 Syntax too-many-subjects] Multiple subjects [5, 22] ('आपको āpako', 'याद yāda') under the predicate 'आ ā' not subtyped as ':outer'.
+[Line 5802 Sent train-s304]: [L3 Warning pron-det-without-prontype] The word 'इतने itane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5997 Sent train-s313]: [L3 Warning pron-det-without-prontype] The word 'इतनी itanī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6240 Sent train-s325]: [L3 Syntax too-many-subjects] Multiple subjects [4, 5] ('सौंदर्य sauṁdarya', 'आपको āpako') under the predicate 'कर kara' not subtyped as ':outer'.
+[Line 6727 Sent train-s351]: [L3 Warning pron-det-without-prontype] The word 'सारी sārī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8114 Sent train-s425]: [L3 Warning pron-det-without-prontype] The word 'जितने jitane' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8115 Sent train-s425]: [L3 Syntax leaf-det] 'det' not expected to have children (3:जितने:det --> 4:भी:dep)
 ...suppressing further errors regarding Syntax
-Syntax errors: 270
-*** FAILED *** with 270 errors
+...suppressing further errors regarding Warning
+Syntax errors: 274
+Warnings: 164
+*** FAILED *** with 274 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.848725769221038) = 0.217621992107959
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.820758364988741) = 0.252541035381151
-(weight=0.0769230769230769) * (score{udeprels}=0.540540540540541) = 0.0415800415800416
-(TOTAL score=0.748294099737829) * (availability=1) * (validity=0.01) = 0.00748294099737829
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.848725769221038) = 0.314342877489273
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
+(TOTAL score=0.716087759626313) * (availability=1) * (validity=0.01) = 0.00716087759626313
 STARS = 0
-UD_Hindi-HDTB	0.00748294099737829	0
+UD_Hindi-HDTB	0.00716087759626313	0
