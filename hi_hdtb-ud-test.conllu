@@ -41044,7 +41044,7 @@
 3	से	से	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=se|Translit=se
 4	अब	अब	PRON	PRP	Case=Nom|PronType=Prs	8	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=aba|Translit=aba
 5	लगभग	लगभग	PART	RP	_	6	dep	_	ChunkId=NP3|ChunkType=child|LTranslit=lagabhaga|Translit=lagabhaga
-6	तिगुना	तिगुना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	7	det	_	ChunkId=NP3|ChunkType=child|LTranslit=tigunā|Translit=tigunā
+6	तिगुना	तिगुना	ADJ	QF	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	ChunkId=NP3|ChunkType=child|LTranslit=tigunā|Translit=tigunā
 7	जल	जल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=jala|Tam=0|Translit=jala|Vib=0
 8	मिलने	मिलना	VERB	VM	Case=Acc|VerbForm=Inf	16	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=milanā|Tam=nA|Translit=milane|Vib=ना_पर
 9	पर	पर	ADP	PSP	AdpType=Post	8	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para

@@ -7329,7 +7329,7 @@
 17	गठबंधन	गठबंधन	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	ChunkId=NP6|ChunkType=head|LTranslit=gaṭhabaṁdhana|Tam=0|Translit=gaṭhabaṁdhana|Vib=0_पर
 18	पर	पर	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|LTranslit=para|Translit=para
 19	'	'	PUNCT	SYM	_	20	punct	_	ChunkId=NP7|ChunkType=child|LTranslit='|SpaceAfter=No|Translit='
-20	दोहरे	दोहरा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	21	det	_	ChunkId=NP7|ChunkType=child|LTranslit=doharā|Translit=dohare
+20	दोहरे	दोहरा	ADJ	QF	Case=Nom|Gender=Masc|Number=Plur	21	amod	_	ChunkId=NP7|ChunkType=child|LTranslit=doharā|Translit=dohare
 21	मानक	मानक	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	obj	_	ChunkId=NP7|ChunkType=head|LTranslit=mānaka|SpaceAfter=No|Tam=0|Translit=mānaka|Vib=0
 22	'	'	PUNCT	SYM	_	21	punct	_	ChunkId=NP7|ChunkType=child|LTranslit='|Translit='
 23	अपनाने	अपनाना	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	25	nmod	_	ChunkId=VGNN|ChunkType=head|LTranslit=apanānā|Tam=nA|Translit=apanāne|Vib=ना_का
@@ -7719,7 +7719,7 @@
 15	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	ChunkId=NP7|ChunkType=head|LTranslit=vaha|Tam=0|Translit=vaha|Vib=0
 16	भी	भी	PART	RP	_	15	dep	_	ChunkId=NP7|ChunkType=child|LTranslit=bhī|Translit=bhī
 17	उनके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	ChunkId=NP8|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unake|Vib=का
-18	दोहरे	दोहरा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	19	det	_	ChunkId=NP9|ChunkType=child|LTranslit=doharā|Translit=dohare
+18	दोहरे	दोहरा	ADJ	QF	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	ChunkId=NP9|ChunkType=child|LTranslit=doharā|Translit=dohare
 19	चरित्र	चरित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	nmod	_	ChunkId=NP9|ChunkType=head|LTranslit=caritra|Tam=0|Translit=caritra|Vib=0_का
 20	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	19	case	_	ChunkId=NP9|ChunkType=child|LTranslit=kā|Translit=kā
 21	पर्दाफाश	पर्दाफाश	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	ChunkId=NP10|ChunkType=head|LTranslit=pardāphāśa|Tam=0|Translit=pardāphāśa|Vib=0
