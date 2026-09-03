@@ -33,7 +33,7 @@
     <tag name="X">140</tag><!-- पास, रिकॉर्ड, डाउनलोड, फिट, फेल, बुक, अलग, आउट, आफ, इंटरसेप्ट -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="44">
+  <feats unique="45">
     <feat name="AdpType" value="Post" upos="ADP,ADV,NOUN">73452</feat><!-- के, में, की, को, ने, से, का, पर, लिए, बाद -->
     <feat name="AdvType" value="Deg" upos="ADV">372</feat><!-- सबसे, बहुत, बेहद, काफी, और, सर्वाधिक, अति, अत्यंत, मोस्ट, इतनी -->
     <feat name="Aspect" value="Imp" upos="AUX,PROPN,VERB">3552</feat><!-- करते, सकता, जाता, सकते, सकती, देते, चाहते, होता, देखते, होती -->
@@ -63,11 +63,12 @@
     <feat name="Polite" value="Form" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">6188</feat><!-- उन्होंने, हैं, उनके, उन्हें, उनकी, के, रहे, थे, वे, कर -->
     <feat name="Polite" value="Infm" upos="PROPN,VERB">13</feat><!-- करो, बताओ, दो, जाओ, बचाओ, लो -->
     <feat name="Poss" value="Yes" upos="ADP,ADV,PRON,VERB">2848</feat><!-- इसके, उनके, उनकी, उसके, इसका, उनका, इसकी, उसकी, उसका, हमारे -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">4730</feat><!-- इस, यह, इन, उस, इसी, ये, ऐसे, जो, उन, जिस -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">4778</feat><!-- इस, यह, इन, उस, इसी, ये, ऐसे, जो, उन, जिस -->
     <feat name="PronType" value="Ind" upos="DET">2561</feat><!-- कुछ, कई, सभी, कम, ज्यादा, काफी, अधिक, और, हर, बहुत -->
-    <feat name="PronType" value="Int" upos="DET,PRON">326</feat><!-- क्या, कैसे, क्यों, किस, कब, कौन, कहाँ, किन, कितना, कितने -->
+    <feat name="PronType" value="Int" upos="DET,PRON">342</feat><!-- क्या, कैसे, क्यों, किस, कब, कौन, कितने, कहाँ, कितनी, किन -->
     <feat name="PronType" value="Neg" upos="PART">2198</feat><!-- नहीं, न, बिना, बगैर, मत, नही -->
     <feat name="PronType" value="Prs" upos="PRON">14436</feat><!-- उन्होंने, इसके, यह, अपने, वह, कोई, उनके, उन्हें, अब, अपनी -->
+    <feat name="PronType" value="Rel" upos="DET">5</feat><!-- जितनी, जितने -->
     <feat name="PronType" value="Tot" upos="DET">40</feat><!-- सारी, सारा, सारे -->
     <feat name="Tense" value="Fut" upos="AUX,PROPN,VERB">2404</feat><!-- जाएगा, होगा, करेंगे, होगी, जाएगी, होंगे, करेगी, करेगा, जाएंगे, रहेगा -->
     <feat name="Tense" value="Past" upos="ADP,AUX,VERB">2694</feat><!-- था, थी, थे, थीं, के, थी,, थीः, भांपते -->

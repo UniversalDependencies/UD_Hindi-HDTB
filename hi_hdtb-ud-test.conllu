@@ -4611,7 +4611,7 @@
 9	-	-	PUNCT	SYM	_	10	punct	_	ChunkId=NP3|ChunkType=child|LTranslit=-|Translit=-
 10	कानूनों	कानून	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	14	nmod	_	ChunkId=NP3|ChunkType=head|LTranslit=kānūna|Tam=0|Translit=kānūnoṁ|Vib=0_का
 11	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	10	case	_	ChunkId=NP3|ChunkType=child|LTranslit=kā|Translit=kā
-12	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	14	det	_	ChunkId=NP4|ChunkType=child|LTranslit=itanā|Translit=itanā
+12	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	ChunkId=NP4|ChunkType=child|LTranslit=itanā|Translit=itanā
 13	तगड़ा	तगडा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	ChunkId=NP4|ChunkType=child|LTranslit=tagaḍā|Translit=tagaṛā
 14	मकड़जाल	मकड़जाल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	ChunkId=NP4|ChunkType=head|CxnElt=15:Existential-CopPred.Pivot|LTranslit=makaṛajāla|Tam=0|Translit=makaṛajāla|Vib=0
 15	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	ChunkId=VGF|ChunkType=head|Cxn=Existential-CopPred|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
@@ -5739,7 +5739,7 @@
 1	उन्होंने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=vaha|Tam=ne|Translit=unhoṁne|Vib=ने
 2	कहा	कहना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=kahanā|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
 3	कि	कि	SCONJ	CC	_	5	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-4	इतना	इतना	DET	QF	Gender=Masc|Number=Sing	5	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
+4	इतना	इतना	DET	QF	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
 5	स्पष्ट	स्पष्ट	ADJ	JJ	_	2	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=spaṣṭa|Translit=spaṣṭa
 6	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
 7	कि	कि	SCONJ	CC	_	23	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|LTranslit=ki|Translit=ki
@@ -17893,7 +17893,7 @@
 24	कि	कि	SCONJ	CC	_	37	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP3|ChunkType=head|LTranslit=ki|Translit=ki
 25	राज्य	राज्य	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	nmod	_	ChunkId=NP8|ChunkType=head|LTranslit=rājya|Tam=0|Translit=rājya|Vib=0_में
 26	में	में	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP8|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-27	जितनी	जितना	DET	QF	Case=Nom|Gender=Fem	29	det	_	ChunkId=NP9|ChunkType=child|LTranslit=jitanā|Translit=jitanī
+27	जितनी	जितना	DET	QF	Case=Nom|Gender=Fem|PronType=Rel	29	det	_	ChunkId=NP9|ChunkType=child|LTranslit=jitanā|Translit=jitanī
 28	भी	भी	PART	RP	_	27	dep	_	ChunkId=NP9|ChunkType=child|LTranslit=bhī|Translit=bhī
 29	खामियां	खामी	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	31	acl:relcl	_	ChunkId=NP9|ChunkType=head|CxnElt=30:Existential-CopPred.Pivot|LTranslit=khāmī|Tam=0|Translit=khāmiyāṁ|Vib=0
 30	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	ChunkId=VGF3|ChunkType=head|Cxn=Existential-CopPred|LTranslit=hai|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
@@ -20050,7 +20050,7 @@
 17	सकी	सकना	AUX	VAUX	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	16	aux	_	ChunkId=VGF2|ChunkType=child|LTranslit=sakanā|Tam=yA|Translit=sakī|Vib=या
 18	तो	तो	SCONJ	CC	_	26	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP3|ChunkType=head|LTranslit=to|Translit=to
 19	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	ChunkId=NP7|ChunkType=head|LTranslit=vaha|Tam=0|Translit=vaha|Vib=0
-20	उतनी	उतना	DET	QF	Case=Nom|Gender=Fem|Number=Sing	22	det	_	ChunkId=NP8|ChunkType=child|LTranslit=utanā|Translit=utanī
+20	उतनी	उतना	DET	QF	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	ChunkId=NP8|ChunkType=child|LTranslit=utanā|Translit=utanī
 21	ही	ही	PART	RP	_	20	dep	_	ChunkId=NP8|ChunkType=child|LTranslit=hī|Translit=hī
 22	राशि	राशि	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	obj	_	ChunkId=NP8|ChunkType=head|LTranslit=rāśi|Tam=0|Translit=rāśi|Vib=0
 23	बतौर	बतौर	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP9|ChunkType=child|LTranslit=bataura|Translit=bataura

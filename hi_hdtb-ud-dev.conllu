@@ -3867,7 +3867,7 @@
 25	लेकिन	लेकिन	CCONJ	CC	_	30	cc	_	ChunkId=CCP3|ChunkType=head|LTranslit=lekina|Translit=lekina
 26	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod	_	ChunkId=NP10|ChunkType=head|LTranslit=vaha|Tam=ke|Translit=usake|Vib=0_पास
 27	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	26	case	_	AltTag=ADP-NOUN|ChunkId=NP10|ChunkType=child|LTranslit=pāsa|Translit=pāsa
-28	उतने	उतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur	30	det	_	ChunkId=NP11|ChunkType=child|LTranslit=utanā|Translit=utane
+28	उतने	उतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	30	det	_	ChunkId=NP11|ChunkType=child|LTranslit=utanā|Translit=utane
 29	कानूनी	कानूनी	ADJ	JJ	Case=Nom	30	amod	_	ChunkId=NP11|ChunkType=child|LTranslit=kānūnī|Translit=kānūnī
 30	अधिकार	अधिकार	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	22	conj	_	ChunkId=NP11|ChunkType=head|CxnElt=32:Existential-CopPred.Pivot|LTranslit=adhikāra|Tam=0|Translit=adhikāra|Vib=0
 31	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	30	advmod	_	ChunkId=VGF3|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -22089,7 +22089,7 @@
 23	-	-	PUNCT	SYM	_	24	punct	_	ChunkId=NP6|ChunkType=child|LTranslit=-|Translit=-
 24	अमेरिकी	अमेरिकी	ADJ	JJ	Case=Nom	25	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=amerikī|Translit=amerikī
 25	संबंध	संबंध	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	27	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=saṁbaṁdha|Tam=0|Translit=saṁbaṁdha|Vib=0
-26	इतने	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur	27	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
+26	इतने	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	27	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
 27	बेहतर	बेहतर	ADJ	JJ	Case=Nom	7	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=behatara|Translit=behatara
 28	कभी	कभी	PRON	PRP	PronType=Prs	27	obl	_	ChunkId=NP7|ChunkType=head|LTranslit=kabhī|Translit=kabhī
 29	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	27	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -22200,7 +22200,7 @@
 11	पाक	पाक	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	ChunkId=NP5|ChunkType=child|LTranslit=pāka|Tam=0|Translit=pāka|Vib=0
 12	सीमा	सीमा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=sīmā|Tam=0|Translit=sīmā|Vib=0_पर
 13	पर	पर	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP5|ChunkType=child|LTranslit=para|Translit=para
-14	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	16	det	_	ChunkId=NP6|ChunkType=child|LTranslit=itanā|Translit=itanā
+14	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	ChunkId=NP6|ChunkType=child|LTranslit=itanā|Translit=itanā
 15	बेहतर	बेहतर	ADJ	JJ	Case=Nom	16	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=behatara|Translit=behatara
 16	माहौल	माहौल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	obj	_	ChunkId=NP6|ChunkType=head|LTranslit=māhaula|Tam=0|Translit=māhaula|Vib=0
 17	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	18	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -22305,7 +22305,7 @@
 # translit = yaha saṁbaṁdha itane behatara kabhī nahīṁ the .
 1	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=yaha|Translit=yaha
 2	संबंध	संबंध	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=saṁbaṁdha|Tam=0|Translit=saṁbaṁdha|Vib=0
-3	इतने	इतना	DET	QF	Gender=Masc|Number=Plur	4	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
+3	इतने	इतना	DET	QF	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
 4	बेहतर	बेहतर	ADJ	JJ	_	5	amod	_	ChunkId=JJP|ChunkType=head|LTranslit=behatara|Translit=behatara
 5	कभी	कभी	PRON	PRP	PronType=Prs	0	root	_	ChunkId=NP2|ChunkType=head|LTranslit=kabhī|Translit=kabhī
 6	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	ChunkId=VGF|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -26008,7 +26008,7 @@
 # sent_id = dev-s1045
 # text = इतने लोगों का पेट भरने के लिए रासायनिक खादों का कोई विकल्प नहीं है
 # translit = itane logoṁ kā peṭa bharane ke lie rāsāyanika khādoṁ kā koī vikalpa nahīṁ hai
-1	इतने	इतना	DET	QF	Case=Acc|Gender=Masc|Number=Plur	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=itanā|Translit=itane
+1	इतने	इतना	DET	QF	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=itanā|Translit=itane
 2	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	4	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=loga|Tam=0|Translit=logoṁ|Vib=0_का
 3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=kā|Translit=kā
 4	पेट	पेट	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=peṭa|Tam=0|Translit=peṭa|Vib=0
@@ -36965,7 +36965,7 @@
 5	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=sarakāra|Tam=0|Translit=sarakāra|Vib=0_को
 6	को	को	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|LTranslit=ko|Translit=ko
 7	हटाना	हटाना	VERB	VM	Case=Nom|VerbForm=Inf	11	nsubj	_	ChunkId=VGNN|ChunkType=head|LTranslit=haṭānā|Tam=nA|Translit=haṭānā|Vib=ना
-8	इतना	इतना	DET	QF	Gender=Masc|Number=Sing	9	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
+8	इतना	इतना	DET	QF	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
 9	आसान	आसान	ADJ	JJ	_	11	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=āsāna|Translit=āsāna
 10	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 11	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
