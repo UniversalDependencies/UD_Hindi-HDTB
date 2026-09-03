@@ -21687,7 +21687,7 @@
 8	एक	एक	NUM	QC	NumType=Card	10	nummod	_	ChunkId=NP4|ChunkType=child|LTranslit=eka|Translit=eka
 9	भी	भी	PART	RP	_	8	dep	_	ChunkId=NP4|ChunkType=child|LTranslit=bhī|Translit=bhī
 10	घर	घर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	obj	_	ChunkId=NP4|ChunkType=head|CxnElt=13:Existential-CopPred.Pivot|LTranslit=ghara|Tam=0|Translit=ghara|Vib=0
-11	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=aisā|Tam=0|Translit=aisā|Vib=0
+11	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=aisā|Tam=0|Translit=aisā|Vib=0
 12	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	10	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 13	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	ChunkId=VGF2|ChunkType=head|Cxn=Existential-CopPred|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
 14	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	ChunkId=NP6|ChunkType=head|LTranslit=jo|Tam=kA|Translit=jisake|Vib=का
@@ -23164,7 +23164,7 @@
 2	सवाल	सवाल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	ChunkId=NP|ChunkType=head|LTranslit=savāla|Tam=0|Translit=savāla|Vib=0_पर
 3	पर	पर	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=para|Translit=para
 4	कि	कि	SCONJ	CC	_	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-5	क्या	क्या	PRON	WQ	PronType=Int	15	obl	_	ChunkId=RBP|ChunkType=head|LTranslit=kyā|Translit=kyā
+5	क्या	क्या	PRON	WQ	PronType=Int	15	nmod	_	ChunkId=RBP|ChunkType=head|LTranslit=kyā|Translit=kyā
 6	एफडीआई	एफडीआई	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	ChunkId=NP2|ChunkType=child|LTranslit=ephaḍīāī|Tam=0|Translit=ephaḍīāī|Vib=0
 7	सीमा	सीमा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=sīmā|Tam=0|Translit=sīmā|Vib=0
 8	बढ़ाने	बढ़ाना	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	10	nmod	_	ChunkId=VGNN|ChunkType=head|LTranslit=baṛhānā|Tam=nA|Translit=baṛhāne|Vib=ना_का
@@ -36934,7 +36934,7 @@
 3	जाने	जाना	AUX	VAUX	Case=Acc|VerbForm=Inf	2	aux:pass	_	ChunkId=VGNN|ChunkType=child|LTranslit=jānā|Tam=nA|Translit=jāne|Vib=ना
 4	पर	पर	ADP	PSP	AdpType=Post	2	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para
 5	कि	कि	SCONJ	CC	_	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-6	क्या	क्या	PRON	WQ	PronType=Int	12	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=kyā|Translit=kyā
+6	क्या	क्या	PRON	WQ	PronType=Int	12	nmod	_	ChunkId=NP2|ChunkType=head|LTranslit=kyā|Translit=kyā
 7	उनकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	8	nmod	_	ChunkId=NP3|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unakī|Vib=का
 8	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obj	_	ChunkId=NP4|ChunkType=head|LTranslit=sarakāra|Tam=0|Translit=sarakāra|Vib=0_को
 9	को	को	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP4|ChunkType=child|LTranslit=ko|Translit=ko

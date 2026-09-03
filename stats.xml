@@ -100,12 +100,12 @@
     <dep name="dislocated">347</dep>
     <dep name="iobj">2518</dep>
     <dep name="mark">13557</dep>
-    <dep name="nmod">34461</dep>
+    <dep name="nmod">34488</dep>
     <dep name="nsubj">20961</dep>
     <dep name="nsubj:pass">558</dep>
     <dep name="nummod">5572</dep>
     <dep name="obj">16371</dep>
-    <dep name="obl">31323</dep>
+    <dep name="obl">31296</dep>
     <dep name="punct">23455</dep>
     <dep name="root">16649</dep>
     <dep name="vocative">7</dep>

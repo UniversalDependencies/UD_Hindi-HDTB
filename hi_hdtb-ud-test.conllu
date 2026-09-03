@@ -5557,7 +5557,7 @@
 12	ढाँचे	ढाँचा	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obj	_	ChunkId=NP5|ChunkType=head|LTranslit=ḍhām̃cā|Tam=0|Translit=ḍhām̃ce|Vib=0_को
 13	को	को	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP5|ChunkType=child|LTranslit=ko|Translit=ko
 14	सम्मानपूर्वक	सम्मानपूर्वक	ADV	RB	_	21	advmod	_	ChunkId=RBP|ChunkType=head|LTranslit=sammānapūrvaka|Translit=sammānapūrvaka
-15	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obl	_	ChunkId=NP6|ChunkType=child|LTranslit=koī|Tam=0|Translit=kisī|Vib=0
+15	किसी	कोई	PRON	PRP	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	ChunkId=NP6|ChunkType=child|LTranslit=koī|Tam=0|Translit=kisī|Vib=0
 16	दूसरे	दूसरा	ADJ	QO	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=dūsarā|Translit=dūsare
 17	नज़दीकी	नजदीकी	ADJ	JJ	Case=Acc	18	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=najadīkī|Translit=nazadīkī
 18	स्थान	स्थान	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	obl	_	ChunkId=NP6|ChunkType=head|LTranslit=sthāna|Tam=0|Translit=sthāna|Vib=0_में
@@ -34806,7 +34806,7 @@
 6	बारे	बारे	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|LTranslit=bāre|Translit=bāre
 7	में	में	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|LTranslit=meṁ|Translit=meṁ
 8	फिलहाल	फिलहाल	ADV	RB	_	12	advmod	_	ChunkId=RBP|ChunkType=head|LTranslit=philahāla|Translit=philahāla
-9	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	obl	_	ChunkId=NP3|ChunkType=child|LTranslit=koī|Tam=0|Translit=koī|Vib=0
+9	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nmod	_	ChunkId=NP3|ChunkType=child|LTranslit=koī|Tam=0|Translit=koī|Vib=0
 10	जानकारी	जानकारी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=jānakārī|Tam=0|Translit=jānakārī|Vib=0
 11	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	12	advmod	_	ChunkId=VGF|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 12	मिल	मिलना	VERB	VM	Gender=Fem|Number=Sing|Person=3|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=milanā|Stype=declarative|Tam=0|Translit=mila|Vib=0_सक+या_है
