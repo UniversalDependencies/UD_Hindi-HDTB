@@ -19,7 +19,7 @@
 # sent_id = test-s2
 # text = आधा किमी की दूरी पर भैरवनाथ मंदिर है, जहाँ केवल केदारनाथ के पट खुलने और बंद होने के दिन ही पूजन किया जाता है ।
 # translit = ādhā kimī kī dūrī para bhairavanātha maṁdira hai, jahām̃ kevala kedāranātha ke paṭa khulane aura baṁda hone ke dina hī pūjana kiyā jātā hai .
-1	आधा	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=ādhā|Translit=ādhā
+1	आधा	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=ādhā|Translit=ādhā
 2	किमी	किमी	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=kimī|Tam=0|Translit=kimī|Vib=0_का
 3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=kā|Translit=kī
 4	दूरी	दूरी	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	nmod	_	ChunkId=NP2|ChunkType=head|LTranslit=dūrī|Tam=0|Translit=dūrī|Vib=0_पर
@@ -10831,7 +10831,7 @@
 4	कॉलेज	कॉलेज	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	ChunkId=NP2|ChunkType=child|LTranslit=kôleja|Tam=0|Translit=kôleja|Vib=0
 5	परिसर	परिसर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=parisara|Tam=0|Translit=parisara|Vib=0_में
 6	में	में	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-7	आधा	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	8	det	_	ChunkId=NP3|ChunkType=child|LTranslit=ādhā|Translit=ādhā
+7	आधा	आधा	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	ChunkId=NP3|ChunkType=child|LTranslit=ādhā|Translit=ādhā
 8	दर्जन	दर्जन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	ChunkId=NP3|ChunkType=head|LTranslit=darjana|Tam=0|Translit=darjana|Vib=0_से
 9	से	से	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP3|ChunkType=child|LTranslit=se|Translit=se
 10	अधिक	अधिक	DET	QF	PronType=Ind	12	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head|LTranslit=adhika|Translit=adhika
@@ -33794,7 +33794,7 @@
 # translit = inameṁ se ādhe kṣetra pūrvī aura paścimī caṁpāraṇa, sītāmaṛhī aura madhubanī jile ke sīmāvartī kṣetra haiṁ .
 1	इनमें	यह	PRON	PRP	Case=Acc,Ine|Number=Plur|Person=3|PronType=Prs	16	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=yaha|Tam=meM|Translit=inameṁ|Vib=0_से
 2	से	से	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|LTranslit=se|Translit=se
-3	आधे	आधा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	4	det	_	ChunkId=NP2|ChunkType=child|LTranslit=ādhā|Translit=ādhe
+3	आधे	आधा	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	ChunkId=NP2|ChunkType=child|LTranslit=ādhā|Translit=ādhe
 4	क्षेत्र	क्षेत्र	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	16	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=kṣetra|Tam=0|Translit=kṣetra|Vib=0
 5	पूर्वी	पूर्वी	ADJ	JJ	Case=Nom	8	amod	_	ChunkId=JJP|ChunkType=head|LTranslit=pūrvī|Translit=pūrvī
 6	और	और	CCONJ	CC	_	7	cc	_	ChunkId=CCP|ChunkType=head|LTranslit=aura|Translit=aura
