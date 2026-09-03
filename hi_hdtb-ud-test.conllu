@@ -3440,7 +3440,7 @@
 4	और	और	CCONJ	CC	_	5	cc	_	ChunkId=CCP|ChunkType=head|LTranslit=aura|Translit=aura
 5	जंग	जंग	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	conj	_	ChunkId=NP2|ChunkType=head|LTranslit=jaṁga|Tam=0|Translit=jaṁga|Vib=0_में
 6	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP2|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-7	सब	सब	PRON	PRPC	_	8	compound	_	ChunkId=NP3|ChunkType=child|LTranslit=saba|Translit=saba
+7	सब	सब	PRON	PRPC	PronType=Tot	8	compound	_	ChunkId=NP3|ChunkType=child|LTranslit=saba|Translit=saba
 8	कुछ	कुछ	PRON	PRP	Case=Nom|Person=3|PronType=Prs	9	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=kucha|Tam=0|Translit=kucha|Vib=0
 9	जायज	जायज	ADJ	JJ	_	1	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=jāyaja|Translit=jāyaja
 10	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है

@@ -2732,7 +2732,7 @@
 12	निर्भर	निर्भर	ADJ	JJ	_	14	compound	_	ChunkId=JJP|ChunkType=head|LTranslit=nirbhara|Translit=nirbhara
 13	न	न	PART	NEG	Polarity=Neg|PronType=Neg	14	advmod	_	ChunkId=VGNF|ChunkType=child|LTranslit=na|Translit=na
 14	रहकर	रहना	VERB	VM	VerbForm=Conv	18	advcl	_	ChunkId=VGNF|ChunkType=head|LTranslit=rahanā|Tam=kara|Translit=rahakara|Vib=कर
-15	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc	16	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=apanā|Tam=0|Translit=apane|Vib=0
+15	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	16	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=apanā|Tam=0|Translit=apane|Vib=0
 16	संसाधन	संसाधन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	18	obj	_	ChunkId=NP6|ChunkType=head|LTranslit=saṁsādhana|Tam=0|Translit=saṁsādhana|Vib=0
 17	खुद	खुद	PRON	PRP	Case=Nom|PronType=Prs	2	nmod	_	ChunkId=NP7|ChunkType=head|LTranslit=khuda|Translit=khuda
 18	जुटा	जुटाना	VERB	VM	Number=Sing|Person=3|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=juṭānā|Stype=declarative|Tam=0|Translit=juṭā|Vib=0_सक+गा
@@ -8578,7 +8578,7 @@
 48	पंजाल	पंजाल	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	conj	_	ChunkId=NP17|ChunkType=head|LTranslit=paṁjāla|Tam=0|Translit=paṁjāla|Vib=0
 49	श्रृंखलाओं	श्रृंखला	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	52	nmod	_	ChunkId=NP18|ChunkType=head|LTranslit=śrr̥ṁkhalā|Tam=0|Translit=śrr̥ṁkhalāoṁ|Vib=0_का
 50	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	49	case	_	ChunkId=NP18|ChunkType=child|LTranslit=kā|Translit=kī
-51	अनेकों	अनेक	DET	QF	Case=Acc|Number=Plur	52	det	_	ChunkId=NP19|ChunkType=child|LTranslit=aneka|Translit=anekoṁ
+51	अनेकों	अनेक	DET	QF	Case=Acc|Number=Plur|PronType=Ind	52	det	_	ChunkId=NP19|ChunkType=child|LTranslit=aneka|Translit=anekoṁ
 52	चोटियों	चोटी	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	56	obl	_	ChunkId=NP19|ChunkType=head|LTranslit=coṭī|Tam=0|Translit=coṭiyoṁ|Vib=0_पर
 53	पर	पर	ADP	PSP	AdpType=Post	52	case	_	ChunkId=NP19|ChunkType=child|LTranslit=para|Translit=para
 54	ताजा	ताजा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	55	amod	_	ChunkId=NP20|ChunkType=child|LTranslit=tājā|Translit=tājā
