@@ -64,7 +64,7 @@
     <feat name="Polite" value="Infm" upos="PROPN,VERB">13</feat><!-- करो, बताओ, दो, जाओ, बचाओ, लो -->
     <feat name="Poss" value="Yes" upos="ADP,ADV,PRON,VERB">2848</feat><!-- इसके, उनके, उनकी, उसके, इसका, उनका, इसकी, उसकी, उसका, हमारे -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4778</feat><!-- इस, यह, इन, उस, इसी, ये, ऐसे, जो, उन, जिस -->
-    <feat name="PronType" value="Ind" upos="DET">2587</feat><!-- कुछ, कई, सभी, कम, ज्यादा, काफी, अधिक, और, हर, बहुत -->
+    <feat name="PronType" value="Ind" upos="DET">2609</feat><!-- कुछ, कई, सभी, कम, ज्यादा, काफी, अधिक, और, हर, बहुत -->
     <feat name="PronType" value="Int" upos="DET,PRON">342</feat><!-- क्या, कैसे, क्यों, किस, कब, कौन, कितने, कहाँ, कितनी, किन -->
     <feat name="PronType" value="Neg" upos="PART">2198</feat><!-- नहीं, न, बिना, बगैर, मत, नही -->
     <feat name="PronType" value="Prs" upos="PRON">14436</feat><!-- उन्होंने, इसके, यह, अपने, वह, कोई, उनके, उन्हें, अब, अपनी -->

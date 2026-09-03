@@ -10300,7 +10300,7 @@
 18	के	के	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|LTranslit=ke|Translit=ke
 19	मुताबिक	मुताबिक	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|LTranslit=mutābika|Translit=mutābika
 20	इन्हें	यह	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	24	iobj	_	ChunkId=NP7|ChunkType=head|LTranslit=yaha|Tam=ko|Translit=inheṁ|Vib=को
-21	थोड़ा	थोड़ा	DET	QF	Case=Nom|Gender=Masc|Number=Sing	23	det	_	ChunkId=NP8|ChunkType=child|LTranslit=thoṛā|Translit=thoṛā
+21	थोड़ा	थोड़ा	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	23	det	_	ChunkId=NP8|ChunkType=child|LTranslit=thoṛā|Translit=thoṛā
 22	सा	सा	PART	RP	Case=Nom|Gender=Masc|Number=Sing	21	dep	_	ChunkId=NP8|ChunkType=child|LTranslit=sā|Translit=sā
 23	प्रशिक्षण	प्रशिक्षण	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	obj	_	ChunkId=NP8|ChunkType=head|LTranslit=praśikṣaṇa|Tam=0|Translit=praśikṣaṇa|Vib=0
 24	देकर	देना	VERB	VM	VerbForm=Conv	26	advcl	_	ChunkId=VGNF2|ChunkType=head|LTranslit=denā|Tam=kara|Translit=dekara|Vib=कर
@@ -15012,7 +15012,7 @@
 1	२०	२०	PROPN	NNPC	Case=Nom|Number=Sing|Person=3	2	compound	_	ChunkId=NP|ChunkType=child|LTranslit=20|Tam=0|Translit=20|Vib=0
 2	जुलाई	जुलाई	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=julāī|Tam=0|Translit=julāī|Vib=0_को
 3	को	को	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=ko|Translit=ko
-4	थोड़ी	थोड़ा	DET	QF	Case=Acc|Gender=Fem|Number=Sing	5	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
+4	थोड़ी	थोड़ा	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
 5	प्रगति	प्रगति	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	12	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=pragati|Tam=0|Translit=pragati|Vib=0_के_बाद
 6	के	के	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|LTranslit=ke|Translit=ke
 7	बाद	बाद	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	5	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|LTranslit=bāda|Translit=bāda
@@ -27987,7 +27987,7 @@
 # sent_id = test-s1114
 # text = थोड़ी ही देर में सभी टीमें प्याऊ मनियारी पहुँच गईं ।
 # translit = thoṛī hī dera meṁ sabhī ṭīmeṁ pyāū maniyārī pahum̃ca gaīṁ .
-1	थोड़ी	थोड़ा	DET	QF	Case=Acc|Gender=Fem|Number=Sing	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
+1	थोड़ी	थोड़ा	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
 2	ही	ही	PART	RP	_	1	dep	_	ChunkId=NP|ChunkType=child|LTranslit=hī|Translit=hī
 3	देर	देर	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obl	_	ChunkId=NP|ChunkType=head|LTranslit=dera|Tam=0|Translit=dera|Vib=0_में
 4	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP|ChunkType=child|LTranslit=meṁ|Translit=meṁ

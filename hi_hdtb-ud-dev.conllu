@@ -24181,7 +24181,7 @@
 # text = इसके थोड़ी देर बाद सुमात्रा के पश्चिमी तट पर ५.० की तीव्रता का भूकंप रिकॉर्ड किया गया ।
 # translit = isake thoṛī dera bāda sumātrā ke paścimī taṭa para 5.0 kī tīvratā kā bhūkaṁpa rikôrḍa kiyā gayā .
 1	इसके	यह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=yaha|Tam=ke|Translit=isake|Vib=के
-2	थोड़ी	थोड़ा	DET	QF	Case=Nom|Gender=Fem|Number=Sing	3	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
+2	थोड़ी	थोड़ा	DET	QF	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
 3	देर	देर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=dera|Tam=0|Translit=dera|Vib=0_बाद
 4	बाद	बाद	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	3	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|LTranslit=bāda|Translit=bāda
 5	सुमात्रा	सुमात्रा	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	ChunkId=NP3|ChunkType=head|LTranslit=sumātrā|Tam=0|Translit=sumātrā|Vib=0_का
