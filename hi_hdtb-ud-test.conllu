@@ -4433,7 +4433,7 @@
 10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	9	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=kā|Translit=ke
 11	रास्ते	रास्ता	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	ChunkId=NP4|ChunkType=head|LTranslit=rāstā|Tam=0|Translit=rāste|Vib=0_का
 12	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	11	case	_	ChunkId=NP4|ChunkType=child|LTranslit=kā|Translit=kī
-13	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Plur	14	det	_	ChunkId=NP5|ChunkType=child|LTranslit=sārā|Translit=sārī
+13	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	14	det	_	ChunkId=NP5|ChunkType=child|LTranslit=sārā|Translit=sārī
 14	बाधाओं	बाधा	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	17	obj	_	ChunkId=NP5|ChunkType=head|LTranslit=bādhā|Tam=0|Translit=bādhāoṁ|Vib=0_को
 15	को	को	ADP	PSP	AdpType=Post	14	case	_	ChunkId=NP5|ChunkType=child|LTranslit=ko|Translit=ko
 16	खत्म	खत्म	ADJ	JJ	_	17	compound	_	ChunkId=JJP|ChunkType=head|LTranslit=khatma|Translit=khatma
@@ -19987,7 +19987,7 @@
 19	हैं	है	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
 20	और	और	CCONJ	CC	_	32	cc	_	ChunkId=CCP2|ChunkType=head|LTranslit=aura|Translit=aura
 21	उनकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod	_	ChunkId=NP9|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unakī|Vib=का
-22	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Plur	23	det	_	ChunkId=NP10|ChunkType=child|LTranslit=sārā|Translit=sārī
+22	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	23	det	_	ChunkId=NP10|ChunkType=child|LTranslit=sārā|Translit=sārī
 23	परिस्थितियों	परिस्थिति	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	27	obj	_	ChunkId=NP10|ChunkType=head|LTranslit=paristhiti|Tam=0|Translit=paristhitiyoṁ|Vib=0_को
 24	को	को	ADP	PSP	AdpType=Post	23	case	_	ChunkId=NP10|ChunkType=child|LTranslit=ko|Translit=ko
 25	नजर	नजर	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	27	obl	_	ChunkId=NP11|ChunkType=head|LTranslit=najara|Tam=0|Translit=najara|Vib=0_में
