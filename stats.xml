@@ -15,12 +15,12 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">21645</tag><!-- वाला, पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार -->
+    <tag name="ADJ">21655</tag><!-- वाला, पूरा, शामिल, अन्य, पिछला, जारी, नया, पूर्व, भारतीय, तैयार -->
     <tag name="ADP">73215</tag><!-- का, में, के, को, ने, से, पर, लिए, तक, साथ -->
     <tag name="ADV">3307</tag><!-- बाद, पहले, सबसे, फिर, वहीं, आगे, जल्द, साथ, लगातार, फिलहाल -->
     <tag name="AUX">23756</tag><!-- है, जाना, था, रहना, होना, सकना, चाहिए, पड़ना, पाना, करना -->
     <tag name="CCONJ">6427</tag><!-- और, व, लेकिन, जबकि, तथा, या, पर, एवं, अथवा, मगर -->
-    <tag name="DET">7525</tag><!-- यह, कुछ, कई, वह, सभी, कम, ज्यादा, ऐसा, काफी, जो -->
+    <tag name="DET">7515</tag><!-- यह, कुछ, कई, वह, सभी, कम, ज्यादा, ऐसा, काफी, जो -->
     <tag name="INTJ">3</tag><!-- ऐ, वाह -->
     <tag name="NOUN">78155</tag><!-- सरकार, लोग, मामला, पुलिस, राज्य, देश, नेता, पार्टी, बात, चुनाव -->
     <tag name="NUM">6740</tag><!-- एक, दो, तीन, करोड, हजार, चार, लाख, पांच, छह, सात -->
@@ -64,7 +64,7 @@
     <feat name="Polite" value="Infm" upos="PROPN,VERB">13</feat><!-- करो, बताओ, दो, जाओ, बचाओ, लो -->
     <feat name="Poss" value="Yes" upos="ADP,ADV,PRON,VERB">2848</feat><!-- इसके, उनके, उनकी, उसके, इसका, उनका, इसकी, उसकी, उसका, हमारे -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4778</feat><!-- इस, यह, इन, उस, इसी, ये, ऐसे, जो, उन, जिस -->
-    <feat name="PronType" value="Ind" upos="DET">2611</feat><!-- कुछ, कई, सभी, कम, ज्यादा, काफी, अधिक, और, हर, बहुत -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">2612</feat><!-- कुछ, कई, सभी, कम, ज्यादा, काफी, अधिक, और, हर, बहुत -->
     <feat name="PronType" value="Int" upos="DET,PRON">342</feat><!-- क्या, कैसे, क्यों, किस, कब, कौन, कितने, कहाँ, कितनी, किन -->
     <feat name="PronType" value="Neg" upos="PART">2198</feat><!-- नहीं, न, बिना, बगैर, मत, नही -->
     <feat name="PronType" value="Prs" upos="PRON">14437</feat><!-- उन्होंने, इसके, यह, अपने, वह, कोई, उनके, उन्हें, अब, अपनी -->
@@ -86,26 +86,26 @@
     <dep name="acl:relcl">1198</dep>
     <dep name="advcl">4534</dep>
     <dep name="advmod">3796</dep>
-    <dep name="amod">14210</dep>
+    <dep name="amod">14219</dep>
     <dep name="aux">9624</dep>
     <dep name="aux:pass">10609</dep>
     <dep name="case">66573</dep>
     <dep name="cc">6428</dep>
-    <dep name="ccomp">762</dep>
-    <dep name="compound">40251</dep>
+    <dep name="ccomp">772</dep>
+    <dep name="compound">40256</dep>
     <dep name="conj">7446</dep>
     <dep name="cop">3511</dep>
     <dep name="dep">4960</dep>
-    <dep name="det">7796</dep>
+    <dep name="det">7800</dep>
     <dep name="dislocated">347</dep>
-    <dep name="iobj">2518</dep>
+    <dep name="iobj">2691</dep>
     <dep name="mark">13557</dep>
-    <dep name="nmod">34488</dep>
-    <dep name="nsubj">20961</dep>
+    <dep name="nmod">34489</dep>
+    <dep name="nsubj">20746</dep>
     <dep name="nsubj:pass">558</dep>
     <dep name="nummod">5572</dep>
-    <dep name="obj">16371</dep>
-    <dep name="obl">31296</dep>
+    <dep name="obj">16381</dep>
+    <dep name="obl">31299</dep>
     <dep name="punct">23455</dep>
     <dep name="root">16649</dep>
     <dep name="vocative">7</dep>
