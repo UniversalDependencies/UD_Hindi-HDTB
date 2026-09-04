@@ -3118,7 +3118,7 @@
 15	संस्थान	संस्थान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=saṁsthāna|Tam=0|Translit=saṁsthāna|Vib=0
 16	प्रायोजित	प्रायोजित	ADJ	JJ	_	18	compound	_	ChunkId=JJP2|ChunkType=head|LTranslit=prāyojita|Translit=prāyojita
 17	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	18	advmod	_	ChunkId=VGNN|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
-18	करना	करना	VERB	VM	Case=Nom|VerbForm=Inf	19	obj	_	ChunkId=VGNN|ChunkType=head|LTranslit=karanā|Tam=nA|Translit=karanā|Vib=ना
+18	करना	करना	VERB	VM	Case=Nom|VerbForm=Inf	19	xcomp	_	ChunkId=VGNN|ChunkType=head|LTranslit=karanā|Tam=nA|Translit=karanā|Vib=ना
 19	चाहता	चाहना	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	ChunkId=VGF2|ChunkType=head|LTranslit=cāhanā|Stype=declarative|Tam=wA|Translit=cāhatā|Vib=ता
 20	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|LTranslit=.|Translit=.
 
