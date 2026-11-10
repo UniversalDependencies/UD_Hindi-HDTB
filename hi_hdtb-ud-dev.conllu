@@ -2732,7 +2732,7 @@
 12	निर्भर	निर्भर	ADJ	JJ	_	14	compound	_	ChunkId=JJP|ChunkType=head|LTranslit=nirbhara|Translit=nirbhara
 13	न	न	PART	NEG	Polarity=Neg|PronType=Neg	14	advmod	_	ChunkId=VGNF|ChunkType=child|LTranslit=na|Translit=na
 14	रहकर	रहना	VERB	VM	VerbForm=Conv	18	advcl	_	ChunkId=VGNF|ChunkType=head|LTranslit=rahanā|Tam=kara|Translit=rahakara|Vib=कर
-15	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc	16	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=apanā|Tam=0|Translit=apane|Vib=0
+15	अपने	अपना	PRON	PRP	Case=Nom|Gender=Masc|PronType=Prs	16	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=apanā|Tam=0|Translit=apane|Vib=0
 16	संसाधन	संसाधन	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	18	obj	_	ChunkId=NP6|ChunkType=head|LTranslit=saṁsādhana|Tam=0|Translit=saṁsādhana|Vib=0
 17	खुद	खुद	PRON	PRP	Case=Nom|PronType=Prs	2	nmod	_	ChunkId=NP7|ChunkType=head|LTranslit=khuda|Translit=khuda
 18	जुटा	जुटाना	VERB	VM	Number=Sing|Person=3|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=juṭānā|Stype=declarative|Tam=0|Translit=juṭā|Vib=0_सक+गा
@@ -3118,7 +3118,7 @@
 15	संस्थान	संस्थान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=saṁsthāna|Tam=0|Translit=saṁsthāna|Vib=0
 16	प्रायोजित	प्रायोजित	ADJ	JJ	_	18	compound	_	ChunkId=JJP2|ChunkType=head|LTranslit=prāyojita|Translit=prāyojita
 17	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	18	advmod	_	ChunkId=VGNN|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
-18	करना	करना	VERB	VM	Case=Nom|VerbForm=Inf	19	obj	_	ChunkId=VGNN|ChunkType=head|LTranslit=karanā|Tam=nA|Translit=karanā|Vib=ना
+18	करना	करना	VERB	VM	Case=Nom|VerbForm=Inf	19	xcomp	_	ChunkId=VGNN|ChunkType=head|LTranslit=karanā|Tam=nA|Translit=karanā|Vib=ना
 19	चाहता	चाहना	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	ChunkId=VGF2|ChunkType=head|LTranslit=cāhanā|Stype=declarative|Tam=wA|Translit=cāhatā|Vib=ता
 20	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|LTranslit=.|Translit=.
 
@@ -3867,7 +3867,7 @@
 25	लेकिन	लेकिन	CCONJ	CC	_	30	cc	_	ChunkId=CCP3|ChunkType=head|LTranslit=lekina|Translit=lekina
 26	उसके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod	_	ChunkId=NP10|ChunkType=head|LTranslit=vaha|Tam=ke|Translit=usake|Vib=0_पास
 27	पास	पास	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	26	case	_	AltTag=ADP-NOUN|ChunkId=NP10|ChunkType=child|LTranslit=pāsa|Translit=pāsa
-28	उतने	उतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur	30	det	_	ChunkId=NP11|ChunkType=child|LTranslit=utanā|Translit=utane
+28	उतने	उतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	30	det	_	ChunkId=NP11|ChunkType=child|LTranslit=utanā|Translit=utane
 29	कानूनी	कानूनी	ADJ	JJ	Case=Nom	30	amod	_	ChunkId=NP11|ChunkType=child|LTranslit=kānūnī|Translit=kānūnī
 30	अधिकार	अधिकार	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	22	conj	_	ChunkId=NP11|ChunkType=head|CxnElt=32:Existential-CopPred.Pivot|LTranslit=adhikāra|Tam=0|Translit=adhikāra|Vib=0
 31	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	30	advmod	_	ChunkId=VGF3|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -5272,7 +5272,7 @@
 12	नन	नन	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	conj	_	ChunkId=NP5|ChunkType=head|LTranslit=nana|Tam=0|Translit=nana|Vib=0_का
 13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	10	case	_	ChunkId=NP5|ChunkType=child|LTranslit=kā|Translit=kā
 14	काम	काम	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=kāma|Tam=0|Translit=kāma|Vib=0
-15	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	ChunkId=NP7|ChunkType=child|LTranslit=koī|Tam=0|Translit=koī|Vib=0
+15	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	det	_	ChunkId=NP7|ChunkType=child|LTranslit=koī|Tam=0|Translit=koī|Vib=0
 16	रोजगार	रोजगार	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	obj	_	ChunkId=NP7|ChunkType=head|CxnElt=20:Existential-CopPred.Pivot|LTranslit=rojagāra|Tam=0|Translit=rojagāra|Vib=0
 17	या	या	CCONJ	CC	_	18	cc	_	ChunkId=CCP3|ChunkType=head|LTranslit=yā|Translit=yā
 18	पेशा	पेशा	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	conj	_	ChunkId=NP8|ChunkType=head|LTranslit=peśā|Tam=0|Translit=peśā|Vib=0
@@ -5804,7 +5804,7 @@
 14	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	15	det	_	ChunkId=NP5|ChunkType=child|LTranslit=yaha|Translit=isa
 15	संबंध	संबंध	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=saṁbaṁdha|Tam=0|Translit=saṁbaṁdha|Vib=0_में
 16	में	में	ADP	PSP	AdpType=Post	15	case	_	ChunkId=NP5|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-17	सारे	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	18	det	_	ChunkId=NP6|ChunkType=child|LTranslit=sārā|Translit=sāre
+17	सारे	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	18	det	_	ChunkId=NP6|ChunkType=child|LTranslit=sārā|Translit=sāre
 18	दस्तावेज	दस्तावेज	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	obj	_	ChunkId=NP6|ChunkType=head|LTranslit=dastāveja|Tam=0|Translit=dastāveja|Vib=0
 19	मांगे	मांगना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=māṁganā|Stype=declarative|Tam=yA|Translit=māṁge|Vib=या_है
 20	हैं	है	AUX	VAUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	ChunkId=VGF|ChunkType=child|LTranslit=hai|Tam=hE|Translit=haiṁ|Vib=है
@@ -7329,7 +7329,7 @@
 17	गठबंधन	गठबंधन	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obl	_	ChunkId=NP6|ChunkType=head|LTranslit=gaṭhabaṁdhana|Tam=0|Translit=gaṭhabaṁdhana|Vib=0_पर
 18	पर	पर	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|LTranslit=para|Translit=para
 19	'	'	PUNCT	SYM	_	20	punct	_	ChunkId=NP7|ChunkType=child|LTranslit='|SpaceAfter=No|Translit='
-20	दोहरे	दोहरा	DET	QF	Case=Nom|Gender=Masc|Number=Plur	21	det	_	ChunkId=NP7|ChunkType=child|LTranslit=doharā|Translit=dohare
+20	दोहरे	दोहरा	ADJ	QF	Case=Nom|Gender=Masc|Number=Plur	21	amod	_	ChunkId=NP7|ChunkType=child|LTranslit=doharā|Translit=dohare
 21	मानक	मानक	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	23	obj	_	ChunkId=NP7|ChunkType=head|LTranslit=mānaka|SpaceAfter=No|Tam=0|Translit=mānaka|Vib=0
 22	'	'	PUNCT	SYM	_	21	punct	_	ChunkId=NP7|ChunkType=child|LTranslit='|Translit='
 23	अपनाने	अपनाना	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	25	nmod	_	ChunkId=VGNN|ChunkType=head|LTranslit=apanānā|Tam=nA|Translit=apanāne|Vib=ना_का
@@ -7719,7 +7719,7 @@
 15	वह	वह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	ChunkId=NP7|ChunkType=head|LTranslit=vaha|Tam=0|Translit=vaha|Vib=0
 16	भी	भी	PART	RP	_	15	dep	_	ChunkId=NP7|ChunkType=child|LTranslit=bhī|Translit=bhī
 17	उनके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	ChunkId=NP8|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unake|Vib=का
-18	दोहरे	दोहरा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	19	det	_	ChunkId=NP9|ChunkType=child|LTranslit=doharā|Translit=dohare
+18	दोहरे	दोहरा	ADJ	QF	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	ChunkId=NP9|ChunkType=child|LTranslit=doharā|Translit=dohare
 19	चरित्र	चरित्र	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	nmod	_	ChunkId=NP9|ChunkType=head|LTranslit=caritra|Tam=0|Translit=caritra|Vib=0_का
 20	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	19	case	_	ChunkId=NP9|ChunkType=child|LTranslit=kā|Translit=kā
 21	पर्दाफाश	पर्दाफाश	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	compound	_	ChunkId=NP10|ChunkType=head|LTranslit=pardāphāśa|Tam=0|Translit=pardāphāśa|Vib=0
@@ -8578,7 +8578,7 @@
 48	पंजाल	पंजाल	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	conj	_	ChunkId=NP17|ChunkType=head|LTranslit=paṁjāla|Tam=0|Translit=paṁjāla|Vib=0
 49	श्रृंखलाओं	श्रृंखला	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	52	nmod	_	ChunkId=NP18|ChunkType=head|LTranslit=śrr̥ṁkhalā|Tam=0|Translit=śrr̥ṁkhalāoṁ|Vib=0_का
 50	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	49	case	_	ChunkId=NP18|ChunkType=child|LTranslit=kā|Translit=kī
-51	अनेकों	अनेक	DET	QF	Case=Acc|Number=Plur	52	det	_	ChunkId=NP19|ChunkType=child|LTranslit=aneka|Translit=anekoṁ
+51	अनेकों	अनेक	DET	QF	Case=Acc|Number=Plur|PronType=Ind	52	det	_	ChunkId=NP19|ChunkType=child|LTranslit=aneka|Translit=anekoṁ
 52	चोटियों	चोटी	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur|Person=3	56	obl	_	ChunkId=NP19|ChunkType=head|LTranslit=coṭī|Tam=0|Translit=coṭiyoṁ|Vib=0_पर
 53	पर	पर	ADP	PSP	AdpType=Post	52	case	_	ChunkId=NP19|ChunkType=child|LTranslit=para|Translit=para
 54	ताजा	ताजा	ADJ	JJ	Case=Nom|Gender=Masc|Number=Sing	55	amod	_	ChunkId=NP20|ChunkType=child|LTranslit=tājā|Translit=tājā
@@ -10198,7 +10198,7 @@
 19	कृत्य	कृत्य	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	nmod	_	ChunkId=NP6|ChunkType=head|LTranslit=kr̥tya|Tam=0|Translit=kr̥tya|Vib=0_के_पीछे
 20	के	के	ADP	PSP	AdpType=Post	19	case	_	ChunkId=NP6|ChunkType=child|LTranslit=ke|Translit=ke
 21	पीछे	पीछे	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	19	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child|LTranslit=pīche|Translit=pīche
-22	सारा	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Sing	23	det	_	ChunkId=NP7|ChunkType=child|LTranslit=sārā|Translit=sārā
+22	सारा	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	23	det	_	ChunkId=NP7|ChunkType=child|LTranslit=sārā|Translit=sārā
 23	दिमाग	दिमाग	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	obj	_	ChunkId=NP7|ChunkType=head|CxnElt=30:Existential-CopPred.Pivot|LTranslit=dimāga|Tam=0|Translit=dimāga|Vib=0
 24	रिलायंस	रिलायंस	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	compound	_	ChunkId=NP8|ChunkType=child|LTranslit=rilāyaṁsa|Tam=0|Translit=rilāyaṁsa|Vib=0
 25	इंफोकॉम	इंफोकॉम	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	nmod	_	ChunkId=NP8|ChunkType=head|LTranslit=iṁphokôma|Tam=0|Translit=iṁphokôma|Vib=0_का
@@ -14632,8 +14632,8 @@
 15	के	के	ADP	PSP	AdpType=Post	14	mark	_	ChunkId=VGNN2|ChunkType=child|LTranslit=ke|Translit=ke
 16	बारे	बारे	ADP	PSP	AdpType=Post	14	mark	_	ChunkId=VGNN2|ChunkType=child|LTranslit=bāre|Translit=bāre
 17	में	में	ADP	PSP	AdpType=Post	14	mark	_	ChunkId=VGNN2|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-18	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	22	nsubj	_	ChunkId=NP4|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
-19	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	ChunkId=NP5|ChunkType=child|LTranslit=koī|Translit=koī
+18	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	22	iobj	_	ChunkId=NP4|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
+19	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	det	_	ChunkId=NP5|ChunkType=child|LTranslit=koī|Translit=koī
 20	जानकारी	जानकारी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=jānakārī|Tam=0|Translit=jānakārī|Vib=0
 21	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	22	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 22	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
@@ -19681,7 +19681,7 @@
 # text = बहरहाल आयोग को दंगे भड़काने में भूमिका होने की बाबत उनके खिलाफ कोई साक्ष्य नहीं मिला है ।
 # translit = baharahāla āyoga ko daṁge bhaṛakāne meṁ bhūmikā hone kī bābata unake khilāpha koī sākṣya nahīṁ milā hai .
 1	बहरहाल	बहरहाल	SCONJ	CC	_	16	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=baharahāla|Translit=baharahāla
-2	आयोग	आयोग	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=āyoga|Tam=0|Translit=āyoga|Vib=0_को
+2	आयोग	आयोग	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	iobj	_	ChunkId=NP|ChunkType=head|LTranslit=āyoga|Tam=0|Translit=āyoga|Vib=0_को
 3	को	को	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=ko|Translit=ko
 4	दंगे	दंगा	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=daṁgā|Tam=0|Translit=daṁge|Vib=0
 5	भड़काने	भड़काना	VERB	VM	Case=Acc|VerbForm=Inf	8	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=bhaṛakānā|Tam=nA|Translit=bhaṛakāne|Vib=ना_में
@@ -21687,7 +21687,7 @@
 8	एक	एक	NUM	QC	NumType=Card	10	nummod	_	ChunkId=NP4|ChunkType=child|LTranslit=eka|Translit=eka
 9	भी	भी	PART	RP	_	8	dep	_	ChunkId=NP4|ChunkType=child|LTranslit=bhī|Translit=bhī
 10	घर	घर	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	obj	_	ChunkId=NP4|ChunkType=head|CxnElt=13:Existential-CopPred.Pivot|LTranslit=ghara|Tam=0|Translit=ghara|Vib=0
-11	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=aisā|Tam=0|Translit=aisā|Vib=0
+11	ऐसा	ऐसा	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	10	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=aisā|Tam=0|Translit=aisā|Vib=0
 12	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	10	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 13	है	है	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	ChunkId=VGF2|ChunkType=head|Cxn=Existential-CopPred|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
 14	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	ChunkId=NP6|ChunkType=head|LTranslit=jo|Tam=kA|Translit=jisake|Vib=का
@@ -22089,7 +22089,7 @@
 23	-	-	PUNCT	SYM	_	24	punct	_	ChunkId=NP6|ChunkType=child|LTranslit=-|Translit=-
 24	अमेरिकी	अमेरिकी	ADJ	JJ	Case=Nom	25	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=amerikī|Translit=amerikī
 25	संबंध	संबंध	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	27	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=saṁbaṁdha|Tam=0|Translit=saṁbaṁdha|Vib=0
-26	इतने	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur	27	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
+26	इतने	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	27	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
 27	बेहतर	बेहतर	ADJ	JJ	Case=Nom	7	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=behatara|Translit=behatara
 28	कभी	कभी	PRON	PRP	PronType=Prs	27	obl	_	ChunkId=NP7|ChunkType=head|LTranslit=kabhī|Translit=kabhī
 29	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	27	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -22200,7 +22200,7 @@
 11	पाक	पाक	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	ChunkId=NP5|ChunkType=child|LTranslit=pāka|Tam=0|Translit=pāka|Vib=0
 12	सीमा	सीमा	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	18	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=sīmā|Tam=0|Translit=sīmā|Vib=0_पर
 13	पर	पर	ADP	PSP	AdpType=Post	12	case	_	ChunkId=NP5|ChunkType=child|LTranslit=para|Translit=para
-14	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing	16	det	_	ChunkId=NP6|ChunkType=child|LTranslit=itanā|Translit=itanā
+14	इतना	इतना	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	ChunkId=NP6|ChunkType=child|LTranslit=itanā|Translit=itanā
 15	बेहतर	बेहतर	ADJ	JJ	Case=Nom	16	amod	_	ChunkId=NP6|ChunkType=child|LTranslit=behatara|Translit=behatara
 16	माहौल	माहौल	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	obj	_	ChunkId=NP6|ChunkType=head|LTranslit=māhaula|Tam=0|Translit=māhaula|Vib=0
 17	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	18	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -22305,7 +22305,7 @@
 # translit = yaha saṁbaṁdha itane behatara kabhī nahīṁ the .
 1	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=yaha|Translit=yaha
 2	संबंध	संबंध	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=saṁbaṁdha|Tam=0|Translit=saṁbaṁdha|Vib=0
-3	इतने	इतना	DET	QF	Gender=Masc|Number=Plur	4	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
+3	इतने	इतना	DET	QF	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itane
 4	बेहतर	बेहतर	ADJ	JJ	_	5	amod	_	ChunkId=JJP|ChunkType=head|LTranslit=behatara|Translit=behatara
 5	कभी	कभी	PRON	PRP	PronType=Prs	0	root	_	ChunkId=NP2|ChunkType=head|LTranslit=kabhī|Translit=kabhī
 6	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	5	advmod	_	ChunkId=VGF|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -23095,7 +23095,7 @@
 3	पर	पर	ADP	PSP	AdpType=Post	2	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para
 4	कि	कि	SCONJ	CC	_	9	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
 5	क्या	क्या	PRON	WQ	PronType=Int	9	obl	_	ChunkId=RBP|ChunkType=head|CxnElt=9:Interrogative-WHInfo-Indirect.WHWord|LTranslit=kyā|Translit=kyā
-6	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
+6	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
 7	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	8	det	_	ChunkId=NP3|ChunkType=child|LTranslit=yaha|Translit=yaha
 8	चिंता	चिंता	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=ciṁtā|Tam=0|Translit=ciṁtā|Vib=0
 9	सता	सताना	VERB	VM	Gender=Fem|Number=Sing|Person=3|Voice=Act	1	acl	_	ChunkId=VGF|ChunkType=head|Cxn=Interrogative-WHInfo-Indirect|CxnElt=9:Interrogative-WHInfo-Indirect.Clause|LTranslit=satānā|Stype=declarative|Tam=0|Translit=satā|Vib=0_रह+या_है
@@ -23164,7 +23164,7 @@
 2	सवाल	सवाल	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obl	_	ChunkId=NP|ChunkType=head|LTranslit=savāla|Tam=0|Translit=savāla|Vib=0_पर
 3	पर	पर	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=para|Translit=para
 4	कि	कि	SCONJ	CC	_	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-5	क्या	क्या	PRON	WQ	PronType=Int	15	obl	_	ChunkId=RBP|ChunkType=head|LTranslit=kyā|Translit=kyā
+5	क्या	क्या	PRON	WQ	PronType=Int	15	nmod	_	ChunkId=RBP|ChunkType=head|LTranslit=kyā|Translit=kyā
 6	एफडीआई	एफडीआई	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	ChunkId=NP2|ChunkType=child|LTranslit=ephaḍīāī|Tam=0|Translit=ephaḍīāī|Vib=0
 7	सीमा	सीमा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=sīmā|Tam=0|Translit=sīmā|Vib=0
 8	बढ़ाने	बढ़ाना	VERB	VM	Case=Acc|Number=Sing|VerbForm=Inf	10	nmod	_	ChunkId=VGNN|ChunkType=head|LTranslit=baṛhānā|Tam=nA|Translit=baṛhāne|Vib=ना_का
@@ -23958,7 +23958,7 @@
 1	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	6	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=yaha|Tam=se|Translit=isase|Vib=0_पहले
 2	पहले	पहले	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|LTranslit=pahale|Translit=pahale
 3	हमारा	हम	PRON	PRP	Case=Acc,Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	ChunkId=NP2|ChunkType=head|LTranslit=hama|Tam=kA|Translit=hamārā|Vib=का
-4	सारा	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Sing	5	det	_	ChunkId=NP3|ChunkType=child|LTranslit=sārā|Translit=sārā
+4	सारा	सारा	DET	QF	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	ChunkId=NP3|ChunkType=child|LTranslit=sārā|Translit=sārā
 5	ध्यान	ध्यान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=dhyāna|Tam=0|Translit=dhyāna|Vib=0
 6	शिकार	शिकार	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	root	_	ChunkId=NP4|ChunkType=head|LTranslit=śikāra|Tam=0|Translit=śikāra|Vib=0_पर
 7	पर	पर	ADP	PSP	AdpType=Post	6	case	_	ChunkId=NP4|ChunkType=child|LTranslit=para|Translit=para
@@ -24181,7 +24181,7 @@
 # text = इसके थोड़ी देर बाद सुमात्रा के पश्चिमी तट पर ५.० की तीव्रता का भूकंप रिकॉर्ड किया गया ।
 # translit = isake thoṛī dera bāda sumātrā ke paścimī taṭa para 5.0 kī tīvratā kā bhūkaṁpa rikôrḍa kiyā gayā .
 1	इसके	यह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=yaha|Tam=ke|Translit=isake|Vib=के
-2	थोड़ी	थोड़ा	DET	QF	Case=Nom|Gender=Fem|Number=Sing	3	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
+2	थोड़ी	थोड़ा	DET	QF	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	ChunkId=NP2|ChunkType=child|LTranslit=thoṛā|Translit=thoṛī
 3	देर	देर	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=dera|Tam=0|Translit=dera|Vib=0_बाद
 4	बाद	बाद	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	3	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|LTranslit=bāda|Translit=bāda
 5	सुमात्रा	सुमात्रा	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	ChunkId=NP3|ChunkType=head|LTranslit=sumātrā|Tam=0|Translit=sumātrā|Vib=0_का
@@ -25916,7 +25916,7 @@
 24	लेकिन	लेकिन	CCONJ	CC	_	31	cc	_	ChunkId=CCP3|ChunkType=head|LTranslit=lekina|Translit=lekina
 25	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	nsubj	_	ChunkId=NP7|ChunkType=head|LTranslit=bhārata|Tam=0|Translit=bhārata|Vib=0_ने
 26	ने	ने	ADP	PSP	AdpType=Post	25	case	_	ChunkId=NP7|ChunkType=child|LTranslit=ne|Translit=ne
-27	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Sing	28	det	_	ChunkId=NP8|ChunkType=child|LTranslit=sārā|Translit=sārī
+27	सारी	सारा	DET	QF	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	28	det	_	ChunkId=NP8|ChunkType=child|LTranslit=sārā|Translit=sārī
 28	दुनिया	दुनिया	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	31	obj	_	ChunkId=NP8|ChunkType=head|LTranslit=duniyā|Tam=0|Translit=duniyā|Vib=0_को
 29	को	को	ADP	PSP	AdpType=Post	28	case	_	ChunkId=NP8|ChunkType=child|LTranslit=ko|Translit=ko
 30	अचंभित	अचंभित	ADJ	JJ	_	31	compound	_	ChunkId=JJP2|ChunkType=head|LTranslit=acaṁbhita|Translit=acaṁbhita
@@ -26008,7 +26008,7 @@
 # sent_id = dev-s1045
 # text = इतने लोगों का पेट भरने के लिए रासायनिक खादों का कोई विकल्प नहीं है
 # translit = itane logoṁ kā peṭa bharane ke lie rāsāyanika khādoṁ kā koī vikalpa nahīṁ hai
-1	इतने	इतना	DET	QF	Case=Acc|Gender=Masc|Number=Plur	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=itanā|Translit=itane
+1	इतने	इतना	DET	QF	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	ChunkId=NP|ChunkType=child|LTranslit=itanā|Translit=itane
 2	लोगों	लोग	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	4	nmod	_	ChunkId=NP|ChunkType=head|LTranslit=loga|Tam=0|Translit=logoṁ|Vib=0_का
 3	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=kā|Translit=kā
 4	पेट	पेट	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=peṭa|Tam=0|Translit=peṭa|Vib=0
@@ -27389,7 +27389,7 @@
 1	गोस्वामी	गोस्वामी	PROPN	NNP	Case=Nom|Number=Sing|Person=3	2	nmod	_	ChunkId=NP|ChunkType=child|LTranslit=gosvāmī|Tam=0|Translit=gosvāmī|Vib=0
 2	कैंप	कैंप	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=kaiṁpa|Tam=0|Translit=kaiṁpa|Vib=0_ने
 3	ने	ने	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=ne|Translit=ne
-4	महंत	महंत	PROPN	NNP	Case=Acc|Number=Sing|Person=3	7	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=mahaṁta|Tam=0|Translit=mahaṁta|Vib=0_को
+4	महंत	महंत	PROPN	NNP	Case=Acc|Number=Sing|Person=3	7	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=mahaṁta|Tam=0|Translit=mahaṁta|Vib=0_को
 5	को	को	ADP	PSP	AdpType=Post	4	case	_	ChunkId=NP2|ChunkType=child|LTranslit=ko|Translit=ko
 6	दरकिनार	दरकिनार	ADV	RB	_	7	compound	_	ChunkId=RBP|ChunkType=head|LTranslit=darakināra|Translit=darakināra
 7	कर	करना	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=karanā|Stype=declarative|Tam=0|Translit=kara|Vib=0_दे+या_है
@@ -27459,7 +27459,7 @@
 6	दिलचस्पी	दिलचस्पी	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	obj	_	ChunkId=NP3|ChunkType=head|LTranslit=dilacaspī|Tam=0|Translit=dilacaspī|Vib=0
 7	ले	लेना	VERB	VM	Number=Sing|Person=3|Polite=Form	9	acl	_	ChunkId=VGNF|ChunkType=head|LTranslit=lenā|Tam=0|Translit=le|Vib=0_रह+या
 8	रहे	रहना	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polite=Form|VerbForm=Part	7	aux	_	ChunkId=VGNF|ChunkType=child|LTranslit=rahanā|Tam=yA|Translit=rahe|Vib=या
-9	महंत	महंत	PROPN	NNP	Case=Acc|Number=Sing|Person=3	24	nsubj	_	ChunkId=NP4|ChunkType=head|LTranslit=mahaṁta|Tam=0|Translit=mahaṁta|Vib=0_को
+9	महंत	महंत	PROPN	NNP	Case=Acc|Number=Sing|Person=3	24	iobj	_	ChunkId=NP4|ChunkType=head|LTranslit=mahaṁta|Tam=0|Translit=mahaṁta|Vib=0_को
 10	को	को	ADP	PSP	AdpType=Post	9	case	_	ChunkId=NP4|ChunkType=child|LTranslit=ko|Translit=ko
 11	दोस्त	दोस्त	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obl	_	ChunkId=NP5|ChunkType=head|LTranslit=dosta|Tam=0|Translit=dosta|Vib=0_से
 12	से	से	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP5|ChunkType=child|LTranslit=se|Translit=se
@@ -28280,7 +28280,7 @@
 14	न	न	PART	NEG	Polarity=Neg|PronType=Neg	15	advmod	_	ChunkId=VGNN|ChunkType=child|LTranslit=na|Translit=na
 15	भरने	भरना	VERB	VM	Case=Acc|VerbForm=Inf	20	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=bharanā|Tam=nA|Translit=bharane|Vib=ना_पर
 16	पर	पर	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para
-17	मंत्रालय	मंत्रालय	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=maṁtrālaya|Tam=0|Translit=maṁtrālaya|Vib=0_को
+17	मंत्रालय	मंत्रालय	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	iobj	_	ChunkId=NP6|ChunkType=head|LTranslit=maṁtrālaya|Tam=0|Translit=maṁtrālaya|Vib=0_को
 18	को	को	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP6|ChunkType=child|LTranslit=ko|Translit=ko
 19	फटकार	फटकार	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	compound	_	ChunkId=NP7|ChunkType=head|LTranslit=phaṭakāra|Tam=0|Translit=phaṭakāra|Vib=0
 20	लगाई	लगाना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=lagānā|Stype=declarative|Tam=yA|Translit=lagāī|Vib=या_है
@@ -29572,7 +29572,7 @@
 8	बाढ़	बाढ़	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	conj	_	ChunkId=NP4|ChunkType=head|LTranslit=bāṛha|Tam=0|Translit=bāṛha|Vib=0
 9	आने	आना	VERB	VM	Case=Acc|VerbForm=Inf	15	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=ānā|Tam=nA|Translit=āne|Vib=ना_पर
 10	पर	पर	ADP	PSP	AdpType=Post	9	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para
-11	मछुआरों	मछुआरा	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=machuārā|Tam=0|Translit=machuāroṁ|Vib=0_को
+11	मछुआरों	मछुआरा	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	15	iobj	_	ChunkId=NP5|ChunkType=head|LTranslit=machuārā|Tam=0|Translit=machuāroṁ|Vib=0_को
 12	को	को	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP5|ChunkType=child|LTranslit=ko|Translit=ko
 13	मछलियाँ	मछली	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	15	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=machalī|Tam=0|Translit=machaliyām̃|Vib=0
 14	ज्यादा	ज्यादा	DET	QF	PronType=Ind	15	compound	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head|LTranslit=jyādā|Translit=jyādā
@@ -29586,7 +29586,7 @@
 1	लेकिन	लेकिन	CCONJ	CC	_	8	cc	_	ChunkId=CCP|ChunkType=head|LTranslit=lekina|Translit=lekina
 2	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=yaha|Translit=isa
 3	बार	बार	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	obl	_	ChunkId=NP|ChunkType=head|LTranslit=bāra|Tam=0|Translit=bāra|Vib=0
-4	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Plur|PronType=Prs	8	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
+4	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Plur|PronType=Prs	8	iobj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
 5	अधिक	अधिक	DET	QF	PronType=Ind	6	det	_	ChunkId=NP3|ChunkType=child|LTranslit=adhika|Translit=adhika
 6	मछलियाँ	मछली	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	8	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=machalī|Tam=0|Translit=machaliyām̃|Vib=0
 7	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	8	advmod	_	ChunkId=VGF|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -30720,7 +30720,7 @@
 10	-	-	PUNCT	SYM	_	11	punct	_	ChunkId=NP4|ChunkType=child|LTranslit=-|Translit=-
 11	काज	काज	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obl	_	ChunkId=NP4|ChunkType=head|LTranslit=kāja|Tam=0|Translit=kāja|Vib=0_पर
 12	पर	पर	ADP	PSP	AdpType=Post	11	case	_	ChunkId=NP4|ChunkType=child|LTranslit=para|Translit=para
-13	आयोजकों	आयोजक	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	17	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=āyojaka|Tam=0|Translit=āyojakoṁ|Vib=0_को
+13	आयोजकों	आयोजक	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	17	iobj	_	ChunkId=NP5|ChunkType=head|LTranslit=āyojaka|Tam=0|Translit=āyojakoṁ|Vib=0_को
 14	को	को	ADP	PSP	AdpType=Post	13	case	_	ChunkId=NP5|ChunkType=child|LTranslit=ko|Translit=ko
 15	शंका	शंका	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=śaṁkā|Tam=0|Translit=śaṁkā|Vib=0
 16	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	17	advmod	_	ChunkId=VGF|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
@@ -32712,7 +32712,7 @@
 # text = इस सारे मामले में खास बात यह दिखाई पड़ी कि दो दिन पहले बिहार में राष्ट्रपति शासन के फैसले पर कैबिनेट बैठक का बहिष्कार करने वाले लालू प्रसाद यादव सोनिया गांधी का जमकर बचाव करते दिखाई दिए ।
 # translit = isa sāre māmale meṁ khāsa bāta yaha dikhāī paṛī ki do dina pahale bihāra meṁ rāṣṭrapati śāsana ke phaisale para kaibineṭa baiṭhaka kā bahiṣkāra karane vāle lālū prasāda yādava soniyā gāṁdhī kā jamakara bacāva karate dikhāī die .
 1	इस	यह	DET	DEM	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=yaha|Translit=isa
-2	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=sārā|Translit=sāre
+2	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	ChunkId=NP|ChunkType=child|LTranslit=sārā|Translit=sāre
 3	मामले	मामला	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obl	_	ChunkId=NP|ChunkType=head|LTranslit=māmalā|Tam=0|Translit=māmale|Vib=0_में
 4	में	में	ADP	PSP	AdpType=Post	3	case	_	ChunkId=NP|ChunkType=child|LTranslit=meṁ|Translit=meṁ
 5	खास	खास	ADJ	JJ	Case=Nom	6	amod	_	ChunkId=NP2|ChunkType=child|LTranslit=khāsa|Translit=khāsa
@@ -33443,7 +33443,7 @@
 1	उन्होंने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=vaha|Tam=ne|Translit=unhoṁne|Vib=ने
 2	कहा	कहना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=kahanā|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
 3	कि	कि	SCONJ	CC	_	9	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-4	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
+4	उन्हें	वह	PRON	PRP	Case=Acc,Dat|Number=Sing|Person=3|Polite=Form|PronType=Prs	9	iobj	_	ChunkId=NP2|ChunkType=head|LTranslit=vaha|Tam=ko|Translit=unheṁ|Vib=को
 5	यह	यह	DET	DEM	Case=Nom|Number=Sing|Person=3|PronType=Dem	7	det	_	ChunkId=NP3|ChunkType=child|LTranslit=yaha|Translit=yaha
 6	मान	मान	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	ChunkId=NP3|ChunkType=child|LTranslit=māna|Tam=0|Translit=māna|Vib=0
 7	सम्मान	सम्मान	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=sammāna|Tam=0|Translit=sammāna|Vib=0
@@ -33675,14 +33675,14 @@
 4	उम्मीद	उम्मीद	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=ummīda|Tam=0|Translit=ummīda|Vib=0
 5	जताई	जताना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=jatānā|Stype=declarative|Tam=yA|Translit=jatāī|Vib=या
 6	कि	कि	SCONJ	CC	_	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-7	सदन	सदन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=sadana|Tam=0|Translit=sadana|Vib=0_को
+7	सदन	सदन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	iobj	_	ChunkId=NP3|ChunkType=head|LTranslit=sadana|Tam=0|Translit=sadana|Vib=0_को
 8	को	को	ADP	PSP	AdpType=Post	7	case	_	ChunkId=NP3|ChunkType=child|LTranslit=ko|Translit=ko
 9	उनके	वह	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	10	nmod	_	ChunkId=NP4|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unake|Vib=का
 10	मार्गदर्शन	मार्गदर्शन	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	nmod	_	ChunkId=NP5|ChunkType=head|LTranslit=mārgadarśana|Tam=0|Translit=mārgadarśana|Vib=0
 11	और	और	CCONJ	CC	_	12	cc	_	ChunkId=CCP2|ChunkType=head|LTranslit=aura|Translit=aura
 12	अनुभव	अनुभव	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	conj	_	ChunkId=NP6|ChunkType=head|LTranslit=anubhava|Tam=0|Translit=anubhava|Vib=0_का
 13	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	10	case	_	ChunkId=NP6|ChunkType=child|LTranslit=kā|Translit=kā
-14	लाभ	लाभ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	ChunkId=NP7|ChunkType=head|LTranslit=lābha|Tam=0|Translit=lābha|Vib=0
+14	लाभ	लाभ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	compound	_	ChunkId=NP7|ChunkType=head|LTranslit=lābha|Tam=0|Translit=lābha|Vib=0
 15	मिलता	मिलना	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	5	acl	_	ChunkId=VGF2|ChunkType=head|LTranslit=milanā|Stype=declarative|Tam=wA|Translit=milatā|Vib=ता_रह+गा
 16	रहेगा	रहना	AUX	VAUX	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	ChunkId=VGF2|ChunkType=child|LTranslit=rahanā|Tam=gA|Translit=rahegā|Vib=गा
 17	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|LTranslit=.|Translit=.
@@ -36934,7 +36934,7 @@
 3	जाने	जाना	AUX	VAUX	Case=Acc|VerbForm=Inf	2	aux:pass	_	ChunkId=VGNN|ChunkType=child|LTranslit=jānā|Tam=nA|Translit=jāne|Vib=ना
 4	पर	पर	ADP	PSP	AdpType=Post	2	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=para|Translit=para
 5	कि	कि	SCONJ	CC	_	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
-6	क्या	क्या	PRON	WQ	PronType=Int	12	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=kyā|Translit=kyā
+6	क्या	क्या	PRON	WQ	PronType=Int	12	nmod	_	ChunkId=NP2|ChunkType=head|LTranslit=kyā|Translit=kyā
 7	उनकी	वह	PRON	PRP	Case=Acc,Gen|Gender=Fem|Number=Sing|Person=3|Polite=Form|Poss=Yes|PronType=Prs	8	nmod	_	ChunkId=NP3|ChunkType=head|LTranslit=vaha|Tam=kA|Translit=unakī|Vib=का
 8	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obj	_	ChunkId=NP4|ChunkType=head|LTranslit=sarakāra|Tam=0|Translit=sarakāra|Vib=0_को
 9	को	को	ADP	PSP	AdpType=Post	8	case	_	ChunkId=NP4|ChunkType=child|LTranslit=ko|Translit=ko
@@ -36965,7 +36965,7 @@
 5	सरकार	सरकार	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	7	obj	_	ChunkId=NP2|ChunkType=head|LTranslit=sarakāra|Tam=0|Translit=sarakāra|Vib=0_को
 6	को	को	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|LTranslit=ko|Translit=ko
 7	हटाना	हटाना	VERB	VM	Case=Nom|VerbForm=Inf	11	nsubj	_	ChunkId=VGNN|ChunkType=head|LTranslit=haṭānā|Tam=nA|Translit=haṭānā|Vib=ना
-8	इतना	इतना	DET	QF	Gender=Masc|Number=Sing	9	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
+8	इतना	इतना	DET	QF	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	ChunkId=JJP|ChunkType=child|LTranslit=itanā|Translit=itanā
 9	आसान	आसान	ADJ	JJ	_	11	obj	_	ChunkId=JJP|ChunkType=head|LTranslit=āsāna|Translit=āsāna
 10	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	11	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 11	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	ChunkId=VGF2|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
@@ -38176,7 +38176,7 @@
 2	ने	ने	ADP	PSP	AdpType=Post	1	case	_	ChunkId=NP|ChunkType=child|LTranslit=ne|Translit=ne
 3	कहा	कहना	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=kahanā|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
 4	,	,	PUNCT	SYM	_	3	punct	_	ChunkId=VGF|ChunkType=child|LTranslit=,|Translit=,
-5	हमें	हम	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=hama|Tam=ko|Translit=hameṁ|Vib=को
+5	हमें	हम	PRON	PRP	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	ChunkId=NP2|ChunkType=head|LTranslit=hama|Tam=ko|Translit=hameṁ|Vib=को
 6	नहीं	नहीं	PART	NEG	Polarity=Neg|PronType=Neg	7	advmod	_	ChunkId=VGF2|ChunkType=child|LTranslit=nahīṁ|Translit=nahīṁ
 7	लगता	लगना	VERB	VM	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	obj	_	ChunkId=VGF2|ChunkType=head|LTranslit=laganā|Stype=declarative|Tam=wA|Translit=lagatā|Vib=ता
 8	कि	कि	SCONJ	CC	_	21	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
@@ -38188,11 +38188,11 @@
 14	समुदाय	समुदाय	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	acl	_	ChunkId=NP4|ChunkType=head|LTranslit=samudāya|Tam=0|Translit=samudāya|Vib=0
 15	मानने	मानना	VERB	VM	Case=Acc|VerbForm=Inf	21	obl	_	ChunkId=VGNN|ChunkType=head|LTranslit=mānanā|Tam=nA|Translit=mānane|Vib=ना_में
 16	में	में	ADP	PSP	AdpType=Post	15	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=meṁ|Translit=meṁ
-17	विहिप	विहिप	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	ChunkId=NP5|ChunkType=head|LTranslit=vihipa|Tam=0|Translit=vihipa|Vib=0_को
+17	विहिप	विहिप	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	21	iobj	_	ChunkId=NP5|ChunkType=head|LTranslit=vihipa|Tam=0|Translit=vihipa|Vib=0_को
 18	को	को	ADP	PSP	AdpType=Post	17	case	_	ChunkId=NP5|ChunkType=child|LTranslit=ko|Translit=ko
 19	कोई	कोई	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	det	_	ChunkId=NP6|ChunkType=child|LTranslit=koī|Tam=0|Translit=koī|Vib=0
 20	आपत्ति	आपत्ति	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	ChunkId=NP6|ChunkType=head|LTranslit=āpatti|Tam=0|Translit=āpatti|Vib=0
-21	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	nsubj	_	ChunkId=VGF3|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+21	है	है	VERB	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	ChunkId=VGF3|ChunkType=head|LTranslit=hai|Stype=declarative|Tam=hE|Translit=hai|Vib=है
 22	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|LTranslit=.|Translit=.
 
 # sent_id = dev-s1519
@@ -38421,7 +38421,7 @@
 1	लेकिन	लेकिन	CCONJ	CC	_	10	cc	_	ChunkId=CCP|ChunkType=head|LTranslit=lekina|Translit=lekina
 2	तब	तब	PRON	PRP	PronType=Prs	10	obl	_	ChunkId=NP|ChunkType=head|LTranslit=taba|Translit=taba|Vib=0_तक
 3	तक	तक	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=taka|Translit=taka
-4	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing	5	det	_	ChunkId=NP2|ChunkType=child|LTranslit=sārā|Translit=sāre
+4	सारे	सारा	DET	QF	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	ChunkId=NP2|ChunkType=child|LTranslit=sārā|Translit=sāre
 5	शहर	शहर	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	ChunkId=NP2|ChunkType=head|LTranslit=śahara|Tam=0|Translit=śahara|Vib=0_में
 6	में	में	ADP	PSP	AdpType=Post	5	case	_	ChunkId=NP2|ChunkType=child|LTranslit=meṁ|Translit=meṁ
 7	अफरा	अफर	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	ChunkId=NP3|ChunkType=child|LTranslit=aphara|Tam=0|Translit=apharā|Vib=0
@@ -39014,7 +39014,7 @@
 18	आने	आना	VERB	VM	Case=Acc|VerbForm=Inf	24	advcl	_	ChunkId=VGNN|ChunkType=head|LTranslit=ānā|Tam=nA|Translit=āne|Vib=ना_से
 19	से	से	ADP	PSP	AdpType=Post	18	mark	_	ChunkId=VGNN|ChunkType=child|LTranslit=se|Translit=se
 20	विहिप	विहिप	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nmod	_	ChunkId=NP8|ChunkType=child|LTranslit=vihipa|Tam=0|Translit=vihipa|Vib=0
-21	नेताओं	नेता	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	24	nsubj	_	ChunkId=NP8|ChunkType=head|LTranslit=netā|Tam=0|Translit=netāoṁ|Vib=0_को
+21	नेताओं	नेता	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	24	iobj	_	ChunkId=NP8|ChunkType=head|LTranslit=netā|Tam=0|Translit=netāoṁ|Vib=0_को
 22	को	को	ADP	PSP	AdpType=Post	21	case	_	ChunkId=NP8|ChunkType=child|LTranslit=ko|Translit=ko
 23	आशा	आशा	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	compound	_	ChunkId=NP9|ChunkType=head|LTranslit=āśā|Tam=0|Translit=āśā|Vib=0
 24	हुई	होना	VERB	VM	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	ChunkId=VGF|ChunkType=head|LTranslit=honā|Stype=declarative|Tam=yA|Translit=huī|Vib=या_था
@@ -39034,7 +39034,7 @@
 38	अध्यक्ष	अध्यक्ष	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	40	nmod	_	ChunkId=NP13|ChunkType=head|LTranslit=adhyakṣa|Tam=0|Translit=adhyakṣa|Vib=0_का
 39	का	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing	38	case	_	ChunkId=NP13|ChunkType=child|LTranslit=kā|Translit=kā
 40	पद	पद	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	41	obj	_	ChunkId=NP14|ChunkType=head|LTranslit=pada|Tam=0|Translit=pada|Vib=0
-41	सौंप	सौंपना	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Pass	24	nsubj	_	ChunkId=VGF2|ChunkType=head|LTranslit=sauṁpanā|Stype=imperative|Tam=0|Translit=sauṁpa|Vib=0_दे+या_जा+एं
+41	सौंप	सौंपना	VERB	VM	Gender=Masc|Number=Sing|Person=3|Voice=Pass	24	ccomp	_	ChunkId=VGF2|ChunkType=head|LTranslit=sauṁpanā|Stype=imperative|Tam=0|Translit=sauṁpa|Vib=0_दे+या_जा+एं
 42	दिया	देना	VERB	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	41	compound	_	ChunkId=VGF2|ChunkType=child|LTranslit=denā|Tam=yA|Translit=diyā|Vib=या
 43	जाये	जाना	AUX	VAUX	Mood=Sub|Number=Sing|Person=3|VerbForm=Fin	41	aux:pass	_	ChunkId=VGF2|ChunkType=child|LTranslit=jānā|Tam=eM|Translit=jāye|Vib=एं
 44	।	।	PUNCT	SYM	_	24	punct	_	ChunkId=BLK|ChunkType=head|LTranslit=.|Translit=.
@@ -39171,7 +39171,7 @@
 7	गया	जाना	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	6	aux:pass	_	ChunkId=VGF|ChunkType=child|LTranslit=jānā|Tam=yA1|Translit=gayā|Vib=या1
 8	कि	कि	SCONJ	CC	_	16	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=ki|Translit=ki
 9	ये	यह	DET	DEM	Case=Nom|Number=Plur|Person=3|PronType=Dem	11	det	_	ChunkId=NP3|ChunkType=child|LTranslit=yaha|Translit=ye
-10	सारी	सारा	DET	QF	Case=Nom|Gender=Fem|Number=Plur	11	det	_	ChunkId=NP3|ChunkType=child|LTranslit=sārā|Translit=sārī
+10	सारी	सारा	DET	QF	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	11	det	_	ChunkId=NP3|ChunkType=child|LTranslit=sārā|Translit=sārī
 11	सुविधाएँ	सुविधा	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	16	nsubj	_	ChunkId=NP3|ChunkType=head|LTranslit=suvidhā|Tam=0|Translit=suvidhāem̃|Vib=0
 12	31	31	PROPN	NNPC	Case=Nom|Number=Sing|Person=3	14	compound	_	ChunkId=NP4|ChunkType=child|LTranslit=31|Tam=0|Translit=31|Vib=0
 13	दिसंबर	दिसंबर	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	ChunkId=NP4|ChunkType=child|LTranslit=disaṁbara|Tam=0|Translit=disaṁbara|Vib=0
@@ -41195,7 +41195,7 @@
 # text = अगर किसानों को लगातार बिजली मिले तो वे इसकी क़ीमत चुकाने को तैयार होंगे ।
 # translit = agara kisānoṁ ko lagātāra bijalī mile to ve isakī qīmata cukāne ko taiyāra hoṁge .
 1	अगर	अगर	SCONJ	CC	_	6	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|LTranslit=agara|Translit=agara
-2	किसानों	किसान	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	6	nsubj	_	ChunkId=NP|ChunkType=head|LTranslit=kisāna|Tam=0|Translit=kisānoṁ|Vib=0_को
+2	किसानों	किसान	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur|Person=3	6	iobj	_	ChunkId=NP|ChunkType=head|LTranslit=kisāna|Tam=0|Translit=kisānoṁ|Vib=0_को
 3	को	को	ADP	PSP	AdpType=Post	2	case	_	ChunkId=NP|ChunkType=child|LTranslit=ko|Translit=ko
 4	लगातार	लगातार	ADV	RB	_	6	advmod	_	ChunkId=RBP|ChunkType=head|LTranslit=lagātāra|Translit=lagātāra
 5	बिजली	बिजली	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	ChunkId=NP2|ChunkType=head|LTranslit=bijalī|Tam=0|Translit=bijalī|Vib=0
